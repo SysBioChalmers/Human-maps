@@ -10,7 +10,7 @@ Maps progress:
 | Lysosome    | :heavy_check_mark:                 | :heavy_minus_sign:      |        |     |        |     |        |     |
 | Peroxisome  | :heavy_check_mark:                 |     |        |     |        |     |        |     |
 | Endoplasmic reticulum  | :heavy_minus_sign:                 |     |        |     |        |     |        |     |
-| Mitochodria | :heavy_check_mark:                 | :heavy_minus_sign:      |        |     |        |     |        |     |
+| Mitochondria | :heavy_check_mark:                 | :heavy_minus_sign:      |        |     |        |     |        |     |
 | Cytosol 1   | :heavy_minus_sign:                  |     |        |     |        |     |        |     |
 | Cytosol 2   | :heavy_minus_sign:                   |     |        |     |        |     |        |     |
 | Cytosol 3   | :heavy_minus_sign:                  |     |        |     |        |     |        |     |
