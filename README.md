@@ -5,7 +5,7 @@ Maps progress:
 
 | Compartment | Migrated From HMR2 | pass1 | reviewed | pass2 | reviewed | pass3 | reviewed | done  |
 | ----------- | ------------------ | ----- | -------- | ----- | -------- | ----- | -------- | ----- |
-| Nucleus     | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: |     |        |     |        |     |
+| Nucleus     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |   :heavy_minus_sign:  |        |     |        |     |
 | Golgi       | :heavy_check_mark:                 | :heavy_minus_sign:      |        |     |        |     |        |     |
 | Lysosome    | :heavy_check_mark:                 | :heavy_minus_sign:      |        |     |        |     |        |     |
 | Peroxisome  | :heavy_check_mark:                 |     |        |     |        |     |        |     |
@@ -17,3 +17,5 @@ Maps progress:
 | Cytosol 4   | :heavy_minus_sign:                  |     |        |     |        |     |        |     |
 | Cytosol 5   | :heavy_minus_sign:                  |     |        |     |        |     |        |     |
 | Cytosol 6   | :heavy_minus_sign:                  |     |        |     |        |     |        |     |
+
+:heavy_minus_sign:  In progress
