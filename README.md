@@ -5,11 +5,11 @@ Maps progress:
 
 | Compartment | Migrated From HMR2 | Pass 1 | Reviewed | Pass 2 | Reviewed | Pass 3 | Reviewed | Done  |
 | ----------- | :----------------: | :----: | :------: | :----: | :------: | :----: | :------: | :---: |
-| Nucleus     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |   :heavy_check_mark:  | :heavy_minus_sign:       |     |        |     |
-| Golgi       | :heavy_check_mark: | :heavy_minus_sign:      |        |     |        |     |        |     |
+| Nucleus     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |   :heavy_check_mark:  | :heavy_check_mark:       |     |        |  :heavy_check_mark:   |
+| Golgi       | :heavy_check_mark: | :heavy_check_mark:      |        |     |        |     |        |     |
 | Lysosome    | :heavy_check_mark: | :heavy_check_mark:      | :heavy_minus_sign:       |     |        |     |        |     |
-| Peroxisome  | :heavy_check_mark: |     |        |     |        |     |        |     |
-| Endoplasmic reticulum  | :heavy_minus_sign:                 |     |        |     |        |     |        |     |
+| Peroxisome  | :heavy_check_mark: | :heavy_minus_sign:     |        |     |        |     |        |     |
+| Endoplasmic reticulum  | :heavy_check_mark:                 |  :heavy_minus_sign:    |        |     |        |     |        |     |
 | Mitochondria | :heavy_check_mark:| :heavy_minus_sign:      |        |     |        |     |        |     |
 | Cytosol 1   | :heavy_minus_sign: |     |        |     |        |     |        |     |
 | Cytosol 2   | :heavy_minus_sign: |     |        |     |        |     |        |     |
