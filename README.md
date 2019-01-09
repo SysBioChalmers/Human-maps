@@ -9,7 +9,7 @@ Maps progress:
 | Golgi       | :heavy_check_mark: | :heavy_check_mark:      | :heavy_check_mark:       |     |        |     |        | :heavy_check_mark:    |
 | Lysosome    | :heavy_check_mark: | :heavy_check_mark:      | :heavy_check_mark:       | :heavy_minus_sign:    |        |     |        |     |
 | Peroxisome  | :heavy_check_mark: | :heavy_minus_sign:     |        |     |        |     |        |     |
-| Endoplasmic reticulum  | :heavy_check_mark:                 |  :heavy_minus_sign:    |        |     |        |     |        |     |
+| Endoplasmic reticulum  | :heavy_check_mark:                 |  :heavy_check_mark:    |  :heavy_minus_sign:      |     |        |     |        |     |
 | Mitochondria | :heavy_check_mark:| :heavy_minus_sign:      |        |     |        |     |        |     |
 | Cytosol 1   | :heavy_check_mark: | :heavy_minus_sign: |        |     |        |     |        |     |
 | Cytosol 2   | :heavy_check_mark: |     |        |     |        |     |        |     |
