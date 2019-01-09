@@ -13,7 +13,7 @@ Maps progress:
 | Mitochondria | :heavy_check_mark:| :heavy_minus_sign:      |        |     |        |     |        |     |
 | Cytosol 1   | :heavy_check_mark: | :heavy_minus_sign: |        |     |        |     |        |     |
 | Cytosol 2   | :heavy_check_mark: |     |        |     |        |     |        |     |
-| Cytosol 3   | :heavy_minus_sign: |     |        |     |        |     |        |     |
+| Cytosol 3   | :heavy_check_mark: |     |        |     |        |     |        |     |
 | Cytosol 4   | :heavy_minus_sign: |     |        |     |        |     |        |     |
 | Cytosol 5   | :heavy_check_mark: |     |        |     |        |     |        |     |
 
