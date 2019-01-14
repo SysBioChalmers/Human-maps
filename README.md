@@ -7,11 +7,11 @@ Maps progress:
 | ----------- | :----------------: | :----: | :------: | :----: | :------: | :----: | :------: | :---: |
 | Nucleus     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |   :heavy_check_mark:  | :heavy_check_mark:       |     |        |  :heavy_check_mark:   |
 | Golgi       | :heavy_check_mark: | :heavy_check_mark:      | :heavy_check_mark:       |     |        |     |        | :heavy_check_mark:    |
-| Lysosome    | :heavy_check_mark: | :heavy_check_mark:      | :heavy_check_mark:       | :heavy_check_mark:    | :heavy_minus_sign:       |     |        |     |
+| Lysosome    | :heavy_check_mark: | :heavy_check_mark:      | :heavy_check_mark:       | :heavy_check_mark:    | :heavy_check_mark:       |     |        | :heavy_check_mark:    |
 | Peroxisome  | :heavy_check_mark: | :heavy_check_mark:     | :heavy_minus_sign:       |     |        |     |        |     |
 | Endoplasmic reticulum  | :heavy_check_mark:                 |  :heavy_check_mark:    |  :heavy_minus_sign:      |     |        |     |        |     |
 | Mitochondria | :heavy_check_mark:| :heavy_minus_sign:      |        |     |        |     |        |     |
-| Cytosol 1   | :heavy_check_mark: | :heavy_check_mark: |        |     |        |     |        |     |
+| Cytosol 1   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:       |     |        |     |        | :heavy_check_mark:    |
 | Cytosol 2   | :heavy_check_mark: | :heavy_minus_sign:    |        |     |        |     |        |     |
 | Cytosol 3   | :heavy_check_mark: |     |        |     |        |     |        |     |
 | Cytosol 4   | :heavy_minus_sign: |     |        |     |        |     |        |     |
