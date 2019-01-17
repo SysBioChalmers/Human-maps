@@ -13,8 +13,8 @@ Maps progress:
 | Mitochondria | :heavy_check_mark:| :heavy_minus_sign: Al | | | | | | |
 | Cytosol 1   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | | | :heavy_check_mark: |
 | Cytosol 2   | :heavy_check_mark: | :heavy_minus_sign: An| | | | | | |
-| Cytosol 3   | :heavy_check_mark: | A     |        |     |        |     |        |     |
+| Cytosol 3   | :heavy_check_mark: | An     |        |     |        |     |        |     |
 | Cytosol 4   | :heavy_check_mark: | V     |        |     |        |     |        |     |
-| Cytosol 5   | :heavy_check_mark: | A     |        |     |        |     |        |     |
+| Cytosol 5   | :heavy_check_mark: | Al     |        |     |        |     |        |     |
 
 :heavy_minus_sign:  In progress
