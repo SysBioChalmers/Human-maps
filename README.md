@@ -10,11 +10,11 @@ Maps progress:
 | Lysosome    | :heavy_check_mark: | :heavy_check_mark:      | :heavy_check_mark:       | :heavy_check_mark:    | :heavy_check_mark: | | | :heavy_check_mark: |
 | Peroxisome  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | | | :heavy_check_mark: |
 | Endoplasmic reticulum  | :heavy_check_mark: |  :heavy_check_mark: |  :heavy_minus_sign: P | | | | | |
-| Mitochondria | :heavy_check_mark:| :heavy_minus_sign: Al | | | | | | |
+| Mitochondria | :heavy_check_mark:| :heavy_check_mark: | :heavy_minus_sign: | | | | | |
 | Cytosol 1   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | | | :heavy_check_mark: |
 | Cytosol 2   | :heavy_check_mark: | :heavy_minus_sign: An| | | | | | |
-| Cytosol 3   | :heavy_check_mark: | :heavy_minus_sign: V - An     |        |     |        |     |        |     |
-| Cytosol 4   | :heavy_check_mark: | P     |        |     |        |     |        |     |
-| Cytosol 5   | :heavy_check_mark: | V - Al     |        |     |        |     |        |     |
+| Cytosol 3   | :heavy_check_mark: | :heavy_minus_sign: V - An | | | | | | |
+| Cytosol 4   | :heavy_check_mark: | :heavy_minus_sign: V - P | | | | | | |
+| Cytosol 5   | :heavy_check_mark: | :heavy_minus_sign: Al | | | | | | |
 
 :heavy_minus_sign:  In progress
