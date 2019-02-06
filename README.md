@@ -12,9 +12,9 @@ Maps progress:
 | Endoplasmic reticulum  | :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | | | :heavy_check_mark: | |
 | Mitochondria | :heavy_check_mark:| :heavy_check_mark: | :heavy_check_mark: | | |:heavy_check_mark: | |
 | Cytosol 1   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | :heavy_check_mark: | |
-| Cytosol 2   | :heavy_check_mark: | :heavy_minus_sign: An| | | | | |
-| Cytosol 3   | :heavy_check_mark: | An | | | | | |
-| Cytosol 4   | :heavy_check_mark: | :heavy_minus_sign: P | | | | | |
-| Cytosol 5   | :heavy_check_mark: | :heavy_minus_sign: Al | | | | | |
+| Cytosol 2   | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: V | | | | |
+| Cytosol 3   | :heavy_check_mark: | :heavy_minus_sign: An | | | | | |
+| Cytosol 4   | :heavy_check_mark: | :heavy_minus_sign: Al | | | | | |
+| Cytosol 5   | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: P | | | | |
 
 :heavy_minus_sign:  In progress
