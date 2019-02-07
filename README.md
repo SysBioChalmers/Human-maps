@@ -15,6 +15,6 @@ Maps progress:
 | Cytosol 2   | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: V | | | | |
 | Cytosol 3   | :heavy_check_mark: | :heavy_minus_sign: An | | | | | |
 | Cytosol 4   | :heavy_check_mark: | :heavy_minus_sign: Al | | | | | |
-| Cytosol 5   | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: P | | | | |
+| Cytosol 5   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | :heavy_check_mark: | |
 
 :heavy_minus_sign:  In progress
