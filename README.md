@@ -5,16 +5,16 @@ Maps progress:
 
 | Compartment | Migrated From HMR2 | Pass 1 | Reviewed | Pass 2 | Reviewed | Done  | Resync |
 | ----------- | :----------------: | :----: | :------: | :----: | :------: | :---: | :---: |
-| Nucleus     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |   :heavy_check_mark: | :heavy_check_mark: |
-| Golgi       | :heavy_check_mark: | :heavy_check_mark:      | :heavy_check_mark:       | | | :heavy_check_mark: | :heavy_check_mark: |
+| Nucleus     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |   :heavy_check_mark: | |
+| Golgi       | :heavy_check_mark: | :heavy_check_mark:      | :heavy_check_mark:       | | | :heavy_check_mark: | |
 | Lysosome    | :heavy_check_mark: | :heavy_check_mark:      | :heavy_check_mark:       | :heavy_check_mark:    | :heavy_check_mark: | :heavy_check_mark: | |
 | Peroxisome  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | :heavy_check_mark: | |
 | Endoplasmic reticulum  | :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | | | :heavy_check_mark: | |
 | Mitochondria | :heavy_check_mark:| :heavy_check_mark: | :heavy_check_mark: | | |:heavy_check_mark: | |
 | Cytosol 1   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | :heavy_check_mark: | |
-| Cytosol 2   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | :heavy_check_mark: | :heavy_check_mark: |
-| Cytosol 3   | :heavy_check_mark: | :heavy_minus_sign: An | | | | | |
-| Cytosol 4   | :heavy_check_mark: | :heavy_minus_sign: Al | | | | | |
+| Cytosol 2   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | :heavy_check_mark: | |
+| Cytosol 3   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:| | |:heavy_check_mark: | |
+| Cytosol 4   | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign:| | | | |
 | Cytosol 5   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | :heavy_check_mark: | |
 
 :heavy_minus_sign:  In progress
