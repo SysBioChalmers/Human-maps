@@ -23,30 +23,30 @@ Subsystems Maps progress:
 
 | Subsystem | First pass | Reviewed | Done |
 | --------- | ---------- | -------- | ---- |
-| vitamin_c_metabolism | 2019-03-26 | | |
-| urea_cycle | 2019-03-26 | | |
-| fatty_acid_desaturation_(odd-chain) | 2019-03-26 | | |
-| bile_acid_recycling | 2019-03-26 | | |
-| heme_synthesis | 2019-03-26 | | |
-| heme_degradation | 2019-03-26 | | |
-| cholesterol_biosynthesis_2 | 2019-03-26 | | |
-| vitamin_b12_metabolism | 2019-03-26 | | |
-| triglycerides_formation | 2019-03-26 | | |
-| riboflavin_metabolism | 2019-03-26 | | |
-| phenylalanine_metabolism | 2019-03-26 | | |
-| thiamine_metabolism | 2019-03-26 | | |
+| vitamin_c_metabolism | :heavy_check_mark: | | |
+| urea_cycle | :heavy_check_mark: | | |
+| fatty_acid_desaturation_(odd-chain) | :heavy_check_mark: | | |
+| bile_acid_recycling | :heavy_check_mark: | | |
+| heme_synthesis | :heavy_check_mark: | | |
+| heme_degradation | :heavy_check_mark: | | |
+| cholesterol_biosynthesis_2 | :heavy_check_mark: | | |
+| vitamin_b12_metabolism | :heavy_check_mark: | | |
+| triglycerides_formation | :heavy_check_mark: | | |
+| riboflavin_metabolism | :heavy_check_mark: | | |
+| phenylalanine_metabolism | :heavy_check_mark: | | |
+| thiamine_metabolism | :heavy_check_mark: | | |
 | c5-branched_dibasic_acid_metabolism | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| ros_detoxification | | | |
-| lipoic_acid_metabolism | | | |
-| beta_oxidation_of_unsaturated_fatty_acids_(n-7)_(peroxisomal) | | | |
-| ubiquinone_synthesis | | | |
-| vitamin_b6_metabolism | | | |
-| butanoate_metabolism | | | |
-| glycosphingolipid_biosynthesis-globo_series | | | |
-| sulfur_metabolism | | | |
-| biotin_metabolism | | | |
-| triacylglycerol_synthesis | | | |
-| beta_oxidation_of_branched-chain_fatty_acids_(mitochondrial) | | | |
+| ros_detoxification | 2019-03-27 | | |
+| lipoic_acid_metabolism | 2019-03-27 | | |
+| beta_oxidation_of_unsaturated_fatty_acids_(n-7)_(peroxisomal) | 2019-03-27 | | |
+| ubiquinone_synthesis | 2019-03-27 | | |
+| vitamin_b6_metabolism | 2019-03-27 | | |
+| butanoate_metabolism | 2019-03-27 | | |
+| glycosphingolipid_biosynthesis-globo_series | 2019-03-27 | | |
+| sulfur_metabolism | 2019-03-27 | | |
+| biotin_metabolism | 2019-03-27 | | |
+| triacylglycerol_synthesis | 2019-03-27 | | |
+| beta_oxidation_of_branched-chain_fatty_acids_(mitochondrial) | 2019-03-27 | | |
 | fatty_acid_elongation_(odd-chain) | | | |
 | ascorbate_and_aldarate_metabolism | | | |
 | galactose_metabolism | | | |
