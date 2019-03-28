@@ -36,30 +36,30 @@ Subsystems Maps progress:
 | phenylalanine_metabolism | :heavy_check_mark: | | |
 | thiamine_metabolism | :heavy_check_mark: | | |
 | c5-branched_dibasic_acid_metabolism | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| ros_detoxification | 2019-03-27 | | |
-| lipoic_acid_metabolism | 2019-03-27 | | |
-| beta_oxidation_of_unsaturated_fatty_acids_(n-7)_(peroxisomal) | 2019-03-27 | | |
-| ubiquinone_synthesis | 2019-03-27 | | |
-| vitamin_b6_metabolism | 2019-03-27 | | |
-| butanoate_metabolism | 2019-03-27 | | |
-| glycosphingolipid_biosynthesis-globo_series | 2019-03-27 | | |
-| sulfur_metabolism | 2019-03-27 | | |
-| biotin_metabolism | 2019-03-27 | | |
-| triacylglycerol_synthesis | 2019-03-27 | | |
-| beta_oxidation_of_branched-chain_fatty_acids_(mitochondrial) | 2019-03-27 | | |
-| fatty_acid_elongation_(odd-chain) | | | |
-| ascorbate_and_aldarate_metabolism | | | |
-| galactose_metabolism | | | |
-| glucocorticoid_biosynthesis | | | |
-| glutathione_metabolism | | | |
-| pentose_and_glucuronate_interconversions | | | |
-| terpenoid_backbone_biosynthesis | | | |
-| vitamin_a_metabolism | | | |
-| fatty_acid_desaturation_(even-chain) | | | |
-| porphyrin_metabolism | | | |
-| beta_oxidation_of_unsaturated_fatty_acids_(n-7)_(mitochondrial) | | | |
-| cholesterol_biosynthesis_3_(kandustch-russell_pathway) | | | |
-| pantothenate_and_coa_biosynthesis | | | |
+| ros_detoxification | :heavy_check_mark: | | |
+| lipoic_acid_metabolism | :heavy_check_mark: | | |
+| beta_oxidation_of_unsaturated_fatty_acids_(n-7)_(peroxisomal) | :heavy_check_mark: | | |
+| ubiquinone_synthesis | :heavy_check_mark: | | |
+| vitamin_b6_metabolism | :heavy_check_mark: | | |
+| butanoate_metabolism | :heavy_check_mark: | | |
+| glycosphingolipid_biosynthesis-globo_series | :heavy_check_mark: | | |
+| sulfur_metabolism | :heavy_check_mark: | | |
+| biotin_metabolism | :heavy_check_mark: | | |
+| triacylglycerol_synthesis | :heavy_check_mark: | | |
+| beta_oxidation_of_branched-chain_fatty_acids_(mitochondrial) | :heavy_check_mark: | | |
+| fatty_acid_elongation_(odd-chain) | 2019-03-28 | | |
+| ascorbate_and_aldarate_metabolism | 2019-03-28 | | |
+| galactose_metabolism | 2019-03-28 | | |
+| glucocorticoid_biosynthesis | 2019-03-28 | | |
+| glutathione_metabolism | 2019-03-28 | | |
+| pentose_and_glucuronate_interconversions | 2019-03-28 | | |
+| terpenoid_backbone_biosynthesis | 2019-03-28 | | |
+| vitamin_a_metabolism | 2019-03-28 | | |
+| fatty_acid_desaturation_(even-chain) | 2019-03-28 | | |
+| porphyrin_metabolism | 2019-03-28 | | |
+| beta_oxidation_of_unsaturated_fatty_acids_(n-7)_(mitochondrial) | 2019-03-28 | | |
+| cholesterol_biosynthesis_3_(kandustch-russell_pathway) | 2019-03-28 | | |
+| pantothenate_and_coa_biosynthesis | 2019-03-28 | | |
 | tryptophan_metabolism | | | |
 | beta_oxidation_of_di-unsaturated_fatty_acids_(n-6)_(mitochondrial) | | | |
 | ether_lipid_metabolism | | | |
