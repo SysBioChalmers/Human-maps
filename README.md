@@ -73,49 +73,49 @@ Subsystems Maps progress:
 | fructose_and_mannose_metabolism | :heavy_check_mark: | | |
 | beta_oxidation_of_poly-unsaturated_fatty_acids_(mitochondrial) | :heavy_check_mark: | | |
 | fatty_acid_elongation_(even-chain) | :heavy_check_mark: | | |
-| starch_and_sucrose_metabolism | 2019-04-02 | | |
-| aminoacyl-trna_biosynthesis | 2019-04-02 | | |
-| fatty_acid_biosynthesis_(odd-chain) | 2019-04-02 | | |
-| propanoate_metabolism | 2019-04-02 | | |
-| metabolism_of_other_amino_acids | 2019-04-02 | | |
-| pentose_phosphate_pathway | 2019-04-02 | | |
-| protein_modification | 2019-04-02 | | |
-| histidine_metabolism | | | |
-| fatty_acid_biosynthesis_(even-chain) | | | |
-| acylglycerides_metabolism | | | |
+| starch_and_sucrose_metabolism | :heavy_check_mark: | | |
+| aminoacyl-trna_biosynthesis | :heavy_check_mark: | | |
+| fatty_acid_biosynthesis_(odd-chain) | :heavy_check_mark: | | |
+| propanoate_metabolism | :heavy_check_mark: | | |
+| metabolism_of_other_amino_acids | :heavy_check_mark: | | |
+| pentose_phosphate_pathway | :heavy_check_mark: | | |
+| protein_modification | :heavy_check_mark: | | |
+| histidine_metabolism | :heavy_check_mark: | | |
+| fatty_acid_biosynthesis_(even-chain) | :heavy_check_mark: | | |
+| acylglycerides_metabolism | :heavy_check_mark: | | |
 | cholesterol_biosynthesis_1_(bloch_pathway) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| amino_sugar_and_nucleotide_sugar_metabolism | | | |
-| glycosphingolipid_biosynthesis-ganglio_series | | | |
-| glycosylphosphatidylinositol_gpi_anchor_biosynthesis | | | |
-| vitamin_d_metabolism | | | |
-| pyruvate_metabolism | | | |
-| beta_oxidation_of_odd-chain_fatty_acids_(mitochondrial) | | | |
-| fatty_acid_biosynthesis_(unsaturated) | | | |
-| beta_oxidation_of_unsaturated_fatty_acids_(n-9)_(peroxisomal) | | | |
-| phosphatidylinositol_phosphate_metabolism | | | |
-| alanine_aspartate_and_glutamate_metabolism | | | |
-| nicotinate_and_nicotinamide_metabolism | | | |
-| androgen_metabolism | | | |
-| xenobiotics_metabolism | | | |
-| glycosphingolipid_metabolism | | | |
-| glycolysis_gluconeogenesis | | | |
-| chondroitin_sulfate_degradation | | | |
-| cysteine_and_methionine_metabolism | | | |
-| tricarboxylic_acid_cycle_and_glyoxylate_dicarboxylate_metabolism | | | |
-| beta_oxidation_of_even-chain_fatty_acids_(peroxisomal) | | | |
-| folate_metabolism | | | |
-| lysine_metabolism | | | |
-| linoleate_metabolism | | | |
-| chondroitin___heparan_sulfate_biosynthesis | | | |
-| valine_leucine_and_isoleucine_metabolism | | | |
-| prostaglandin_biosynthesis | | | |
-| glycine_serine_and_threonine_metabolism | | | |
-| omega-6_fatty_acid_metabolism | | | |
-| cholesterol_metabolism | | | |
-| eicosanoid_metabolism | | | |
-| keratan_sulfate_degradation | | | |
-| pyrimidine_metabolism | | | |
-| omega-3_fatty_acid_metabolism | | | |
+| amino_sugar_and_nucleotide_sugar_metabolism | :heavy_check_mark: | | |
+| glycosphingolipid_biosynthesis-ganglio_series | :heavy_check_mark: | | |
+| glycosylphosphatidylinositol_gpi_anchor_biosynthesis | :heavy_check_mark: | | |
+| vitamin_d_metabolism | :heavy_check_mark: | | |
+| pyruvate_metabolism | :heavy_check_mark: | | |
+| beta_oxidation_of_odd-chain_fatty_acids_(mitochondrial) | :heavy_check_mark: | | |
+| fatty_acid_biosynthesis_(unsaturated) | :heavy_check_mark: | | |
+| beta_oxidation_of_unsaturated_fatty_acids_(n-9)_(peroxisomal) | :heavy_check_mark: | | |
+| phosphatidylinositol_phosphate_metabolism | :heavy_check_mark: | | |
+| alanine_aspartate_and_glutamate_metabolism | :heavy_check_mark: | | |
+| nicotinate_and_nicotinamide_metabolism | :heavy_check_mark: | | |
+| androgen_metabolism | :heavy_check_mark: | | |
+| xenobiotics_metabolism | :heavy_check_mark: | | |
+| glycosphingolipid_metabolism | :heavy_check_mark: | | |
+| glycolysis_gluconeogenesis | :heavy_check_mark: | | |
+| chondroitin_sulfate_degradation | :heavy_check_mark: | | |
+| cysteine_and_methionine_metabolism | :heavy_check_mark: | | |
+| tricarboxylic_acid_cycle_and_glyoxylate_dicarboxylate_metabolism | :heavy_check_mark: | | |
+| beta_oxidation_of_even-chain_fatty_acids_(peroxisomal) | :heavy_check_mark: | | |
+| folate_metabolism | :heavy_check_mark: | | |
+| lysine_metabolism | :heavy_check_mark: | | |
+| linoleate_metabolism | :heavy_check_mark: | | |
+| chondroitin___heparan_sulfate_biosynthesis | :heavy_check_mark: | | |
+| valine_leucine_and_isoleucine_metabolism | :heavy_check_mark: | | |
+| prostaglandin_biosynthesis | :heavy_check_mark: | | |
+| glycine_serine_and_threonine_metabolism | 2019-04-09 | | |
+| omega-6_fatty_acid_metabolism | 2019-04-09 | | |
+| cholesterol_metabolism | 2019-04-09 | | |
+| eicosanoid_metabolism | 2019-04-09 | | |
+| keratan_sulfate_degradation | 2019-04-09 | | |
+| pyrimidine_metabolism | 2019-04-09 | | |
+| omega-3_fatty_acid_metabolism | 2019-04-09 | | |
 | keratan_sulfate_biosynthesis | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | tyrosine_metabolism | | | |
 | beta_oxidation_of_even-chain_fatty_acids_(mitochondrial) | | | |
@@ -140,7 +140,7 @@ Subsystems Maps progress:
 | phenylalanine,_tyrosine_and_tryptophan_biosynthesis | | | |
 | formation_and_hydrolysis_of_cholesterol_esters | | | |
 | peptide_metabolism | | | |
-| drug_metabolism | | | |
+| ~~drug_metabolism~~ | | | |
 | arachidonic_acid_metabolism | | | |
 | glycerophospholipid_metabolism | | | |
 | bile_acid_biosynthesis | | | |
