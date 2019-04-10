@@ -140,7 +140,7 @@ Subsystems Maps progress:
 | phenylalanine,_tyrosine_and_tryptophan_biosynthesis | | | |
 | formation_and_hydrolysis_of_cholesterol_esters | | | |
 | peptide_metabolism | | | |
-| ~~drug_metabolism~~ | | | |
+| ~~drug_metabolism~~ | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: |
 | arachidonic_acid_metabolism | | | |
 | glycerophospholipid_metabolism | | | |
 | bile_acid_biosynthesis | | | |
