@@ -147,5 +147,3 @@ Subsystems Maps progress:
 | leukotriene_metabolism | | | |
 | fatty_acid_oxidation | | | |
 
-
-:heavy_minus_sign:  In progress
