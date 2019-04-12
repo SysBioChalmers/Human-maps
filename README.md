@@ -117,29 +117,29 @@ Subsystems Maps progress:
 | pyrimidine_metabolism | 2019-04-09 | | |
 | omega-3_fatty_acid_metabolism | 2019-04-09 | | |
 | keratan_sulfate_biosynthesis | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| tyrosine_metabolism | | | |
-| beta_oxidation_of_even-chain_fatty_acids_(mitochondrial) | | | |
-| glycerolipid_metabolism | | | |
-| fatty_acid_biosynthesis | | | |
-| arginine_and_proline_metabolism | | | |
-| inositol_phosphate_metabolism | | | |
-| vitamin_e_metabolism | | | |
-| acyl-coa_hydrolysis | | | |
-| retinol_metabolism | | | |
-| purine_metabolism | | | |
-| fatty_acid_activation_(endoplasmic_reticular) | | | |
-| steroid_metabolism | | | |
-| nucleotide_metabolism | | | |
+| tyrosine_metabolism | 2019-04-10 | | |
+| beta_oxidation_of_even-chain_fatty_acids_(mitochondrial) | 2019-04-10 | | |
+| glycerolipid_metabolism | 2019-04-10 | | |
+| fatty_acid_biosynthesis | 2019-04-10 | | |
+| arginine_and_proline_metabolism | 2019-04-10 | | |
+| inositol_phosphate_metabolism | 2019-04-10 | | |
+| vitamin_e_metabolism | 2019-04-10 | | |
+| acyl-coa_hydrolysis | 2019-04-10 | | |
+| retinol_metabolism | 2019-04-11 | | |
+| purine_metabolism | 2019-04-11 | | |
+| fatty_acid_activation_(endoplasmic_reticular) | 2019-04-11 | | |
+| steroid_metabolism | 2019-04-11 | | |
+| nucleotide_metabolism | 2019-04-11 | | |
 | n-glycan_metabolism | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| sphingolipid_metabolism | | | |
-| estrogen_metabolism | | | |
-| fatty_acid_activation_(cytosolic) | | | |
-| protein_assembly | | | |
-| protein_degradation | | | |
-| metabolism_of_xenobiotics_by_cytochrome_p450 | | | |
-| phenylalanine,_tyrosine_and_tryptophan_biosynthesis | | | |
-| formation_and_hydrolysis_of_cholesterol_esters | | | |
-| peptide_metabolism | | | |
+| sphingolipid_metabolism | 2019-04-11 | | |
+| estrogen_metabolism | 2019-04-11 | | |
+| fatty_acid_activation_(cytosolic) | 2019-04-12 | | |
+| protein_assembly | 2019-04-12 | | |
+| protein_degradation | 2019-04-12 | | |
+| metabolism_of_xenobiotics_by_cytochrome_p450 | 2019-04-12 | | |
+| phenylalanine,_tyrosine_and_tryptophan_biosynthesis | 2019-04-12 | | |
+| formation_and_hydrolysis_of_cholesterol_esters | 2019-04-12 | | |
+| peptide_metabolism | 2019-04-12 | | |
 | ~~drug_metabolism~~ | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: |
 | arachidonic_acid_metabolism | | | |
 | glycerophospholipid_metabolism | | | |
