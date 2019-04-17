@@ -6,7 +6,7 @@ Summary:
 |   | Total | pre-processed | Done |
 | - | ----------- | ----------- | ---- |
 | Compartment | 11 | 11 | 11 |
-| Subsystem | 128 | 90 | 65 |
+| Subsystem | 128 | 90 | 75 |
 
 
 Compartment Maps progress:
@@ -64,47 +64,47 @@ Subsystems Maps progress:
 | terpenoid_backbone_biosynthesis | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | vitamin_a_metabolism | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | fatty_acid_desaturation_(even-chain) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| porphyrin_metabolism | :heavy_check_mark: | | |
-| beta_oxidation_of_unsaturated_fatty_acids_(n-7)_(mitochondrial) | :heavy_check_mark: | | |
-| cholesterol_biosynthesis_3_(kandustch-russell_pathway) | :heavy_check_mark: | | |
-| pantothenate_and_coa_biosynthesis | :heavy_check_mark: | | |
-| tryptophan_metabolism | :heavy_check_mark: | | |
-| beta_oxidation_of_di-unsaturated_fatty_acids_(n-6)_(mitochondrial) | :heavy_check_mark: | | |
-| ether_lipid_metabolism | :heavy_check_mark: | | |
-| beta-alanine_metabolism | :heavy_check_mark: | | |
-| beta_oxidation_of_di-unsaturated_fatty_acids_(n-6)_(peroxisomal) | :heavy_check_mark: | | |
-| biopterin_metabolism | :heavy_check_mark: | | |
-| o-glycan_metabolism | :heavy_check_mark: | | |
-| beta_oxidation_of_unsaturated_fatty_acids_(n-9)_(mitochondrial) | :heavy_check_mark: | | |
-| serotonin_and_melatonin_biosynthesis | :heavy_check_mark: | | |
-| beta_oxidation_of_phytanic_acid_(peroxisomal) | :heavy_check_mark: | | |
-| fructose_and_mannose_metabolism | :heavy_check_mark: | | |
-| beta_oxidation_of_poly-unsaturated_fatty_acids_(mitochondrial) | :heavy_check_mark: | | |
-| fatty_acid_elongation_(even-chain) | :heavy_check_mark: | | |
-| starch_and_sucrose_metabolism | :heavy_check_mark: | | |
-| aminoacyl-trna_biosynthesis | :heavy_check_mark: | | |
-| fatty_acid_biosynthesis_(odd-chain) | :heavy_check_mark: | | |
-| propanoate_metabolism | :heavy_check_mark: | | |
-| metabolism_of_other_amino_acids | :heavy_check_mark: | | |
-| pentose_phosphate_pathway | :heavy_check_mark: | | |
-| protein_modification | :heavy_check_mark: | | |
-| histidine_metabolism | :heavy_check_mark: | | |
-| fatty_acid_biosynthesis_(even-chain) | :heavy_check_mark: | | |
-| acylglycerides_metabolism | :heavy_check_mark: | | |
+| porphyrin_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| beta_oxidation_of_unsaturated_fatty_acids_(n-7)_(mitochondrial) | :heavy_check_mark: | | :heavy_check_mark: |
+| cholesterol_biosynthesis_3_(kandustch-russell_pathway) | :heavy_check_mark: | | :heavy_check_mark: |
+| pantothenate_and_coa_biosynthesis | :heavy_check_mark: | | :heavy_check_mark: |
+| tryptophan_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| beta_oxidation_of_di-unsaturated_fatty_acids_(n-6)_(mitochondrial) | :heavy_check_mark: | | :heavy_check_mark: |
+| ether_lipid_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| beta-alanine_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| beta_oxidation_of_di-unsaturated_fatty_acids_(n-6)_(peroxisomal) | :heavy_check_mark: | | :heavy_check_mark: |
+| biopterin_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| o-glycan_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| beta_oxidation_of_unsaturated_fatty_acids_(n-9)_(mitochondrial) | :heavy_check_mark: | | :heavy_check_mark: |
+| serotonin_and_melatonin_biosynthesis | :heavy_check_mark: | | :heavy_check_mark: |
+| beta_oxidation_of_phytanic_acid_(peroxisomal) | :heavy_check_mark: | | :heavy_check_mark: |
+| fructose_and_mannose_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| beta_oxidation_of_poly-unsaturated_fatty_acids_(mitochondrial) | :heavy_check_mark: | | :heavy_check_mark: |
+| fatty_acid_elongation_(even-chain) | :heavy_check_mark: | | :heavy_check_mark: |
+| starch_and_sucrose_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| aminoacyl-trna_biosynthesis | :heavy_check_mark: | | :heavy_check_mark: |
+| fatty_acid_biosynthesis_(odd-chain) | :heavy_check_mark: | | :heavy_check_mark: |
+| propanoate_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| metabolism_of_other_amino_acids | :heavy_check_mark: | | :heavy_check_mark: |
+| pentose_phosphate_pathway | :heavy_check_mark: | | :heavy_check_mark: |
+| protein_modification | :heavy_check_mark: | | :heavy_check_mark: |
+| histidine_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| fatty_acid_biosynthesis_(even-chain) | :heavy_check_mark: | | :heavy_check_mark: |
+| acylglycerides_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
 | cholesterol_biosynthesis_1_(bloch_pathway) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| amino_sugar_and_nucleotide_sugar_metabolism | :heavy_check_mark: | | |
-| glycosphingolipid_biosynthesis-ganglio_series | :heavy_check_mark: | | |
-| glycosylphosphatidylinositol_gpi_anchor_biosynthesis | :heavy_check_mark: | | |
-| vitamin_d_metabolism | :heavy_check_mark: | | |
-| pyruvate_metabolism | :heavy_check_mark: | | |
-| beta_oxidation_of_odd-chain_fatty_acids_(mitochondrial) | :heavy_check_mark: | | |
-| fatty_acid_biosynthesis_(unsaturated) | :heavy_check_mark: | | |
-| beta_oxidation_of_unsaturated_fatty_acids_(n-9)_(peroxisomal) | :heavy_check_mark: | | |
-| phosphatidylinositol_phosphate_metabolism | :heavy_check_mark: | | |
-| alanine_aspartate_and_glutamate_metabolism | :heavy_check_mark: | | |
-| nicotinate_and_nicotinamide_metabolism | :heavy_check_mark: | | |
-| androgen_metabolism | :heavy_check_mark: | | |
-| xenobiotics_metabolism | :heavy_check_mark: | | |
+| amino_sugar_and_nucleotide_sugar_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| glycosphingolipid_biosynthesis-ganglio_series | :heavy_check_mark: | | :heavy_check_mark: |
+| glycosylphosphatidylinositol_gpi_anchor_biosynthesis | :heavy_check_mark: | | :heavy_check_mark: |
+| vitamin_d_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| pyruvate_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| beta_oxidation_of_odd-chain_fatty_acids_(mitochondrial) | :heavy_check_mark: | | :heavy_check_mark: |
+| fatty_acid_biosynthesis_(unsaturated) | :heavy_check_mark: | | :heavy_check_mark: |
+| beta_oxidation_of_unsaturated_fatty_acids_(n-9)_(peroxisomal) | :heavy_check_mark: | | :heavy_check_mark: |
+| phosphatidylinositol_phosphate_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| alanine_aspartate_and_glutamate_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| nicotinate_and_nicotinamide_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| androgen_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+| xenobiotics_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
 | glycosphingolipid_metabolism | :heavy_check_mark: | | |
 | glycolysis_gluconeogenesis | :heavy_check_mark: | | |
 | chondroitin_sulfate_degradation | :heavy_check_mark: | | |
@@ -117,37 +117,37 @@ Subsystems Maps progress:
 | chondroitin___heparan_sulfate_biosynthesis | :heavy_check_mark: | | |
 | valine_leucine_and_isoleucine_metabolism | :heavy_check_mark: | | |
 | prostaglandin_biosynthesis | :heavy_check_mark: | | |
-| glycine_serine_and_threonine_metabolism | 2019-04-09 | | |
-| omega-6_fatty_acid_metabolism | 2019-04-09 | | |
-| cholesterol_metabolism | 2019-04-09 | | |
-| eicosanoid_metabolism | 2019-04-09 | | |
-| keratan_sulfate_degradation | 2019-04-09 | | |
-| pyrimidine_metabolism | 2019-04-09 | | |
-| omega-3_fatty_acid_metabolism | 2019-04-09 | | |
+| glycine_serine_and_threonine_metabolism | :heavy_check_mark: | | |
+| omega-6_fatty_acid_metabolism | :heavy_check_mark: | | |
+| cholesterol_metabolism | :heavy_check_mark: | | |
+| eicosanoid_metabolism | :heavy_check_mark: | | |
+| keratan_sulfate_degradation | :heavy_check_mark: | | |
+| pyrimidine_metabolism | :heavy_check_mark: | | |
+| omega-3_fatty_acid_metabolism | :heavy_check_mark: | | |
 | keratan_sulfate_biosynthesis | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| tyrosine_metabolism | 2019-04-10 | | |
-| beta_oxidation_of_even-chain_fatty_acids_(mitochondrial) | 2019-04-10 | | |
-| glycerolipid_metabolism | 2019-04-10 | | |
-| fatty_acid_biosynthesis | 2019-04-10 | | |
-| arginine_and_proline_metabolism | 2019-04-10 | | |
-| inositol_phosphate_metabolism | 2019-04-10 | | |
-| vitamin_e_metabolism | 2019-04-10 | | |
-| acyl-coa_hydrolysis | 2019-04-10 | | |
-| retinol_metabolism | 2019-04-11 | | |
-| purine_metabolism | 2019-04-11 | | |
-| fatty_acid_activation_(endoplasmic_reticular) | 2019-04-11 | | |
-| steroid_metabolism | 2019-04-11 | | |
-| nucleotide_metabolism | 2019-04-11 | | |
+| tyrosine_metabolism | :heavy_check_mark: | | |
+| beta_oxidation_of_even-chain_fatty_acids_(mitochondrial) | :heavy_check_mark: | | |
+| glycerolipid_metabolism | :heavy_check_mark: | | |
+| fatty_acid_biosynthesis | :heavy_check_mark: | | |
+| arginine_and_proline_metabolism | :heavy_check_mark: | | |
+| inositol_phosphate_metabolism | :heavy_check_mark: | | |
+| vitamin_e_metabolism | :heavy_check_mark: | | |
+| acyl-coa_hydrolysis | :heavy_check_mark: | | |
+| retinol_metabolism | :heavy_check_mark: | | |
+| purine_metabolism | :heavy_check_mark: | | |
+| fatty_acid_activation_(endoplasmic_reticular) | :heavy_check_mark: | | |
+| steroid_metabolism | :heavy_check_mark: | | |
+| nucleotide_metabolism | :heavy_check_mark: | | |
 | n-glycan_metabolism | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| sphingolipid_metabolism | 2019-04-11 | | |
-| estrogen_metabolism | 2019-04-11 | | |
-| fatty_acid_activation_(cytosolic) | 2019-04-12 | | |
-| protein_assembly | 2019-04-12 | | |
-| protein_degradation | 2019-04-12 | | |
-| metabolism_of_xenobiotics_by_cytochrome_p450 | 2019-04-12 | | |
-| phenylalanine,_tyrosine_and_tryptophan_biosynthesis | 2019-04-12 | | |
-| formation_and_hydrolysis_of_cholesterol_esters | 2019-04-12 | | |
-| peptide_metabolism | 2019-04-12 | | |
+| sphingolipid_metabolism | :heavy_check_mark: | | |
+| estrogen_metabolism | :heavy_check_mark: | | |
+| fatty_acid_activation_(cytosolic) | :heavy_check_mark: | | |
+| protein_assembly | 2019-04-18 | | |
+| protein_degradation | 2019-04-18 | | |
+| metabolism_of_xenobiotics_by_cytochrome_p450 | 2019-04-18 | | |
+| phenylalanine,_tyrosine_and_tryptophan_biosynthesis | 2019-04-18 | | |
+| formation_and_hydrolysis_of_cholesterol_esters | 2019-04-18 | | |
+| peptide_metabolism | | | |
 | ~~drug_metabolism~~ | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: |
 | arachidonic_acid_metabolism | | | |
 | glycerophospholipid_metabolism | | | |
