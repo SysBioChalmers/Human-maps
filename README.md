@@ -153,5 +153,5 @@ Subsystems Maps progress:
 |  120 | glycerophospholipid_metabolism | | | |
 |  121 | bile_acid_biosynthesis | :heavy_check_mark: | | :heavy_check_mark: |
 |  122 | leukotriene_metabolism | | | |
-|  123 | fatty_acid_oxidation | | | |
+|  123 | fatty_acid_oxidation | :heavy_check_mark: | | |
 
