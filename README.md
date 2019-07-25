@@ -112,24 +112,24 @@ Subsystems Maps progress:
 |   79 | tricarboxylic_acid_cycle_and_glyoxylate_dicarboxylate_metabolism | :heavy_check_mark: | | |
 |   80 | beta_oxidation_of_even-chain_fatty_acids_(peroxisomal) | :heavy_check_mark: | | |
 |   81 | folate_metabolism | :heavy_check_mark: | | |
-|   82 | lysine_metabolism | :heavy_check_mark: | | |
+|   82 | lysine_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
 |   83 | linoleate_metabolism | :heavy_check_mark: | | |
 |   84 | chondroitin___heparan_sulfate_biosynthesis | :heavy_check_mark: | | |
 |   85 | valine_leucine_and_isoleucine_metabolism | :heavy_check_mark: | | |
 |   86 | prostaglandin_biosynthesis | :heavy_check_mark: | | |
 |   87 | glycine_serine_and_threonine_metabolism | :heavy_check_mark: | | |
-|   88 | omega-6_fatty_acid_metabolism | :heavy_check_mark: | | |
-|   89 | cholesterol_metabolism | :heavy_check_mark: | | |
-|   90 | eicosanoid_metabolism | :heavy_check_mark: | | |
-|   91 | keratan_sulfate_degradation | :heavy_check_mark: | | |
+|   88 | omega-6_fatty_acid_metabolism | :heavy_check_mark: |  | :heavy_check_mark: |
+|   89 | cholesterol_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+|   90 | eicosanoid_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+|   91 | keratan_sulfate_degradation | :heavy_check_mark: | | :heavy_check_mark: |
 |   92 | pyrimidine_metabolism | :heavy_check_mark: | | |
-|   93 | omega-3_fatty_acid_metabolism | :heavy_check_mark: | | |
-|   94 | keratan_sulfate_biosynthesis | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-|   95 | tyrosine_metabolism | :heavy_check_mark: | | |
-|   96 | beta_oxidation_of_even-chain_fatty_acids_(mitochondrial) | :heavy_check_mark: | | |
-|   97 | glycerolipid_metabolism | :heavy_check_mark: | | |
+|   93 | omega-3_fatty_acid_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+|   94 | keratan_sulfate_biosynthesis | :heavy_check_mark: | | |
+|   95 | tyrosine_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+|   96 | beta_oxidation_of_even-chain_fatty_acids_(mitochondrial) | :heavy_check_mark: | | :heavy_check_mark: |
+|   97 | glycerolipid_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
 |   98 | fatty_acid_biosynthesis | :heavy_check_mark: | | |
-|   99 | arginine_and_proline_metabolism | :heavy_check_mark: | | |
+|   99 | arginine_and_proline_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
 |  100 | inositol_phosphate_metabolism | :heavy_check_mark: | | |
 |  101 | vitamin_e_metabolism | :heavy_check_mark: | | |
 |  102 | acyl-coa_hydrolysis | :heavy_check_mark: | | |
