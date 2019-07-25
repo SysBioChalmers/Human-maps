@@ -114,7 +114,7 @@ Subsystems Maps progress:
 |   81 | folate_metabolism | :heavy_check_mark: | | |
 |   82 | lysine_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
 |   83 | linoleate_metabolism | :heavy_check_mark: | | |
-|   84 | chondroitin___heparan_sulfate_biosynthesis | :heavy_check_mark: | | |
+|   84 | chondroitin_heparan_sulfate_biosynthesis | :heavy_check_mark: | | |
 |   85 | valine_leucine_and_isoleucine_metabolism | :heavy_check_mark: | | |
 |   86 | prostaglandin_biosynthesis | :heavy_check_mark: | | |
 |   87 | glycine_serine_and_threonine_metabolism | :heavy_check_mark: | | |
@@ -142,16 +142,16 @@ Subsystems Maps progress:
 |  109 | sphingolipid_metabolism | :heavy_check_mark: | | |
 |  110 | estrogen_metabolism | :heavy_check_mark: | | |
 |  111 | fatty_acid_activation_(cytosolic) | :heavy_check_mark: | | |
-|  112 | protein_assembly | 2019-04-18 | | |
-|  113 | protein_degradation | 2019-04-18 | | |
-|  114 | metabolism_of_xenobiotics_by_cytochrome_p450 | 2019-04-18 | | |
-|  115 | phenylalanine,_tyrosine_and_tryptophan_biosynthesis | 2019-04-18 | | |
-|  116 | formation_and_hydrolysis_of_cholesterol_esters | 2019-04-18 | | |
+|  112 | protein_assembly | | | |
+|  113 | protein_degradation | | | |
+|  114 | metabolism_of_xenobiotics_by_cytochrome_p450 | | | |
+|  115 | phenylalanine_tyrosine_and_tryptophan_biosynthesis | :heavy_check_mark: | | :heavy_check_mark: |
+|  116 | formation_and_hydrolysis_of_cholesterol_esters | | | |
 |  117 | peptide_metabolism | | | |
-|  118 | ~~drug_metabolism~~ | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: |
+|  118 | drug_metabolism | | | |
 |  119 | arachidonic_acid_metabolism | | | |
 |  120 | glycerophospholipid_metabolism | | | |
-|  121 | bile_acid_biosynthesis | | | |
+|  121 | bile_acid_biosynthesis | :heavy_check_mark: | | :heavy_check_mark: |
 |  122 | leukotriene_metabolism | | | |
 |  123 | fatty_acid_oxidation | | | |
 
