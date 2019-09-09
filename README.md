@@ -6,7 +6,7 @@ Summary:
 |   | Total | pre-processed | Done |
 | - | ----------- | ----------- | ---- |
 | Compartment | 11 | 11 | 11 |
-| Subsystem | 146 | 140 | 97 |
+| Subsystem | 146 | 127 | 97 |
 
 
 Compartment Maps progress:
