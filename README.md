@@ -6,7 +6,7 @@ Summary:
 |   | Total | pre-processed | Done |
 | - | ----------- | ----------- | ---- |
 | Compartment | 11 | 11 | 11 |
-| Subsystem | 128 | 90 | 75 |
+| Subsystem | 128 | 127 | 97 |
 
 
 Compartment Maps progress:
@@ -130,28 +130,29 @@ Subsystems Maps progress:
 |   97 | glycerolipid_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
 |   98 | fatty_acid_biosynthesis | :heavy_check_mark: | | |
 |   99 | arginine_and_proline_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
-|  100 | inositol_phosphate_metabolism | :heavy_check_mark: | | |
+|  100 | inositol_phosphate_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
 |  101 | vitamin_e_metabolism | :heavy_check_mark: | | |
 |  102 | acyl-coa_hydrolysis | :heavy_check_mark: | | |
 |  103 | retinol_metabolism | :heavy_check_mark: | | |
-|  104 | purine_metabolism | :heavy_check_mark: | | |
+|  104 | purine_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
 |  105 | fatty_acid_activation_(endoplasmic_reticular) | :heavy_check_mark: | | |
-|  106 | steroid_metabolism | :heavy_check_mark: | | |
-|  107 | nucleotide_metabolism | :heavy_check_mark: | | |
+|  106 | steroid_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
+|  107 | nucleotide_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
 |  108 | n-glycan_metabolism | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-|  109 | sphingolipid_metabolism | :heavy_check_mark: | | |
+|  109 | sphingolipid_metabolism | :heavy_check_mark: | | :heavy_check_mark: |
 |  110 | estrogen_metabolism | :heavy_check_mark: | | |
 |  111 | fatty_acid_activation_(cytosolic) | :heavy_check_mark: | | |
-|  112 | protein_assembly | | | |
-|  113 | protein_degradation | | | |
-|  114 | metabolism_of_xenobiotics_by_cytochrome_p450 | | | |
+|  112 | protein_assembly | :heavy_check_mark: | | |
+|  113 | protein_degradation | :heavy_check_mark: | | |
+|  114 | metabolism_of_xenobiotics_by_cytochrome_p450 | :heavy_check_mark: | | |
 |  115 | phenylalanine_tyrosine_and_tryptophan_biosynthesis | :heavy_check_mark: | | :heavy_check_mark: |
-|  116 | formation_and_hydrolysis_of_cholesterol_esters | | | |
-|  117 | peptide_metabolism | | | |
+|  116 | formation_and_hydrolysis_of_cholesterol_esters | :heavy_check_mark: | | |
+|  117 | peptide_metabolism | :heavy_check_mark: | | |
 |  118 | drug_metabolism | | | |
-|  119 | arachidonic_acid_metabolism | | | |
-|  120 | glycerophospholipid_metabolism | | | |
+|  119 | arachidonic_acid_metabolism | :heavy_check_mark: | | |
+|  120 | glycerophospholipid_metabolism | :heavy_check_mark: | | |
 |  121 | bile_acid_biosynthesis | :heavy_check_mark: | | :heavy_check_mark: |
-|  122 | leukotriene_metabolism | | | |
+|  122 | leukotriene_metabolism | :heavy_check_mark: | | |
 |  123 | fatty_acid_oxidation | :heavy_check_mark: | | |
+|  124 | oxidative phosphorylation | :heavy_check_mark: | | :heavy_check_mark: |
 
