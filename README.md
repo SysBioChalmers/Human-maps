@@ -26,8 +26,8 @@ Compartment Maps progress:
 | Cytosol 5   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | :heavy_check_mark: | :heavy_check_mark: |
 
 Subsystems Maps progress:
-- first pass: deadline for Virinchi
-- done: deadline to have the map deployed on Met Atlas
+- first pass: map processed by Virinchi
+- done: map deployed on Met Atlas
 
 | #   | Subsystem | First pass | Reviewed | Done |
 | --- | --------- | ---------- | -------- | ---- |
@@ -156,3 +156,6 @@ Subsystems Maps progress:
 |  123 | fatty_acid_oxidation | :heavy_check_mark: | | |
 |  124 | oxidative phosphorylation | :heavy_check_mark: | | :heavy_check_mark: |
 
+Maps that will not be created:  
+125.  
+126. 
