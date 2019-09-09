@@ -76,11 +76,11 @@ Subsystems Maps progress:
 | 44 | CoA synthesis | 4 | :heavy_check_mark: | :heavy_check_mark: | |
 | 45 | Cysteine and methionine metabolism | 50 | :heavy_check_mark: |  | |
 | 46 | Dietary fiber binding | 12 |  |  | |
-| 47 | Drug metabolism | 573 |  |  | skipped, many transport reactions. But will be (partially) done eventually |
+| 47 | Drug metabolism | 573 |  |  | skipped, many transport reactions. But should be (partially) done |
 | 48 | Eicosanoid metabolism | 64 | :heavy_check_mark: | :heavy_check_mark: | |
 | 49 | Estrogen metabolism | 66 | :heavy_check_mark: |  | |
 | 50 | Ether lipid metabolism | 15 | :heavy_check_mark: | :heavy_check_mark: | |
-| 51 | Exchange/demand reactions | 1665 |  |  | skipped |
+| 51 | Exchange/demand reactions | 1665 |  |  | skipped, too many reactions / disconnect |
 | 52 | Fatty acid activation (cytosolic) | 67 | :heavy_check_mark: |  | |
 | 53 | Fatty acid activation (endoplasmic reticular) | 55 | :heavy_check_mark: |  | |
 | 54 | Fatty acid biosynthesis | 85 | :heavy_check_mark: |  | |
@@ -122,7 +122,7 @@ Subsystems Maps progress:
 | 90 | Lysine metabolism | 43 | :heavy_check_mark: | :heavy_check_mark: | |
 | 91 | Metabolism of other amino acids | 22 | :heavy_check_mark: | :heavy_check_mark: | |
 | 92 | Metabolism of xenobiotics by cytochrome P450 | 131 | :heavy_check_mark: |  | |
-| 93 | Miscellaneous | 120 |  |  | |
+| 93 | Miscellaneous | 120 |  |  | skipped |
 | 94 | N-glycan metabolism | 151 | :heavy_check_mark: | :heavy_check_mark: | |
 | 95 | Nicotinate and nicotinamide metabolism | 37 | :heavy_check_mark: | :heavy_check_mark: | |
 | 96 | Nitrogen metabolism | 1 |  |  | |
@@ -138,7 +138,7 @@ Subsystems Maps progress:
 | 106 | Phenylalanine metabolism | 6 | :heavy_check_mark: | :heavy_check_mark: | |
 | 107 | Phenylalanine, tyrosine and tryptophan biosynthesis | 161 | :heavy_check_mark: | :heavy_check_mark: | |
 | 108 | Phosphatidylinositol phosphate metabolism | 29 | :heavy_check_mark: | :heavy_check_mark: | |
-| 109 | Pool reactions | 47 |  |  | |
+| 109 | Pool reactions | 47 |  |  | skipped |
 | 110 | Porphyrin metabolism | 22 | :heavy_check_mark: | :heavy_check_mark: | |
 | 111 | Propanoate metabolism | 23 | :heavy_check_mark: | :heavy_check_mark: | |
 | 112 | Prostaglandin biosynthesis | 71 | :heavy_check_mark:  |  | |
@@ -148,7 +148,7 @@ Subsystems Maps progress:
 | 116 | Purine metabolism | 108 | :heavy_check_mark: | :heavy_check_mark: | |
 | 117 | Pyrimidine metabolism | 78 | :heavy_check_mark: |  | |
 | 118 | Pyruvate metabolism | 34 | :heavy_check_mark: | :heavy_check_mark: | |
-| 119 | R group synthesis | 50 |  |  | |
+| 119 | R group synthesis | 50 |  |  | skipped |
 | 120 | ROS detoxification | 10 | :heavy_check_mark: | :heavy_check_mark: | |
 | 121 | Retinol metabolism | 86 | :heavy_check_mark: |  | |
 | 122 | Riboflavin metabolism | 6 | :heavy_check_mark: | :heavy_check_mark: | |
@@ -159,7 +159,7 @@ Subsystems Maps progress:
 | 127 | Sulfur metabolism | 10 | :heavy_check_mark: | :heavy_check_mark: | |
 | 128 | Terpenoid backbone biosynthesis | 17 | :heavy_check_mark: | :heavy_check_mark: | |
 | 129 | Thiamine metabolism | 7 | :heavy_check_mark: | :heavy_check_mark: | |
-| 130 | Transport reactions | 4247 |  |  | skipped. too many reactions / disconnected |
+| 130 | Transport reactions | 4247 |  |  | skipped, too many reactions / disconnected |
 | 131 | Triacylglycerol synthesis | 13 | :heavy_check_mark: | :heavy_check_mark: | |
 | 132 | Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism | 47 | :heavy_check_mark: |  | |
 | 133 | Triglycerides formation | 3 | :heavy_check_mark: | :heavy_check_mark: | |
