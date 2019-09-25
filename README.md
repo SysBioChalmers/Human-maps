@@ -59,7 +59,7 @@ Subsystems Maps progress:
 | 27 | Bile acid recycling | 33 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 28 | Biopterin metabolism | 27 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 29 | Biotin metabolism | 14 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
-| 30 | Blood group biosynthesis | 52 |  |  |  |  |  |
+| 30 | Blood group biosynthesis | 52 | :heavy_check_mark: |  |  |  |  |
 | 31 | Butanoate metabolism | 9 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 32 | C5-branched dibasic acid metabolism | 8 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 33 | Carnitine shuttle (cytosolic) | 57 | :x: | :x: | :x: | :x: | Skipped, disconnected |
@@ -75,7 +75,7 @@ Subsystems Maps progress:
 | 43 | CoA catabolism | 1 | :x: | :x: | :x: | :x: |skipped, 1 reaction |
 | 44 | CoA synthesis | 4 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 45 | Cysteine and methionine metabolism | 50 | :heavy_check_mark: | :heavy_check_mark:  | | | |
-| 46 | Dietary fiber binding | 12 |  | :heavy_check_mark: | | | |
+| 46 | Dietary fiber binding | 12 | :heavy_check_mark:  | :heavy_check_mark: | | | |
 | 47 | Drug metabolism | 573 |  |  |  | | skipped? |
 | 48 | Eicosanoid metabolism | 64 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 49 | Estrogen metabolism | 66 | :heavy_check_mark: |  | | | |
@@ -109,8 +109,8 @@ Subsystems Maps progress:
 | 77 | Glycosylphosphatidylinositol (GPI)-anchor biosynthesis | 31 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 78 | Heme degradation | 3 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 79 | Heme synthesis | 4 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
-| 80 | Heparan sulfate degradation | 30 |  |  | | | |
-| 81 | Hippurate metabolism | 2 |  |  | | | |
+| 80 | Heparan sulfate degradation | 30 | :heavy_check_mark:  |  | | | |
+| 81 | Hippurate metabolism | 2 | :heavy_check_mark: |  | | | |
 | 82 | Histidine metabolism | 19 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 83 | Inositol phosphate metabolism | 94 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 84 | Isolated | 150 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
