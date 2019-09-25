@@ -122,7 +122,7 @@ Subsystems Maps progress:
 | 90 | Lysine metabolism | 43 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 91 | Metabolism of other amino acids | 22 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 92 | Metabolism of xenobiotics by cytochrome P450 | 131 | :heavy_check_mark: |  | | | |
-| 93 | Miscellaneous | 120 |  |  |  | | skipped |
+| 93 | Miscellaneous | 120 | :x: | :x: | :x: | :x: | skipped |
 | 94 | N-glycan metabolism | 151 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 95 | Nicotinate and nicotinamide metabolism | 37 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 96 | Nitrogen metabolism | 1 | :x: | :x: | :x: | :x: | skipped, 1 reaction |
@@ -148,7 +148,7 @@ Subsystems Maps progress:
 | 116 | Purine metabolism | 108 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 117 | Pyrimidine metabolism | 78 | :heavy_check_mark: |  | | | |
 | 118 | Pyruvate metabolism | 34 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
-| 119 | R group synthesis | 50 |  |  |  | | skipped |
+| 119 | R group synthesis | 50 | :x: | :x: | :x: | :x: | skipped |
 | 120 | ROS detoxification | 10 | :heavy_check_mark: | :heavy_check_mark: | | | |
 | 121 | Retinol metabolism | 86 | :heavy_check_mark: |  | | | |
 | 122 | Riboflavin metabolism | 6 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
