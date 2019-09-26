@@ -5,7 +5,7 @@ Summary:
 
 |   | Total |  Done | remaining reactions | deployed | resync v1.0 | skipped |
 | - | ----- | ----- | ------------------------- | -------- | ----------- | ------- |
-| Compartment | 11 | 11 | 100% | 11 | 11| 2 (Extracellular, Boundary) |
+| Compartment | 11 | 11 | 0% | 11 | 11| 2 (Extracellular, Boundary) |
 | Subsystem | 146 | 103 | 45% | 94 | 103 | 9 | 
 
 Compartment Maps progress:
