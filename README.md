@@ -5,13 +5,15 @@ Summary:
 
 |   | Total |  Done | Remaining reactions | Deployed | Resync v1.0 | Skipped |
 | - | ----- | ----- | ------------------------- | -------- | ----------- | ------- |
-| Compartment | 11 | 11 | 0% | 11 | 11| 2 (Extracellular, Boundary) |
+| Compartment | 13 | 11 | 0% | 11 | 11| 2 (Extracellular, Boundary) |
 | Subsystem | 146 | 107 | 37.8% | 94 | 107 | 9 |
 
 Compartment Maps progress:
 
 | Compartment | Migrated From HMR2 | First Pass | Reviewed | Second Pass | Reviewed | Done  | Resync v1.0 |
 | ----------- | :----------------: | :----: | :------: | :----: | :------: | :---: | :---: |
+| Extracellular     | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
+| Boundary     | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
 | Nucleus     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |   :heavy_check_mark: | :heavy_check_mark: |
 | Golgi apparatus      | :heavy_check_mark: | :heavy_check_mark:      | :heavy_check_mark:       | | | :heavy_check_mark: | :heavy_check_mark: |
 | Lysosome    | :heavy_check_mark: | :heavy_check_mark:      | :heavy_check_mark:       | :heavy_check_mark:    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
