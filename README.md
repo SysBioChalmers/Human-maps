@@ -6,7 +6,7 @@ Summary:
 |   | Total |  Done | Remaining reactions | Deployed | Resync v1.0 | Skipped |
 | - | ----- | ----- | ------------------------- | -------- | ----------- | ------- |
 | Compartment | 13 | 11 | 0% | 11 | 11| 2 (Extracellular, Boundary) |
-| Subsystem | 146 | 107 | 37.8% | 94 | 107 | 9 |
+| Subsystem | 146 | 107 | 34.6% | 94 | 107 | 14 |
 
 Compartment Maps progress:
 
@@ -31,7 +31,7 @@ Subsystems Maps progress:
 
 | #   | Subsystem | # Reaction | Pre-processed | Finished | deployed | resync v1.X | Comment |
 | --- | --------- | ---------- | ------------- | ---------| -------- | ------ | ------- |
-| 1 | Acyl-CoA hydrolysis | 64 | :heavy_check_mark: | :heavy_check_mark: | | | |
+| 1 | Acyl-CoA hydrolysis | 64 | :heavy_check_mark: | | | | |
 | 2 | Acylglycerides metabolism | 21 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 3 | Alanine, aspartate and glutamate metabolism | 40 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 4 | Alkaloids Biosynthesis | 2 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
