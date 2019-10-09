@@ -6,7 +6,7 @@ Summary:
 |   | Total |  Done | Remaining reactions | Deployed | Resync v1.0 | Skipped |
 | - | ----- | ----- | ------------------------- | -------- | ----------- | ------- |
 | Compartment | 11 | 11 | 0% | 11 | 11| 2 (Extracellular, Boundary) |
-| Subsystem | 146 | 103 | 45% | 94 | 103 | 9 | 
+| Subsystem | 146 | 107 | 37.8% | 94 | 107 | 9 |
 
 Compartment Maps progress:
 
@@ -58,7 +58,7 @@ Subsystems Maps progress:
 | 27 | Bile acid recycling | 33 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 28 | Biopterin metabolism | 27 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 29 | Biotin metabolism | 14 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
-| 30 | Blood group biosynthesis | 52 | :heavy_check_mark: |  |  |  |  |
+| 30 | Blood group biosynthesis | 52 | :heavy_check_mark: | :heavy_check_mark:  |  |  |  |
 | 31 | Butanoate metabolism | 9 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 32 | C5-branched dibasic acid metabolism | 8 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 33 | Carnitine shuttle (cytosolic) | 57 | :x: | :x: | :x: | :x: | Skipped, disconnected |
@@ -98,7 +98,7 @@ Subsystems Maps progress:
 | 67 | Glucocorticoid biosynthesis | 11 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 68 | Glutathione metabolism | 17 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 69 | Glycerolipid metabolism | 76 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
-| 70 | Glycerophospholipid metabolism | 218 | :heavy_check_mark: |  | | | |
+| 70 | Glycerophospholipid metabolism | 218 | :heavy_check_mark: | :heavy_check_mark: | | | |
 | 71 | Glycine, serine and threonine metabolism | 66 | :heavy_check_mark: |  | | | |
 | 72 | Glycolysis / Gluconeogenesis | 42 | :heavy_check_mark: |  | | | |
 | 73 | Glycosphingolipid biosynthesis-ganglio series | 37 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
@@ -109,13 +109,13 @@ Subsystems Maps progress:
 | 78 | Heme degradation | 3 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 79 | Heme synthesis | 4 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 80 | Heparan sulfate degradation | 30 | :heavy_check_mark:  |  | | | |
-| 81 | Hippurate metabolism | 2 | :heavy_check_mark: |  | | | |
+| 81 | Hippurate metabolism | 2 | :heavy_check_mark: | :heavy_check_mark: | | | |
 | 82 | Histidine metabolism | 19 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 83 | Inositol phosphate metabolism | 94 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 84 | Isolated | 150 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 85 | Keratan sulfate biosynthesis | 59 | :heavy_check_mark: |  | | | |
 | 86 | Keratan sulfate degradation | 76 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
-| 87 | Leukotriene metabolism | 170 | :heavy_check_mark: |  | | | |
+| 87 | Leukotriene metabolism | 170 | :heavy_check_mark: | :heavy_check_mark: | | | |
 | 88 | Linoleate metabolism | 35 | :heavy_check_mark: |  | | | |
 | 89 | Lipoic acid metabolism | 8 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 90 | Lysine metabolism | 43 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
@@ -160,7 +160,7 @@ Subsystems Maps progress:
 | 129 | Thiamine metabolism | 7 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 130 | Transport reactions | 4247 | :x: | :x: | :x: | :x: | skipped, too many reactions / disconnected |
 | 131 | Triacylglycerol synthesis | 13 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
-| 132 | Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism | 47 | :heavy_check_mark: |  | | | |
+| 132 | Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism | 47 | :heavy_check_mark: | :heavy_check_mark: | | | |
 | 133 | Triglycerides formation | 3 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 134 | Tryptophan metabolism | 20 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 135 | Tyrosine metabolism | 82 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
