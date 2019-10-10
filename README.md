@@ -10,28 +10,28 @@ Summary:
 
 Compartment Maps progress:
 
-| Compartment | Migrated From HMR2 | First Pass | Reviewed | Second Pass | Reviewed | Done  | Resync v1.0 |
-| ----------- | :----------------: | :----: | :------: | :----: | :------: | :---: | :---: |
-| Extracellular     | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
-| Boundary     | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
-| Nucleus     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |   :heavy_check_mark: | :heavy_check_mark: |
-| Golgi apparatus      | :heavy_check_mark: | :heavy_check_mark:      | :heavy_check_mark:       | | | :heavy_check_mark: | :heavy_check_mark: |
-| Lysosome    | :heavy_check_mark: | :heavy_check_mark:      | :heavy_check_mark:       | :heavy_check_mark:    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Peroxisome  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | :heavy_check_mark: | :heavy_check_mark: |
-| Endoplasmic reticulum  | :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | | | :heavy_check_mark: | :heavy_check_mark: |
-| Mitochondria | :heavy_check_mark:| :heavy_check_mark: | :heavy_check_mark: | | |:heavy_check_mark: | :heavy_check_mark: |
-| Cytosol 1   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | :heavy_check_mark: | :heavy_check_mark: |
-| Cytosol 2   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | :heavy_check_mark: | :heavy_check_mark: |
-| Cytosol 3   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:| | |:heavy_check_mark: | :heavy_check_mark: |
-| Cytosol 4   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:| | | :heavy_check_mark: | :heavy_check_mark: |
-| Cytosol 5   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | | :heavy_check_mark: | :heavy_check_mark: |
+| Compartment | Done | deployed  | Resync v1.0 |
+| ----------- | :----------------: | :----: | :------: |
+| Extracellular     | :x: | :x: | :x: |
+| Boundary     | :x: | :x: | :x: |
+| Nucleus     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Golgi apparatus      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Lysosome    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Peroxisome  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Endoplasmic reticulum | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Mitochondria | :heavy_check_mark:| :heavy_check_mark: | :heavy_check_mark: |
+| Cytosol 1   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Cytosol 2   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Cytosol 3   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Cytosol 4   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Cytosol 5   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 Subsystems Maps progress:
 - Pre-processed: Virinchi did some ajustement on the layout
 
 | #   | Subsystem | # Reaction | Pre-processed | Finished | deployed | resync v1.X | Comment |
 | --- | --------- | ---------- | ------------- | ---------| -------- | ------ | ------- |
-| 1 | Acyl-CoA hydrolysis | 64 | :heavy_check_mark: | | | | |
+| 1 | Acyl-CoA hydrolysis | 64 | :heavy_check_mark: | :heavy_check_mark: | | | |
 | 2 | Acylglycerides metabolism | 21 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 3 | Alanine, aspartate and glutamate metabolism | 40 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 4 | Alkaloids Biosynthesis | 2 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
@@ -77,7 +77,7 @@ Subsystems Maps progress:
 | 44 | CoA synthesis | 4 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 45 | Cysteine and methionine metabolism | 50 | :heavy_check_mark: | :heavy_check_mark:  | | | |
 | 46 | Dietary fiber binding | 12 | :heavy_check_mark:  | :heavy_check_mark: | | | |
-| 47 | Drug metabolism | 573 |  |  |  | | skipped? |
+| 47 | Drug metabolism | 573 | :x: | :x: | :x: | :x: | skipped, for now |
 | 48 | Eicosanoid metabolism | 64 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
 | 49 | Estrogen metabolism | 66 | :heavy_check_mark: |  | | | |
 | 50 | Ether lipid metabolism | 15 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | |
