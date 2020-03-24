@@ -1,6 +1,6 @@
-## Human1-maps repository
+## Human-maps repository
 
-This repository contains metabolic maps for the [Human-GEM](https://github.com/SysBioChalmers/Human-GEM) (Human1) and are served by [Metabolic Atlas](www.metabolicAtlas.com).
+This repository contains metabolic maps for the [Human-GEM](https://github.com/SysBioChalmers/Human-GEM) (Human1) and are served by [Metabolic Atlas](https://www.metabolicatlas.com).
 
 ### Content
 
