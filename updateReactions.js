@@ -7,7 +7,7 @@ const retiredIdCol = 14;
 
 const compartmentFiles = readdirSync('compartment/svg/').map((file)=> `compartment/svg/${file}`);
 const subsystemFiles = readdirSync('subsystem/svg/').map((file)=> `subsystem/svg/${file}`);
-const filesToReplace = [...compartmentFiles, ...subsystemFiles];
+const filesToReplace = [...compartmentFiles, ...subsystemFiles].slice(8,);
 
 const oldToNew = async () => {
     const oldToNewIdMap = {};
@@ -47,8 +47,10 @@ const oldToNew = async () => {
                 };
                 const optionsSecond = {
                     files: fileName,
-                    from: new RegExp(` ${oldValue}`, 'g'),
-                    to: ` ${newValue}`,
+                    from: new RegExp(`${oldValue}(\n| |")`, 'g'),
+                    to: (match) => {
+                        return `${newValue}${match[match.length-1]}`
+                    },
                     countMatches: true,
                 };
                 const resultSecond = replace.sync(optionsSecond);
