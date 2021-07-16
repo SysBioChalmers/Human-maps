@@ -27,7 +27,7 @@ fs.readFile('reactions.tsv', 'utf8', (err, data) => {
         const oldToNew = {};
         missingsArray.forEach((oldId) => {
             //const match = data.match(new RegExp(`("${oldId}")`))
-            const match = data.match(new RegExp(`(MA[^"]+)".+${oldId}.+"`));
+            const match = data.match(new RegExp(`(MA[^"]+)".+(;|")${oldId}(;|")`));
             if (match) {
                 console.log('MATCH', oldId, match[1]);
                 oldToNew[oldId] = match[1];
