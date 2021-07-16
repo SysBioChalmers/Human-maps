@@ -2,7 +2,7 @@ const fs = require('fs');
 const readline = require('readline');
 const path = require('path');
 
-const fileResult = 'not_replaced_metabolite_ids.txt';
+const fileResult = 'not_replaced_metabolite_ids.json';
 const compartmentFiles = fs.readdirSync('compartment/svg/').map((file)=> `compartment/svg/${file}`);
 const subsystemFiles = fs.readdirSync('subsystem/svg/').map((file)=> `subsystem/svg/${file}`);
 const filesToSearch = [...compartmentFiles, ...subsystemFiles];
