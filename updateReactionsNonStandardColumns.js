@@ -59,7 +59,7 @@ const oldToNew = async () => {
                 };
                 const optionsSecond = {
                     files: fileName,
-                    from: new RegExp(`${oldValue}(\n| |")`, 'g'),
+                    from: new RegExp(`(\n| |")${oldValue}(\n| |")`, 'g'),
                     to: (match) => {
                         return `${newValue}${match[match.length-1]}`
                     },
