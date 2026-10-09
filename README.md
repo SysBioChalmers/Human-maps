@@ -1,41 +1,27 @@
 ## Human-maps repository
 
-This repository contains metabolic maps for the [Human-GEM](https://github.com/SysBioChalmers/Human-GEM) (Human1) and are served by [Metabolic Atlas](https://www.metabolicatlas.com).
+This repository contains the metabolic maps of [Human-GEM](https://github.com/SysBioChalmers/Human-GEM) that [Metabolic Atlas](https://metabolicatlas.org) serves, in four formats.
+
+The maps match **Human-GEM 2.1.1**.
 
 ### Content
 
-Two types of map have been produced:
+- `subsystem/`: 118 maps: one per subsystem of the model, and 12 transport maps, one per organelle membrane (`transport_<organelle>`), the plasma membrane divided over five maps (`transport_plasma_membrane_1` to `_5`), and one for transport between organelles.
+- `compartment/`: 12 maps, one per compartment. The cytosol is divided over five maps (`cytosol_1` to `cytosol_5`), and the inner mitochondrial membrane is part of the mitochondria map.
 
-#### Compartments maps
+Each folder holds the same maps in each format:
 
-Correspond to a compartment in the model. Note that the _Cytosol_ has been divided into 5 separate maps, and the _Inner mitochondrial membrane_ compartment is included on the _Mitochondria_ map. We do not provide maps for _Boundary_ and _Extracellular_ compartments, as reactions on thoses maps are largely disconnected and uninformative.
+| Folder | Format | Content |
+| --- | --- | --- |
+| `svg/` | SVG | The map as Metabolic Atlas shows it. |
+| `sbgn/` | [SBGN-ML](https://sbgn.github.io) 0.3, process description | Metabolites as simple chemicals, reactions as processes, genes as macromolecules catalysing them, and compartments, at the positions of the SVG. Validated against the libsbgn schema. |
+| `sbml/` | [SBML](https://sbml.org) Level 3 Version 1, with the layout and groups packages | The reactions on the map with their stoichiometry, reversibility and genes (as modifiers) from Human-GEM 2.1.1; the layout of every drawn metabolite, gene and edge; one group per subsystem. Checked with libsbml. |
+| `escher/` | [Escher](https://escher.github.io) map (JSON, schema 1-0-0) | Metabolites and reactions where the SVG draws them, edges as Bézier curves through the SVG's bends, with stoichiometry, reversibility and gene rules from Human-GEM 2.1.1; the title and compartment headings as text labels (Escher has no compartment boxes or gene boxes). Open it in Escher with *Load map JSON*; loading the model as well (COBRA JSON) shows names and lets you overlay data. Checked against Escher's schema and its own consistency checks. |
 
-#### Subsystem maps
+### How the maps are made
 
-Each map corresponds to a subsystem as it is annotated in the model. Some subsystem maps are still under construction:
+The maps were drawn in [Omix](https://www.omix-visualization.com/) for Human-GEM 1.x. Since Human-GEM 2.1.0 they are fitted to each model release by script, keeping the drawing: identifiers follow the model, removed reactions and metabolites are taken off, reactions of a map's subsystem or compartment that were not drawn are added, and parts that share a metabolite are connected. The script and its rules are in [MetabolicAtlas/data-generation](https://github.com/MetabolicAtlas/data-generation) (`maps`, rules in `maps/RULES.md`). The SVG maps that Metabolic Atlas serves are kept in [MetabolicAtlas/data-files](https://github.com/MetabolicAtlas/data-files) (`svg/Human-GEM`), and the SBGN, SBML and Escher files are written from them with `maps/publish_maps.py`. After each model update in data-files, a workflow there opens a pull request here with the new maps.
 
-_Arachidonic acid metabolism_, _Beta oxidation of even-chain fatty acids (peroxisomal)_, _Chondroitin / heparan sulfate biosynthesis_, _Chondroitin sulfate degradation_, _Estrogen metabolism_, _Fatty acid biosynthesis_, _Fatty acid oxidation_, _Folate metabolism_, _Formation and hydrolysis of cholesterol esters_, _Glycine_, _serine and threonine metabolism_, _Glycosphingolipid biosynthesis-lacto and neolacto series_, _Glycosphingolipid metabolism_, _Heparan sulfate degradation_, _Keratan sulfate biosynthesis_, _Linoleate metabolism_, _Metabolism of xenobiotics by cytochrome P450_, _Peptide metabolism_, _Prostaglandin biosynthesis_, _Protein assembly_, _Protein degradation_, _Retinol metabolism_, _Valine, leucine, and isoleucine metabolism_, _Vitamin E metabolism_.
-
-A few subsystem maps are not planned for construction because they contain artificial reactions, are highly disconnected, or are very small, and thus a map would be uninformative:
-
-_Artificial reactions_, _Beta oxidation of odd-chain fatty acids (peroxisomal)_, _Carnitine shuttle (cytosolic)_, _Carnitine shuttle (endoplasmic reticular)_, _Carnitine shuttle (mitochondrial)_, _Carnitine shuttle (peroxisomal)_, _CoA catabolism_, _Exchange/demand reactions_, _Miscellaneous_, _Nitrogen metabolism_, _Pool reactions_, _R group synthesis_, _Transport reactions_.
-
-Custom maps or combination maps of multiple subsystems are planned, but are still under development.
-
-### Map formats
-
-**SVG**: Scalable Vector Graphics, ideal for web browsers; these maps are displayed on Metabolic Atlas but do not contain metabolic network information and thus are only used for visualization.
-
-**SBML**: Systems Biology Markup Language extended to incorporate graphical information. While SBML files may be used for metabolic analysis or flux visualization, SBML maps exported using Omix have not been used or tested for such purposes.
-
-**SBGN**: Systems Biology Graphical Notation files. They have not been used for any analyses.
-
-All three formats were exported from maps made using [Omix](https://www.omix-visualization.com/), using the built-in Omix plugins (SBML, SBGN) or a custom plugin (SVG).
-
-### Comment
-
-Some metabolic reactions are excluded from the maps. Only Transport/Exchange reactions associated with enzymes have been added (mostly disconnected) on compartment maps. Subsystem maps do not currently include any transport reactions (those belonging to the _Transport reactions_ subsystem).
-
-Subsystem maps are synced with **version 1.3.0** of the Human-GEM model, but compartment maps are synced with **version 1.0.5**.
+Custom maps (such as the protein secretion map) are only in data-files.
 
 This repository is administered by Pierre Cholley (@pecholleyc), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
