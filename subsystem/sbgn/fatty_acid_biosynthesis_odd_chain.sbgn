@@ -1,3 +1,1473 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:428165fa904960b0c27bcd1cc5dde6e773bd6d85779e7a3fe2ad9cafbd7a782f
-size 58705
+<?xml version='1.0' encoding='UTF-8'?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.3">
+  <map id="fatty_acid_biosynthesis_odd_chain" version="http://identifiers.org/combine.specifications/sbgn.pd.level-1.version-1.3">
+    <glyph class="simple chemical" id="met1">
+      <label text="3-hydroxytridecanoyl-[ACP]"/>
+      <bbox x="1690.4" y="671.9" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met2">
+      <label text="H2O"/>
+      <clone/>
+      <bbox x="2016.0" y="594.9" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met3">
+      <label text="(2E)-tridecenoyl-[ACP]"/>
+      <bbox x="2115.7" y="671.9" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met4">
+      <label text="NADPH"/>
+      <clone/>
+      <bbox x="2228.7" y="770.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met5">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="2228.7" y="820.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met6">
+      <label text="tridecanoyl-[ACP]"/>
+      <bbox x="2115.7" y="1122.2" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met7">
+      <label text="NADP+"/>
+      <clone/>
+      <bbox x="2228.7" y="1000.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met8">
+      <label text="malonyl-[ACP]"/>
+      <clone/>
+      <bbox x="2228.7" y="1195.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met9">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="2228.7" y="1245.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met10">
+      <label text="CO2"/>
+      <clone/>
+      <bbox x="2228.7" y="1425.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met11">
+      <label text="[ACP]"/>
+      <clone/>
+      <bbox x="2228.7" y="1475.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met12">
+      <label text="3-oxopentadecanoyl-[ACP]"/>
+      <bbox x="2115.7" y="1522.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met13">
+      <label text="[ACP]"/>
+      <clone/>
+      <bbox x="502.8" y="820.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met14">
+      <label text="propanoyl-CoA"/>
+      <bbox x="389.8" y="671.9" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met15">
+      <label text="propanoyl-[ACP]"/>
+      <bbox x="389.8" y="1122.2" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met16">
+      <label text="CoA"/>
+      <bbox x="502.8" y="1000.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met17">
+      <label text="3-hydroxyundecanoyl-[ACP]"/>
+      <bbox x="1690.4" y="2336.6" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met18">
+      <label text="(2E)-undecenoyl-[ACP]"/>
+      <bbox x="1690.4" y="1928.6" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met19">
+      <label text="H2O"/>
+      <clone/>
+      <bbox x="1803.4" y="2055.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met20">
+      <label text="NADPH"/>
+      <clone/>
+      <bbox x="1803.4" y="1828.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met21">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="1803.4" y="1878.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met22">
+      <label text="undecanoyl-[ACP]"/>
+      <bbox x="1690.4" y="1522.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met23">
+      <label text="NADP+"/>
+      <clone/>
+      <bbox x="1803.4" y="1648.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met24">
+      <label text="malonyl-[ACP]"/>
+      <clone/>
+      <bbox x="1803.4" y="1425.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met25">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="1803.4" y="1475.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met26">
+      <label text="3-oxotridecanoyl-[ACP]"/>
+      <bbox x="1690.4" y="1122.2" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met27">
+      <label text="CO2"/>
+      <clone/>
+      <bbox x="1803.4" y="1195.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met28">
+      <label text="[ACP]"/>
+      <clone/>
+      <bbox x="1803.4" y="1245.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met29">
+      <label text="NADPH"/>
+      <clone/>
+      <bbox x="1803.4" y="1000.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met30">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="1803.4" y="1050.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met31">
+      <label text="NADP+"/>
+      <clone/>
+      <bbox x="1803.4" y="820.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met32">
+      <label text="malonyl-[ACP]"/>
+      <clone/>
+      <bbox x="502.8" y="1195.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met33">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="502.8" y="1245.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met34">
+      <label text="CO2"/>
+      <clone/>
+      <bbox x="502.8" y="1425.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met35">
+      <label text="[ACP]"/>
+      <clone/>
+      <bbox x="502.8" y="1475.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met36">
+      <label text="3-oxopentanoyl-[ACP]"/>
+      <bbox x="389.8" y="1522.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met37">
+      <label text="NADPH"/>
+      <clone/>
+      <bbox x="502.8" y="1598.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met38">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="502.8" y="1648.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met39">
+      <label text="3-hydroxypentanoyl-[ACP]"/>
+      <bbox x="389.8" y="1928.6" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met40">
+      <label text="NADP+"/>
+      <clone/>
+      <bbox x="502.8" y="1828.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met41">
+      <label text="malonyl-[ACP]"/>
+      <clone/>
+      <bbox x="1324.2" y="2005.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met42">
+      <label text="nonanoyl-[ACP]"/>
+      <bbox x="1211.2" y="1928.6" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met43">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="1324.2" y="2055.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met44">
+      <label text="CO2"/>
+      <clone/>
+      <bbox x="1324.2" y="2235.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met45">
+      <label text="3-oxoundecanoyl-[ACP]"/>
+      <bbox x="1211.2" y="2336.6" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met46">
+      <label text="[ACP]"/>
+      <clone/>
+      <bbox x="1324.2" y="2285.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met47">
+      <label text="NADPH"/>
+      <clone/>
+      <bbox x="1303.8" y="2439.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met48">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="1383.8" y="2439.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met49">
+      <label text="NADP+"/>
+      <clone/>
+      <bbox x="1563.8" y="2439.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met50">
+      <label text="NADPH"/>
+      <clone/>
+      <bbox x="2644.5" y="1000.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met51">
+      <label text="(2E)-heptadecenoyl-[ACP]"/>
+      <bbox x="2531.5" y="1122.2" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met52">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="2644.5" y="1050.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met53">
+      <label text="heptadecanoyl-[ACP]"/>
+      <bbox x="2531.5" y="671.9" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met54">
+      <label text="NADP+"/>
+      <clone/>
+      <bbox x="2644.5" y="820.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met55">
+      <label text="NADPH"/>
+      <clone/>
+      <bbox x="889.1" y="1000.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met56">
+      <label text="(2E)-heptenoyl-[ACP]"/>
+      <bbox x="776.1" y="1122.2" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met57">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="889.1" y="1050.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met58">
+      <label text="NADP+"/>
+      <clone/>
+      <bbox x="889.1" y="820.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met59">
+      <label text="heptanoyl-[ACP]"/>
+      <bbox x="776.1" y="671.9" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met60">
+      <label text="malonyl-[ACP]"/>
+      <clone/>
+      <bbox x="846.7" y="594.9" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met61">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="926.7" y="594.9" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met62">
+      <label text="CO2"/>
+      <clone/>
+      <bbox x="1106.7" y="594.9" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met63">
+      <label text="[ACP]"/>
+      <clone/>
+      <bbox x="1186.7" y="594.9" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met64">
+      <label text="3-oxononanoyl-[ACP]"/>
+      <bbox x="1211.2" y="671.9" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met65">
+      <label text="NADPH"/>
+      <clone/>
+      <bbox x="1324.2" y="770.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met66">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="1324.2" y="820.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met67">
+      <label text="3-hydroxynonanoyl-[ACP]"/>
+      <bbox x="1211.2" y="1122.2" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met68">
+      <label text="NADP+"/>
+      <clone/>
+      <bbox x="1324.2" y="1000.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met69">
+      <label text="H2O"/>
+      <clone/>
+      <bbox x="1324.2" y="1425.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met70">
+      <label text="(2E)-nonenoyl-[ACP]"/>
+      <bbox x="1211.2" y="1522.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met71">
+      <label text="(2E)-pentenoyl-[ACP]"/>
+      <bbox x="389.8" y="2336.6" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met72">
+      <label text="NADPH"/>
+      <clone/>
+      <bbox x="436.0" y="2439.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met73">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="516.0" y="2439.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met74">
+      <label text="pentanoyl-[ACP]"/>
+      <bbox x="776.1" y="2336.6" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met75">
+      <label text="NADP+"/>
+      <clone/>
+      <bbox x="696.0" y="2439.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met76">
+      <label text="malonyl-[ACP]"/>
+      <clone/>
+      <bbox x="2713.4" y="2125.9" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met77">
+      <label text="pentadecanoyl-[ACP]"/>
+      <bbox x="2531.5" y="2336.6" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met78">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="2644.5" y="2228.9" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met79">
+      <label text="CO2"/>
+      <clone/>
+      <bbox x="2644.5" y="1998.9" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met80">
+      <label text="[ACP]"/>
+      <clone/>
+      <bbox x="2644.5" y="2048.9" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met81">
+      <label text="3-oxoheptadecanoyl-[ACP]"/>
+      <bbox x="2531.5" y="1928.6" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met82">
+      <label text="malonyl-[ACP]"/>
+      <clone/>
+      <bbox x="889.1" y="2235.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met83">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="889.1" y="2285.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met84">
+      <label text="CO2"/>
+      <clone/>
+      <bbox x="889.1" y="2005.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met85">
+      <label text="[ACP]"/>
+      <clone/>
+      <bbox x="889.1" y="2055.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met86">
+      <label text="3-oxoheptanoyl-[ACP]"/>
+      <bbox x="776.1" y="1928.6" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met87">
+      <label text="NADPH"/>
+      <clone/>
+      <bbox x="2644.5" y="1828.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met88">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="2644.5" y="1878.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met89">
+      <label text="NADP+"/>
+      <clone/>
+      <bbox x="2644.5" y="1648.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met90">
+      <label text="3-hydroxyheptadecanoyl-[ACP]"/>
+      <bbox x="2531.5" y="1522.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met91">
+      <label text="NADPH"/>
+      <clone/>
+      <bbox x="889.1" y="1828.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met92">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="889.1" y="1878.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met93">
+      <label text="3-hydroxyheptanoyl-[ACP]"/>
+      <bbox x="776.1" y="1522.0" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met94">
+      <label text="NADP+"/>
+      <clone/>
+      <bbox x="889.1" y="1648.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met95">
+      <label text="H2O"/>
+      <clone/>
+      <bbox x="2644.5" y="1245.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met96">
+      <label text="H2O"/>
+      <clone/>
+      <bbox x="889.1" y="1245.1" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met97">
+      <label text="NADPH"/>
+      <clone/>
+      <bbox x="1324.2" y="1598.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met98">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="1324.2" y="1648.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met99">
+      <label text="NADP+"/>
+      <clone/>
+      <bbox x="1324.2" y="1828.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met100">
+      <label text="NADPH"/>
+      <clone/>
+      <bbox x="2228.7" y="1598.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met101">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="2228.7" y="1648.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met102">
+      <label text="3-hydroxypentadecanoyl-[ACP]"/>
+      <bbox x="2115.7" y="1928.6" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met103">
+      <label text="NADP+"/>
+      <clone/>
+      <bbox x="2228.7" y="1828.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met104">
+      <label text="(2E)-pentadecenoyl-[ACP]"/>
+      <bbox x="2115.7" y="2336.6" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met105">
+      <label text="H2O"/>
+      <clone/>
+      <bbox x="2228.7" y="2235.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met106">
+      <label text="NADPH"/>
+      <clone/>
+      <bbox x="2176.6" y="2439.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met107">
+      <label text="H+"/>
+      <clone/>
+      <bbox x="2256.6" y="2439.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met108">
+      <label text="NADP+"/>
+      <clone/>
+      <bbox x="2436.6" y="2439.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met109">
+      <label text="H2O"/>
+      <clone/>
+      <bbox x="502.8" y="2235.6" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene1">
+      <label text="FASN"/>
+      <bbox x="1903.0" y="751.9" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene2">
+      <label text="FASN"/>
+      <bbox x="2025.7" y="902.1" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene3">
+      <label text="FASN"/>
+      <bbox x="2025.7" y="1327.1" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene4">
+      <label text="FASN"/>
+      <bbox x="299.8" y="902.1" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene5">
+      <label text="FASN"/>
+      <bbox x="1600.4" y="2137.6" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene6">
+      <label text="FASN"/>
+      <bbox x="1600.4" y="1730.3" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene7">
+      <label text="FASN"/>
+      <bbox x="1600.4" y="1327.1" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene8">
+      <label text="FASN"/>
+      <bbox x="1600.4" y="902.1" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene9">
+      <label text="FASN"/>
+      <bbox x="299.8" y="1327.1" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene10">
+      <label text="FASN"/>
+      <bbox x="299.8" y="1730.3" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene11">
+      <label text="FASN"/>
+      <bbox x="1121.2" y="2137.6" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene12">
+      <label text="FASN"/>
+      <bbox x="1450.8" y="2266.6" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene13">
+      <label text="FASN"/>
+      <bbox x="2441.5" y="902.1" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene14">
+      <label text="FASN"/>
+      <bbox x="686.1" y="902.1" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene15">
+      <label text="FASN"/>
+      <bbox x="993.7" y="751.9" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene16">
+      <label text="FASN"/>
+      <bbox x="1121.2" y="902.1" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene17">
+      <label text="FASN"/>
+      <bbox x="1121.2" y="1327.1" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene18">
+      <label text="FASN"/>
+      <bbox x="583.0" y="2266.6" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene19">
+      <label text="FASN"/>
+      <bbox x="2441.5" y="2130.9" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene20">
+      <label text="FASN"/>
+      <bbox x="686.1" y="2137.6" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene21">
+      <label text="FASN"/>
+      <bbox x="2441.5" y="1730.3" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene22">
+      <label text="FASN"/>
+      <bbox x="686.1" y="1730.3" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene23">
+      <label text="FASN"/>
+      <bbox x="2441.5" y="1327.1" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene24">
+      <label text="FASN"/>
+      <bbox x="686.1" y="1327.1" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene25">
+      <label text="FASN"/>
+      <bbox x="1121.2" y="1730.3" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene26">
+      <label text="FASN"/>
+      <bbox x="2025.7" y="1730.3" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene27">
+      <label text="FASN"/>
+      <bbox x="2025.7" y="2137.6" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene28">
+      <label text="FASN"/>
+      <bbox x="2323.6" y="2266.6" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="macromolecule" id="gene29">
+      <label text="FASN"/>
+      <bbox x="299.8" y="2137.6" w="60.0" h="30.0"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02246">
+      <label text="MAR02246"/>
+      <bbox x="1918.0" y="676.9" w="30.0" h="30.0"/>
+      <port id="process_MAR02246.1" x="1908.2" y="695.0"/>
+      <port id="process_MAR02246.2" x="1957.8" y="688.8"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02247">
+      <label text="MAR02247"/>
+      <bbox x="2130.7" y="902.1" w="30.0" h="30.0"/>
+      <port id="process_MAR02247.1" x="2147.0" y="892.1"/>
+      <port id="process_MAR02247.2" x="2144.4" y="942.1"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02249">
+      <label text="MAR02249"/>
+      <bbox x="2130.7" y="1327.1" w="30.0" h="30.0"/>
+      <port id="process_MAR02249.1" x="2145.7" y="1317.1"/>
+      <port id="process_MAR02249.2" x="2145.7" y="1367.1"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02227">
+      <label text="MAR02227"/>
+      <bbox x="404.8" y="902.1" w="30.0" h="30.0"/>
+      <port id="process_MAR02227.1" x="419.8" y="892.1"/>
+      <port id="process_MAR02227.2" x="419.8" y="942.1"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02242">
+      <label text="MAR02242"/>
+      <bbox x="1705.4" y="2137.6" w="30.0" h="30.0"/>
+      <port id="process_MAR02242.1" x="1717.4" y="2177.4"/>
+      <port id="process_MAR02242.2" x="1723.4" y="2127.8"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02243">
+      <label text="MAR02243"/>
+      <bbox x="1705.4" y="1730.3" w="30.0" h="30.0"/>
+      <port id="process_MAR02243.1" x="1721.7" y="1770.3"/>
+      <port id="process_MAR02243.2" x="1719.1" y="1720.3"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02244">
+      <label text="MAR02244"/>
+      <bbox x="1705.4" y="1327.1" w="30.0" h="30.0"/>
+      <port id="process_MAR02244.1" x="1720.4" y="1367.1"/>
+      <port id="process_MAR02244.2" x="1720.4" y="1317.1"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02245">
+      <label text="MAR02245"/>
+      <bbox x="1705.4" y="902.1" w="30.0" h="30.0"/>
+      <port id="process_MAR02245.1" x="1721.7" y="942.1"/>
+      <port id="process_MAR02245.2" x="1719.1" y="892.1"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02228">
+      <label text="MAR02228"/>
+      <bbox x="404.8" y="1327.1" w="30.0" h="30.0"/>
+      <port id="process_MAR02228.1" x="419.8" y="1317.1"/>
+      <port id="process_MAR02228.2" x="419.8" y="1367.1"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02229">
+      <label text="MAR02229"/>
+      <bbox x="404.8" y="1730.3" w="30.0" h="30.0"/>
+      <port id="process_MAR02229.1" x="421.1" y="1720.3"/>
+      <port id="process_MAR02229.2" x="418.5" y="1770.3"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02240">
+      <label text="MAR02240"/>
+      <bbox x="1226.2" y="2137.6" w="30.0" h="30.0"/>
+      <port id="process_MAR02240.1" x="1241.2" y="2127.6"/>
+      <port id="process_MAR02240.2" x="1241.2" y="2177.6"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02241">
+      <label text="MAR02241"/>
+      <bbox x="1465.8" y="2341.6" w="30.0" h="30.0"/>
+      <port id="process_MAR02241.1" x="1455.8" y="2357.8"/>
+      <port id="process_MAR02241.2" x="1505.8" y="2355.4"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02257">
+      <label text="MAR02257"/>
+      <bbox x="2546.5" y="902.1" w="30.0" h="30.0"/>
+      <port id="process_MAR02257.1" x="2562.8" y="942.1"/>
+      <port id="process_MAR02257.2" x="2560.2" y="892.1"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02235">
+      <label text="MAR02235"/>
+      <bbox x="791.1" y="902.1" w="30.0" h="30.0"/>
+      <port id="process_MAR02235.1" x="807.4" y="942.1"/>
+      <port id="process_MAR02235.2" x="804.8" y="892.1"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02236">
+      <label text="MAR02236"/>
+      <bbox x="1008.7" y="676.9" w="30.0" h="30.0"/>
+      <port id="process_MAR02236.1" x="998.7" y="691.9"/>
+      <port id="process_MAR02236.2" x="1048.7" y="691.9"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02237">
+      <label text="MAR02237"/>
+      <bbox x="1226.2" y="902.1" w="30.0" h="30.0"/>
+      <port id="process_MAR02237.1" x="1242.5" y="892.1"/>
+      <port id="process_MAR02237.2" x="1239.9" y="942.1"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02238">
+      <label text="MAR02238"/>
+      <bbox x="1226.2" y="1327.1" w="30.0" h="30.0"/>
+      <port id="process_MAR02238.1" x="1238.1" y="1317.3"/>
+      <port id="process_MAR02238.2" x="1244.3" y="1366.9"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02231">
+      <label text="MAR02231"/>
+      <bbox x="598.0" y="2341.6" w="30.0" h="30.0"/>
+      <port id="process_MAR02231.1" x="588.0" y="2358.0"/>
+      <port id="process_MAR02231.2" x="638.0" y="2355.2"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02254">
+      <label text="MAR02254"/>
+      <bbox x="2546.5" y="2130.9" w="30.0" h="30.0"/>
+      <port id="process_MAR02254.1" x="2564.2" y="2170.8"/>
+      <port id="process_MAR02254.2" x="2558.8" y="2121.0"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02232">
+      <label text="MAR02232"/>
+      <bbox x="791.1" y="2137.6" w="30.0" h="30.0"/>
+      <port id="process_MAR02232.1" x="806.1" y="2177.6"/>
+      <port id="process_MAR02232.2" x="806.1" y="2127.6"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02255">
+      <label text="MAR02255"/>
+      <bbox x="2546.5" y="1730.3" w="30.0" h="30.0"/>
+      <port id="process_MAR02255.1" x="2562.8" y="1770.3"/>
+      <port id="process_MAR02255.2" x="2560.2" y="1720.3"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02233">
+      <label text="MAR02233"/>
+      <bbox x="791.1" y="1730.3" w="30.0" h="30.0"/>
+      <port id="process_MAR02233.1" x="807.4" y="1770.3"/>
+      <port id="process_MAR02233.2" x="804.8" y="1720.3"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02256">
+      <label text="MAR02256"/>
+      <bbox x="2546.5" y="1327.1" w="30.0" h="30.0"/>
+      <port id="process_MAR02256.1" x="2558.4" y="1366.9"/>
+      <port id="process_MAR02256.2" x="2564.6" y="1317.3"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02234">
+      <label text="MAR02234"/>
+      <bbox x="791.1" y="1327.1" w="30.0" h="30.0"/>
+      <port id="process_MAR02234.1" x="803.0" y="1366.9"/>
+      <port id="process_MAR02234.2" x="809.2" y="1317.3"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02239">
+      <label text="MAR02239"/>
+      <bbox x="1226.2" y="1730.3" w="30.0" h="30.0"/>
+      <port id="process_MAR02239.1" x="1242.5" y="1720.3"/>
+      <port id="process_MAR02239.2" x="1239.9" y="1770.3"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02250">
+      <label text="MAR02250"/>
+      <bbox x="2130.7" y="1730.3" w="30.0" h="30.0"/>
+      <port id="process_MAR02250.1" x="2147.0" y="1720.3"/>
+      <port id="process_MAR02250.2" x="2144.4" y="1770.3"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02251">
+      <label text="MAR02251"/>
+      <bbox x="2130.7" y="2137.6" w="30.0" h="30.0"/>
+      <port id="process_MAR02251.1" x="2142.7" y="2127.8"/>
+      <port id="process_MAR02251.2" x="2148.7" y="2177.4"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02252">
+      <label text="MAR02252"/>
+      <bbox x="2338.6" y="2341.6" w="30.0" h="30.0"/>
+      <port id="process_MAR02252.1" x="2328.6" y="2358.0"/>
+      <port id="process_MAR02252.2" x="2378.6" y="2355.2"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02230">
+      <label text="MAR02230"/>
+      <bbox x="404.8" y="2137.6" w="30.0" h="30.0"/>
+      <port id="process_MAR02230.1" x="416.8" y="2127.8"/>
+      <port id="process_MAR02230.2" x="422.8" y="2177.4"/>
+    </glyph>
+    <arc class="consumption" id="process_MAR02246_c0" source="met1" target="process_MAR02246.1">
+      <start x="1753.4" y="691.9"/>
+      <end x="1908.2" y="695.0"/>
+    </arc>
+    <arc class="production" id="process_MAR02246_p1" source="process_MAR02246.2" target="met2">
+      <start x="1957.8" y="688.8"/>
+      <end x="2008.9" y="616.0"/>
+    </arc>
+    <arc class="production" id="process_MAR02246_p2" source="process_MAR02246.2" target="met3">
+      <start x="1957.8" y="688.8"/>
+      <end x="2112.7" y="691.9"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02246_e0" source="gene1" target="process_MAR02246">
+      <start x="1933.0" y="766.9"/>
+      <end x="1933.0" y="691.9"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02247_c0" source="met4" target="process_MAR02247.1">
+      <start x="2224.8" y="793.9"/>
+      <end x="2147.0" y="892.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02247_c1" source="met3" target="process_MAR02247.1">
+      <start x="2145.7" y="714.9"/>
+      <end x="2147.0" y="892.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02247_c2" source="met5" target="process_MAR02247.1">
+      <start x="2221.5" y="841.2"/>
+      <end x="2147.0" y="892.1"/>
+    </arc>
+    <arc class="production" id="process_MAR02247_p3" source="process_MAR02247.2" target="met6">
+      <start x="2144.4" y="942.1"/>
+      <end x="2145.7" y="1119.2"/>
+    </arc>
+    <arc class="production" id="process_MAR02247_p4" source="process_MAR02247.2" target="met7">
+      <start x="2144.4" y="942.1"/>
+      <end x="2221.5" y="992.9"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02247_e0" source="gene2" target="process_MAR02247">
+      <start x="2055.7" y="917.1"/>
+      <end x="2145.7" y="917.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02249_c0" source="met6" target="process_MAR02249.1">
+      <start x="2145.7" y="1165.2"/>
+      <end x="2145.7" y="1317.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02249_c1" source="met8" target="process_MAR02249.1">
+      <start x="2224.8" y="1218.9"/>
+      <end x="2145.7" y="1317.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02249_c2" source="met9" target="process_MAR02249.1">
+      <start x="2221.5" y="1266.2"/>
+      <end x="2145.7" y="1317.1"/>
+    </arc>
+    <arc class="production" id="process_MAR02249_p3" source="process_MAR02249.2" target="met10">
+      <start x="2145.7" y="1367.1"/>
+      <end x="2221.5" y="1418.0"/>
+    </arc>
+    <arc class="production" id="process_MAR02249_p4" source="process_MAR02249.2" target="met11">
+      <start x="2145.7" y="1367.1"/>
+      <end x="2224.8" y="1465.3"/>
+    </arc>
+    <arc class="production" id="process_MAR02249_p5" source="process_MAR02249.2" target="met12">
+      <start x="2145.7" y="1367.1"/>
+      <end x="2145.7" y="1519.0"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02249_e0" source="gene3" target="process_MAR02249">
+      <start x="2055.7" y="1342.1"/>
+      <end x="2145.7" y="1342.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02227_c0" source="met13" target="process_MAR02227.1">
+      <start x="495.7" y="841.2"/>
+      <end x="419.8" y="892.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02227_c1" source="met14" target="process_MAR02227.1">
+      <start x="419.8" y="714.9"/>
+      <end x="419.8" y="892.1"/>
+    </arc>
+    <arc class="production" id="process_MAR02227_p2" source="process_MAR02227.2" target="met15">
+      <start x="419.8" y="942.1"/>
+      <end x="419.8" y="1119.2"/>
+    </arc>
+    <arc class="production" id="process_MAR02227_p3" source="process_MAR02227.2" target="met16">
+      <start x="419.8" y="942.1"/>
+      <end x="495.7" y="992.9"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02227_e0" source="gene4" target="process_MAR02227">
+      <start x="329.8" y="917.1"/>
+      <end x="419.8" y="917.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02242_c0" source="met17" target="process_MAR02242.1">
+      <start x="1720.4" y="2333.6"/>
+      <end x="1717.4" y="2177.4"/>
+    </arc>
+    <arc class="production" id="process_MAR02242_p1" source="process_MAR02242.2" target="met18">
+      <start x="1723.4" y="2127.8"/>
+      <end x="1720.4" y="1971.6"/>
+    </arc>
+    <arc class="production" id="process_MAR02242_p2" source="process_MAR02242.2" target="met19">
+      <start x="1723.4" y="2127.8"/>
+      <end x="1796.3" y="2076.8"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02242_e0" source="gene5" target="process_MAR02242">
+      <start x="1630.4" y="2152.6"/>
+      <end x="1720.4" y="2152.6"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02243_c0" source="met18" target="process_MAR02243.1">
+      <start x="1720.4" y="1925.6"/>
+      <end x="1721.7" y="1770.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02243_c1" source="met20" target="process_MAR02243.1">
+      <start x="1796.3" y="1821.1"/>
+      <end x="1721.7" y="1770.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02243_c2" source="met21" target="process_MAR02243.1">
+      <start x="1799.6" y="1868.4"/>
+      <end x="1721.7" y="1770.3"/>
+    </arc>
+    <arc class="production" id="process_MAR02243_p3" source="process_MAR02243.2" target="met22">
+      <start x="1719.1" y="1720.3"/>
+      <end x="1720.4" y="1565.0"/>
+    </arc>
+    <arc class="production" id="process_MAR02243_p4" source="process_MAR02243.2" target="met23">
+      <start x="1719.1" y="1720.3"/>
+      <end x="1796.3" y="1669.4"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02243_e0" source="gene6" target="process_MAR02243">
+      <start x="1630.4" y="1745.3"/>
+      <end x="1720.4" y="1745.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02244_c0" source="met22" target="process_MAR02244.1">
+      <start x="1720.4" y="1519.0"/>
+      <end x="1720.4" y="1367.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02244_c1" source="met24" target="process_MAR02244.1">
+      <start x="1796.3" y="1418.0"/>
+      <end x="1720.4" y="1367.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02244_c2" source="met25" target="process_MAR02244.1">
+      <start x="1799.6" y="1465.3"/>
+      <end x="1720.4" y="1367.1"/>
+    </arc>
+    <arc class="production" id="process_MAR02244_p3" source="process_MAR02244.2" target="met26">
+      <start x="1720.4" y="1317.1"/>
+      <end x="1720.4" y="1165.2"/>
+    </arc>
+    <arc class="production" id="process_MAR02244_p4" source="process_MAR02244.2" target="met27">
+      <start x="1720.4" y="1317.1"/>
+      <end x="1799.6" y="1218.9"/>
+    </arc>
+    <arc class="production" id="process_MAR02244_p5" source="process_MAR02244.2" target="met28">
+      <start x="1720.4" y="1317.1"/>
+      <end x="1796.3" y="1266.2"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02244_e0" source="gene7" target="process_MAR02244">
+      <start x="1630.4" y="1342.1"/>
+      <end x="1720.4" y="1342.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02245_c0" source="met26" target="process_MAR02245.1">
+      <start x="1720.4" y="1119.2"/>
+      <end x="1721.7" y="942.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02245_c1" source="met29" target="process_MAR02245.1">
+      <start x="1796.3" y="992.9"/>
+      <end x="1721.7" y="942.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02245_c2" source="met30" target="process_MAR02245.1">
+      <start x="1799.6" y="1040.2"/>
+      <end x="1721.7" y="942.1"/>
+    </arc>
+    <arc class="production" id="process_MAR02245_p3" source="process_MAR02245.2" target="met1">
+      <start x="1719.1" y="892.1"/>
+      <end x="1720.4" y="714.9"/>
+    </arc>
+    <arc class="production" id="process_MAR02245_p4" source="process_MAR02245.2" target="met31">
+      <start x="1719.1" y="892.1"/>
+      <end x="1796.3" y="841.2"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02245_e0" source="gene8" target="process_MAR02245">
+      <start x="1630.4" y="917.1"/>
+      <end x="1720.4" y="917.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02228_c0" source="met15" target="process_MAR02228.1">
+      <start x="419.8" y="1165.2"/>
+      <end x="419.8" y="1317.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02228_c1" source="met32" target="process_MAR02228.1">
+      <start x="499.0" y="1218.9"/>
+      <end x="419.8" y="1317.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02228_c2" source="met33" target="process_MAR02228.1">
+      <start x="495.7" y="1266.2"/>
+      <end x="419.8" y="1317.1"/>
+    </arc>
+    <arc class="production" id="process_MAR02228_p3" source="process_MAR02228.2" target="met34">
+      <start x="419.8" y="1367.1"/>
+      <end x="495.7" y="1418.0"/>
+    </arc>
+    <arc class="production" id="process_MAR02228_p4" source="process_MAR02228.2" target="met35">
+      <start x="419.8" y="1367.1"/>
+      <end x="499.0" y="1465.3"/>
+    </arc>
+    <arc class="production" id="process_MAR02228_p5" source="process_MAR02228.2" target="met36">
+      <start x="419.8" y="1367.1"/>
+      <end x="419.8" y="1519.0"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02228_e0" source="gene9" target="process_MAR02228">
+      <start x="329.8" y="1342.1"/>
+      <end x="419.8" y="1342.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02229_c0" source="met37" target="process_MAR02229.1">
+      <start x="499.0" y="1622.1"/>
+      <end x="421.1" y="1720.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02229_c1" source="met36" target="process_MAR02229.1">
+      <start x="419.8" y="1565.0"/>
+      <end x="421.1" y="1720.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02229_c2" source="met38" target="process_MAR02229.1">
+      <start x="495.7" y="1669.4"/>
+      <end x="421.1" y="1720.3"/>
+    </arc>
+    <arc class="production" id="process_MAR02229_p3" source="process_MAR02229.2" target="met39">
+      <start x="418.5" y="1770.3"/>
+      <end x="419.8" y="1925.6"/>
+    </arc>
+    <arc class="production" id="process_MAR02229_p4" source="process_MAR02229.2" target="met40">
+      <start x="418.5" y="1770.3"/>
+      <end x="495.7" y="1821.1"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02229_e0" source="gene10" target="process_MAR02229">
+      <start x="329.8" y="1745.3"/>
+      <end x="419.8" y="1745.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02240_c0" source="met41" target="process_MAR02240.1">
+      <start x="1320.4" y="2029.4"/>
+      <end x="1241.2" y="2127.6"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02240_c1" source="met42" target="process_MAR02240.1">
+      <start x="1241.2" y="1971.6"/>
+      <end x="1241.2" y="2127.6"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02240_c2" source="met43" target="process_MAR02240.1">
+      <start x="1317.1" y="2076.8"/>
+      <end x="1241.2" y="2127.6"/>
+    </arc>
+    <arc class="production" id="process_MAR02240_p3" source="process_MAR02240.2" target="met44">
+      <start x="1241.2" y="2177.6"/>
+      <end x="1317.1" y="2228.5"/>
+    </arc>
+    <arc class="production" id="process_MAR02240_p4" source="process_MAR02240.2" target="met45">
+      <start x="1241.2" y="2177.6"/>
+      <end x="1241.2" y="2333.6"/>
+    </arc>
+    <arc class="production" id="process_MAR02240_p5" source="process_MAR02240.2" target="met46">
+      <start x="1241.2" y="2177.6"/>
+      <end x="1320.4" y="2275.8"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02240_e0" source="gene11" target="process_MAR02240">
+      <start x="1151.2" y="2152.6"/>
+      <end x="1241.2" y="2152.6"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02241_c0" source="met47" target="process_MAR02241.1">
+      <start x="1328.5" y="2437.3"/>
+      <end x="1455.8" y="2357.8"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02241_c1" source="met45" target="process_MAR02241.1">
+      <start x="1274.2" y="2356.6"/>
+      <end x="1455.8" y="2357.8"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02241_c2" source="met48" target="process_MAR02241.1">
+      <start x="1405.0" y="2432.5"/>
+      <end x="1455.8" y="2357.8"/>
+    </arc>
+    <arc class="production" id="process_MAR02241_p3" source="process_MAR02241.2" target="met17">
+      <start x="1505.8" y="2355.4"/>
+      <end x="1687.4" y="2356.6"/>
+    </arc>
+    <arc class="production" id="process_MAR02241_p4" source="process_MAR02241.2" target="met49">
+      <start x="1505.8" y="2355.4"/>
+      <end x="1556.7" y="2432.5"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02241_e0" source="gene12" target="process_MAR02241">
+      <start x="1480.8" y="2281.6"/>
+      <end x="1480.8" y="2356.6"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02257_c0" source="met50" target="process_MAR02257.1">
+      <start x="2637.4" y="992.9"/>
+      <end x="2562.8" y="942.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02257_c1" source="met51" target="process_MAR02257.1">
+      <start x="2561.5" y="1119.2"/>
+      <end x="2562.8" y="942.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02257_c2" source="met52" target="process_MAR02257.1">
+      <start x="2640.7" y="1040.2"/>
+      <end x="2562.8" y="942.1"/>
+    </arc>
+    <arc class="production" id="process_MAR02257_p3" source="process_MAR02257.2" target="met53">
+      <start x="2560.2" y="892.1"/>
+      <end x="2561.5" y="714.9"/>
+    </arc>
+    <arc class="production" id="process_MAR02257_p4" source="process_MAR02257.2" target="met54">
+      <start x="2560.2" y="892.1"/>
+      <end x="2637.4" y="841.2"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02257_e0" source="gene13" target="process_MAR02257">
+      <start x="2471.5" y="917.1"/>
+      <end x="2561.5" y="917.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02235_c0" source="met55" target="process_MAR02235.1">
+      <start x="882.0" y="992.9"/>
+      <end x="807.4" y="942.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02235_c1" source="met56" target="process_MAR02235.1">
+      <start x="806.1" y="1119.2"/>
+      <end x="807.4" y="942.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02235_c2" source="met57" target="process_MAR02235.1">
+      <start x="885.3" y="1040.2"/>
+      <end x="807.4" y="942.1"/>
+    </arc>
+    <arc class="production" id="process_MAR02235_p3" source="process_MAR02235.2" target="met58">
+      <start x="804.8" y="892.1"/>
+      <end x="882.0" y="841.2"/>
+    </arc>
+    <arc class="production" id="process_MAR02235_p4" source="process_MAR02235.2" target="met59">
+      <start x="804.8" y="892.1"/>
+      <end x="806.1" y="714.9"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02235_e0" source="gene14" target="process_MAR02235">
+      <start x="716.1" y="917.1"/>
+      <end x="806.1" y="917.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02236_c0" source="met60" target="process_MAR02236.1">
+      <start x="871.4" y="611.2"/>
+      <end x="998.7" y="691.9"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02236_c1" source="met61" target="process_MAR02236.1">
+      <start x="947.8" y="616.0"/>
+      <end x="998.7" y="691.9"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02236_c2" source="met59" target="process_MAR02236.1">
+      <start x="839.1" y="691.9"/>
+      <end x="998.7" y="691.9"/>
+    </arc>
+    <arc class="production" id="process_MAR02236_p3" source="process_MAR02236.2" target="met62">
+      <start x="1048.7" y="691.9"/>
+      <end x="1099.5" y="616.0"/>
+    </arc>
+    <arc class="production" id="process_MAR02236_p4" source="process_MAR02236.2" target="met63">
+      <start x="1048.7" y="691.9"/>
+      <end x="1176.0" y="611.2"/>
+    </arc>
+    <arc class="production" id="process_MAR02236_p5" source="process_MAR02236.2" target="met64">
+      <start x="1048.7" y="691.9"/>
+      <end x="1208.2" y="691.9"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02236_e0" source="gene15" target="process_MAR02236">
+      <start x="1023.7" y="766.9"/>
+      <end x="1023.7" y="691.9"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02237_c0" source="met65" target="process_MAR02237.1">
+      <start x="1320.4" y="793.9"/>
+      <end x="1242.5" y="892.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02237_c1" source="met64" target="process_MAR02237.1">
+      <start x="1241.2" y="714.9"/>
+      <end x="1242.5" y="892.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02237_c2" source="met66" target="process_MAR02237.1">
+      <start x="1317.1" y="841.2"/>
+      <end x="1242.5" y="892.1"/>
+    </arc>
+    <arc class="production" id="process_MAR02237_p3" source="process_MAR02237.2" target="met67">
+      <start x="1239.9" y="942.1"/>
+      <end x="1241.2" y="1119.2"/>
+    </arc>
+    <arc class="production" id="process_MAR02237_p4" source="process_MAR02237.2" target="met68">
+      <start x="1239.9" y="942.1"/>
+      <end x="1317.1" y="992.9"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02237_e0" source="gene16" target="process_MAR02237">
+      <start x="1151.2" y="917.1"/>
+      <end x="1241.2" y="917.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02238_c0" source="met67" target="process_MAR02238.1">
+      <start x="1241.2" y="1165.2"/>
+      <end x="1238.1" y="1317.3"/>
+    </arc>
+    <arc class="production" id="process_MAR02238_p1" source="process_MAR02238.2" target="met69">
+      <start x="1244.3" y="1366.9"/>
+      <end x="1317.1" y="1418.0"/>
+    </arc>
+    <arc class="production" id="process_MAR02238_p2" source="process_MAR02238.2" target="met70">
+      <start x="1244.3" y="1366.9"/>
+      <end x="1241.2" y="1519.0"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02238_e0" source="gene17" target="process_MAR02238">
+      <start x="1151.2" y="1342.1"/>
+      <end x="1241.2" y="1342.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02231_c0" source="met71" target="process_MAR02231.1">
+      <start x="452.8" y="2356.6"/>
+      <end x="588.0" y="2358.0"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02231_c1" source="met72" target="process_MAR02231.1">
+      <start x="460.7" y="2437.3"/>
+      <end x="588.0" y="2358.0"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02231_c2" source="met73" target="process_MAR02231.1">
+      <start x="537.1" y="2432.5"/>
+      <end x="588.0" y="2358.0"/>
+    </arc>
+    <arc class="production" id="process_MAR02231_p3" source="process_MAR02231.2" target="met74">
+      <start x="638.0" y="2355.2"/>
+      <end x="773.1" y="2356.6"/>
+    </arc>
+    <arc class="production" id="process_MAR02231_p4" source="process_MAR02231.2" target="met75">
+      <start x="638.0" y="2355.2"/>
+      <end x="688.9" y="2432.5"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02231_e0" source="gene18" target="process_MAR02231">
+      <start x="613.0" y="2281.6"/>
+      <end x="613.0" y="2356.6"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02254_c0" source="met76" target="process_MAR02254.1">
+      <start x="2710.4" y="2145.9"/>
+      <end x="2564.2" y="2170.8"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02254_c1" source="met77" target="process_MAR02254.1">
+      <start x="2561.5" y="2333.6"/>
+      <end x="2564.2" y="2170.8"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02254_c2" source="met78" target="process_MAR02254.1">
+      <start x="2637.4" y="2221.8"/>
+      <end x="2564.2" y="2170.8"/>
+    </arc>
+    <arc class="production" id="process_MAR02254_p3" source="process_MAR02254.2" target="met79">
+      <start x="2558.8" y="2121.0"/>
+      <end x="2640.7" y="2022.8"/>
+    </arc>
+    <arc class="production" id="process_MAR02254_p4" source="process_MAR02254.2" target="met80">
+      <start x="2558.8" y="2121.0"/>
+      <end x="2637.4" y="2070.1"/>
+    </arc>
+    <arc class="production" id="process_MAR02254_p5" source="process_MAR02254.2" target="met81">
+      <start x="2558.8" y="2121.0"/>
+      <end x="2561.5" y="1971.6"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02254_e0" source="gene19" target="process_MAR02254">
+      <start x="2471.5" y="2145.9"/>
+      <end x="2561.5" y="2145.9"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02232_c0" source="met74" target="process_MAR02232.1">
+      <start x="806.1" y="2333.6"/>
+      <end x="806.1" y="2177.6"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02232_c1" source="met82" target="process_MAR02232.1">
+      <start x="882.0" y="2228.5"/>
+      <end x="806.1" y="2177.6"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02232_c2" source="met83" target="process_MAR02232.1">
+      <start x="885.3" y="2275.8"/>
+      <end x="806.1" y="2177.6"/>
+    </arc>
+    <arc class="production" id="process_MAR02232_p3" source="process_MAR02232.2" target="met84">
+      <start x="806.1" y="2127.6"/>
+      <end x="885.3" y="2029.4"/>
+    </arc>
+    <arc class="production" id="process_MAR02232_p4" source="process_MAR02232.2" target="met85">
+      <start x="806.1" y="2127.6"/>
+      <end x="882.0" y="2076.8"/>
+    </arc>
+    <arc class="production" id="process_MAR02232_p5" source="process_MAR02232.2" target="met86">
+      <start x="806.1" y="2127.6"/>
+      <end x="806.1" y="1971.6"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02232_e0" source="gene20" target="process_MAR02232">
+      <start x="716.1" y="2152.6"/>
+      <end x="806.1" y="2152.6"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02255_c0" source="met87" target="process_MAR02255.1">
+      <start x="2637.4" y="1821.1"/>
+      <end x="2562.8" y="1770.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02255_c1" source="met81" target="process_MAR02255.1">
+      <start x="2561.5" y="1925.6"/>
+      <end x="2562.8" y="1770.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02255_c2" source="met88" target="process_MAR02255.1">
+      <start x="2640.7" y="1868.4"/>
+      <end x="2562.8" y="1770.3"/>
+    </arc>
+    <arc class="production" id="process_MAR02255_p3" source="process_MAR02255.2" target="met89">
+      <start x="2560.2" y="1720.3"/>
+      <end x="2637.4" y="1669.4"/>
+    </arc>
+    <arc class="production" id="process_MAR02255_p4" source="process_MAR02255.2" target="met90">
+      <start x="2560.2" y="1720.3"/>
+      <end x="2561.5" y="1565.0"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02255_e0" source="gene21" target="process_MAR02255">
+      <start x="2471.5" y="1745.3"/>
+      <end x="2561.5" y="1745.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02233_c0" source="met91" target="process_MAR02233.1">
+      <start x="882.0" y="1821.1"/>
+      <end x="807.4" y="1770.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02233_c1" source="met86" target="process_MAR02233.1">
+      <start x="806.1" y="1925.6"/>
+      <end x="807.4" y="1770.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02233_c2" source="met92" target="process_MAR02233.1">
+      <start x="885.3" y="1868.4"/>
+      <end x="807.4" y="1770.3"/>
+    </arc>
+    <arc class="production" id="process_MAR02233_p3" source="process_MAR02233.2" target="met93">
+      <start x="804.8" y="1720.3"/>
+      <end x="806.1" y="1565.0"/>
+    </arc>
+    <arc class="production" id="process_MAR02233_p4" source="process_MAR02233.2" target="met94">
+      <start x="804.8" y="1720.3"/>
+      <end x="882.0" y="1669.4"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02233_e0" source="gene22" target="process_MAR02233">
+      <start x="716.1" y="1745.3"/>
+      <end x="806.1" y="1745.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02256_c0" source="met90" target="process_MAR02256.1">
+      <start x="2561.5" y="1519.0"/>
+      <end x="2558.4" y="1366.9"/>
+    </arc>
+    <arc class="production" id="process_MAR02256_p1" source="process_MAR02256.2" target="met51">
+      <start x="2564.6" y="1317.3"/>
+      <end x="2561.5" y="1165.2"/>
+    </arc>
+    <arc class="production" id="process_MAR02256_p2" source="process_MAR02256.2" target="met95">
+      <start x="2564.6" y="1317.3"/>
+      <end x="2637.4" y="1266.2"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02256_e0" source="gene23" target="process_MAR02256">
+      <start x="2471.5" y="1342.1"/>
+      <end x="2561.5" y="1342.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02234_c0" source="met93" target="process_MAR02234.1">
+      <start x="806.1" y="1519.0"/>
+      <end x="803.0" y="1366.9"/>
+    </arc>
+    <arc class="production" id="process_MAR02234_p1" source="process_MAR02234.2" target="met56">
+      <start x="809.2" y="1317.3"/>
+      <end x="806.1" y="1165.2"/>
+    </arc>
+    <arc class="production" id="process_MAR02234_p2" source="process_MAR02234.2" target="met96">
+      <start x="809.2" y="1317.3"/>
+      <end x="882.0" y="1266.2"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02234_e0" source="gene24" target="process_MAR02234">
+      <start x="716.1" y="1342.1"/>
+      <end x="806.1" y="1342.1"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02239_c0" source="met97" target="process_MAR02239.1">
+      <start x="1320.4" y="1622.1"/>
+      <end x="1242.5" y="1720.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02239_c1" source="met70" target="process_MAR02239.1">
+      <start x="1241.2" y="1565.0"/>
+      <end x="1242.5" y="1720.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02239_c2" source="met98" target="process_MAR02239.1">
+      <start x="1317.1" y="1669.4"/>
+      <end x="1242.5" y="1720.3"/>
+    </arc>
+    <arc class="production" id="process_MAR02239_p3" source="process_MAR02239.2" target="met42">
+      <start x="1239.9" y="1770.3"/>
+      <end x="1241.2" y="1925.6"/>
+    </arc>
+    <arc class="production" id="process_MAR02239_p4" source="process_MAR02239.2" target="met99">
+      <start x="1239.9" y="1770.3"/>
+      <end x="1317.1" y="1821.1"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02239_e0" source="gene25" target="process_MAR02239">
+      <start x="1151.2" y="1745.3"/>
+      <end x="1241.2" y="1745.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02250_c0" source="met100" target="process_MAR02250.1">
+      <start x="2224.8" y="1622.1"/>
+      <end x="2147.0" y="1720.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02250_c1" source="met12" target="process_MAR02250.1">
+      <start x="2145.7" y="1565.0"/>
+      <end x="2147.0" y="1720.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02250_c2" source="met101" target="process_MAR02250.1">
+      <start x="2221.5" y="1669.4"/>
+      <end x="2147.0" y="1720.3"/>
+    </arc>
+    <arc class="production" id="process_MAR02250_p3" source="process_MAR02250.2" target="met102">
+      <start x="2144.4" y="1770.3"/>
+      <end x="2145.7" y="1925.6"/>
+    </arc>
+    <arc class="production" id="process_MAR02250_p4" source="process_MAR02250.2" target="met103">
+      <start x="2144.4" y="1770.3"/>
+      <end x="2221.5" y="1821.1"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02250_e0" source="gene26" target="process_MAR02250">
+      <start x="2055.7" y="1745.3"/>
+      <end x="2145.7" y="1745.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02251_c0" source="met102" target="process_MAR02251.1">
+      <start x="2145.7" y="1971.6"/>
+      <end x="2142.7" y="2127.8"/>
+    </arc>
+    <arc class="production" id="process_MAR02251_p1" source="process_MAR02251.2" target="met104">
+      <start x="2148.7" y="2177.4"/>
+      <end x="2145.7" y="2333.6"/>
+    </arc>
+    <arc class="production" id="process_MAR02251_p2" source="process_MAR02251.2" target="met105">
+      <start x="2148.7" y="2177.4"/>
+      <end x="2221.5" y="2228.5"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02251_e0" source="gene27" target="process_MAR02251">
+      <start x="2055.7" y="2152.6"/>
+      <end x="2145.7" y="2152.6"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02252_c0" source="met104" target="process_MAR02252.1">
+      <start x="2178.7" y="2356.6"/>
+      <end x="2328.6" y="2358.0"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02252_c1" source="met106" target="process_MAR02252.1">
+      <start x="2201.3" y="2437.3"/>
+      <end x="2328.6" y="2358.0"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02252_c2" source="met107" target="process_MAR02252.1">
+      <start x="2277.7" y="2432.5"/>
+      <end x="2328.6" y="2358.0"/>
+    </arc>
+    <arc class="production" id="process_MAR02252_p3" source="process_MAR02252.2" target="met77">
+      <start x="2378.6" y="2355.2"/>
+      <end x="2528.5" y="2356.6"/>
+    </arc>
+    <arc class="production" id="process_MAR02252_p4" source="process_MAR02252.2" target="met108">
+      <start x="2378.6" y="2355.2"/>
+      <end x="2429.4" y="2432.5"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02252_e0" source="gene28" target="process_MAR02252">
+      <start x="2353.6" y="2281.6"/>
+      <end x="2353.6" y="2356.6"/>
+    </arc>
+    <arc class="consumption" id="process_MAR02230_c0" source="met39" target="process_MAR02230.1">
+      <start x="419.8" y="1971.6"/>
+      <end x="416.8" y="2127.8"/>
+    </arc>
+    <arc class="production" id="process_MAR02230_p1" source="process_MAR02230.2" target="met71">
+      <start x="422.8" y="2177.4"/>
+      <end x="419.8" y="2333.6"/>
+    </arc>
+    <arc class="production" id="process_MAR02230_p2" source="process_MAR02230.2" target="met109">
+      <start x="422.8" y="2177.4"/>
+      <end x="495.7" y="2228.5"/>
+    </arc>
+    <arc class="catalysis" id="process_MAR02230_e0" source="gene29" target="process_MAR02230">
+      <start x="329.8" y="2152.6"/>
+      <end x="419.8" y="2152.6"/>
+    </arc>
+  </map>
+</sbgn>

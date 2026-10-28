@@ -1,3 +1,89 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:66b97a5b71203ad9311d66b404759c0b05af0ac75b3afd35a87716def8d352cb
-size 3794
+<?xml version='1.0' encoding='UTF-8'?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.3">
+  <map id="alkaloids_biosynthesis" version="http://identifiers.org/combine.specifications/sbgn.pd.level-1.version-1.3">
+    <glyph class="compartment" id="comp1">
+      <label text="Endoplasmic reticulum"/>
+      <bbox x="270.0" y="467.6" w="1144.1" h="547.8"/>
+    </glyph>
+    <glyph class="simple chemical" id="met1" compartmentRef="comp1">
+      <label text="Pseudoecgonine"/>
+      <bbox x="811.5" y="833.4" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met2" compartmentRef="comp1">
+      <label text="CoA"/>
+      <bbox x="794.8" y="756.4" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met3" compartmentRef="comp1">
+      <label text="ATP"/>
+      <bbox x="874.8" y="756.4" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met4" compartmentRef="comp1">
+      <label text="H+"/>
+      <bbox x="714.8" y="756.4" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met5" compartmentRef="comp1">
+      <label text="AMP"/>
+      <bbox x="454.8" y="756.4" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met6" compartmentRef="comp1">
+      <label text="pseudoecgonyl-CoA"/>
+      <bbox x="393.6" y="833.4" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met7" compartmentRef="comp1">
+      <label text="PPi"/>
+      <bbox x="534.8" y="756.4" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met8" compartmentRef="comp1">
+      <label text="ecgonine"/>
+      <bbox x="1244.3" y="833.4" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="process" id="process_MAR01591">
+      <label text="MAR01591"/>
+      <bbox x="616.8" y="838.4" w="30.0" h="30.0"/>
+      <port id="process_MAR01591.1" x="656.8" y="852.7"/>
+      <port id="process_MAR01591.2" x="606.8" y="854.1"/>
+    </glyph>
+    <glyph class="process" id="process_MAR00447">
+      <label text="MAR00447"/>
+      <bbox x="1042.9" y="838.4" w="30.0" h="30.0"/>
+      <port id="process_MAR00447.1" x="1082.9" y="853.4"/>
+      <port id="process_MAR00447.2" x="1032.9" y="853.4"/>
+    </glyph>
+    <arc class="consumption" id="process_MAR01591_c0" source="met1" target="process_MAR01591.1">
+      <start x="808.5" y="853.4"/>
+      <end x="656.8" y="852.7"/>
+    </arc>
+    <arc class="consumption" id="process_MAR01591_c1" source="met2" target="process_MAR01591.1">
+      <start x="784.1" y="772.8"/>
+      <end x="656.8" y="852.7"/>
+    </arc>
+    <arc class="consumption" id="process_MAR01591_c2" source="met3" target="process_MAR01591.1">
+      <start x="863.0" y="770.2"/>
+      <end x="656.8" y="852.7"/>
+    </arc>
+    <arc class="consumption" id="process_MAR01591_c3" source="met4" target="process_MAR01591.1">
+      <start x="707.7" y="777.6"/>
+      <end x="656.8" y="852.7"/>
+    </arc>
+    <arc class="production" id="process_MAR01591_p4" source="process_MAR01591.2" target="met5">
+      <start x="606.8" y="854.1"/>
+      <end x="479.5" y="772.8"/>
+    </arc>
+    <arc class="production" id="process_MAR01591_p5" source="process_MAR01591.2" target="met6">
+      <start x="606.8" y="854.1"/>
+      <end x="456.6" y="853.4"/>
+    </arc>
+    <arc class="production" id="process_MAR01591_p6" source="process_MAR01591.2" target="met7">
+      <start x="606.8" y="854.1"/>
+      <end x="556.0" y="777.6"/>
+    </arc>
+    <arc class="consumption" id="process_MAR00447_c0" source="met8" target="process_MAR00447.1">
+      <start x="1241.3" y="853.4"/>
+      <end x="1082.9" y="853.4"/>
+    </arc>
+    <arc class="production" id="process_MAR00447_p1" source="process_MAR00447.2" target="met1">
+      <start x="1032.9" y="853.4"/>
+      <end x="874.5" y="853.4"/>
+    </arc>
+  </map>
+</sbgn>

@@ -1,3 +1,1819 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2ef050822d119d24f542c7821c4debc433d79be7182d721c6c2a42703725f2bf
-size 120687
+<svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" width="4126.6" height="2863.3" version="1.2" data-modelname="humanGEM" data-modelversion="2.1.1" data-pluginversion="1.6">
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description about="license" dc:description="Copyright Department of Biology and Biological Engineering, Chalmers University of Technology. This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Obtained from https://metabolicatlas.org" cc:license="http://creativecommons.org/licenses/by-sa/4.0/"/>
+      <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g id="Mitochondria" class="compartment">
+    <rect class="shape" x="300" y="432.2" width="3526.6" height="2081.1" rx="150" ry="150" fill="none" stroke="#000" stroke-width="22"/>
+    <text y="60" transform="matrix(1,0,0,1,615.6,498.6)" fill="#00000" font-family="sans-serif" font-size="72" font-weight="700" text-anchor="middle">
+      Mitochondria
+    </text>
+  </g>
+  <g id="Beta oxidation of odd-chain fatty acids (mitochondrial)" class="subsystem" data-bounds="minX:463.5;maxX:3687.1;minY:300.0;maxY:2428.7">
+    <path class="shape" d="M2186.5 1800.6L2355.4 1800.6M2006.3 1800.6L2186.5 1800.6M3378.6 706.4L3174.3 706.4L3597.1 706.4L3378.6 706.4M1600.7 2117.6L1831.8 2117.6L1261.5 2117.6L1600.7 2117.6M3597.1 891.7L3597.1 706.4L3597.1 1084.7L3597.1 891.7M3378.6 1084.7L3597.1 1084.7L3174.3 1084.7L3378.6 1084.7M1836.9 1449.6L1671.0 1449.6L2006.3 1449.6L1836.9 1449.6M3597.1 1625.1L3597.1 1449.6L3597.1 1800.6L3597.1 1625.1M1836.9 706.4L1671.0 706.4L2006.3 706.4L1836.9 706.4M3378.6 1800.6L3597.1 1800.6L3174.3 1800.6L3378.6 1800.6M2186.5 706.4L2006.3 706.4L2355.4 706.4L2186.5 706.4M2964.9 1800.6L3174.3 1800.6L2738.1 1800.6L2964.9 1800.6M2527.9 706.4L2355.4 706.4L2738.1 706.4L2527.9 706.4M2527.9 1800.6L2738.1 1800.6L2355.4 1800.6L2527.9 1800.6M2964.9 706.4L2738.1 706.4L3174.3 706.4L2964.9 706.4M1533.0 2288.7L1831.8 2288.7L1261.5 2288.7L1261.5 2117.6L1261.5 2288.7M2186.5 1449.6L2006.3 1449.6L2355.4 1449.6L2186.5 1449.6M2527.9 1449.6L2355.4 1449.6L2738.1 1449.6L2527.9 1449.6M666.7 706.4L464.5 706.4L877.6 706.4L666.7 706.4M2964.9 1449.6L2738.1 1449.6L3174.3 1449.6L2964.9 1449.6M1080.1 706.4L877.6 706.4L1267.3 706.4L1080.1 706.4M3378.6 1449.6L3174.3 1449.6L3597.1 1449.6L3378.6 1449.6M1475.8 706.4L1267.3 706.4L1671.0 706.4L1475.8 706.4M667.3 1800.6L877.6 1800.6L476.4 1800.6L476.4 1948.4L476.4 1800.6M476.4 2117.6L476.4 1948.4L476.4 2117.6L865.6 2117.6L655.3 2117.6M1073.0 2117.6L865.6 2117.6L1261.5 2117.6L1073.0 2117.6M1080.1 1449.6L877.6 1449.6L1267.3 1449.6L1080.1 1449.6M1475.8 1449.6L1267.3 1449.6L1671.0 1449.6L1475.8 1449.6M1836.9 1800.6L2006.3 1800.6L1671.0 1800.6L1836.9 1800.6M1475.8 1800.6L1671.0 1800.6L1267.3 1800.6L1475.8 1800.6M1085.0 1800.6L1267.3 1800.6L877.6 1800.6L1085.0 1800.6M1475.8 1084.7L1671.0 1084.7L1267.3 1084.7L1475.8 1084.7M1080.1 1084.7L1267.3 1084.7L877.6 1084.7L1080.1 1084.7M666.7 1084.7L877.6 1084.7L463.5 1084.7L463.5 1274.9L463.5 1084.7M463.5 1449.6L463.5 1274.9L463.5 1449.6M877.6 1449.6L666.7 1449.6M2964.9 1084.7L3174.3 1084.7L2738.1 1084.7L2964.9 1084.7M2527.9 1084.7L2738.1 1084.7L2355.4 1084.7L2527.9 1084.7M2186.5 1084.7L2355.4 1084.7L2006.3 1084.7L2186.5 1084.7M1836.9 1084.7L2006.3 1084.7L1671.0 1084.7L1836.9 1084.7" fill="none" stroke="#ffb199" stroke-width="80" opacity=".5" stroke-linejoin="round" stroke-linecap="round"/>
+    <text y="20" transform="matrix(1,0,0,1,2063.3,362)" fill="#ffb199" stroke="#333" font-family="sans-serif" font-size="100" font-weight="700" text-anchor="middle">
+      Beta oxidation of odd-chain fatty acids (mitochondrial)
+    </text>
+  </g>
+  <g id="fes" fill="none" stroke="#666" stroke-width="3">
+    <path class="fe MAR03199" d="M2322.4 1800.6L2219.5 1800.6M2262.3 1724.8L2203.0 1784.1M2153.5 1800.6L2039.3 1800.6"/>
+    <path class="fe MAR03177" d="M3302.8 630.6L3362.1 689.9M3207.3 706.4L3345.6 706.4M3411.6 706.4L3564.1 706.4M3395.1 689.9L3454.5 630.6"/>
+    <path class="fe MAR03397" d="M1679.9 1994.5L1613.6 2097.6M1676.5 2041.8L1617.2 2101.1M1753.0 2037.0L1622.3 2106.2M1831.9 2034.4L1625.0 2108.9M1798.8 2117.6L1633.7 2117.6M1584.2 2101.1L1524.8 2041.8M1567.7 2117.6L1294.5 2117.6M1579.1 2106.2L1448.4 2037.0M1587.8 2097.6L1521.5 1994.5M1590.0 2095.4L1520.6 1951.1"/>
+    <path class="fe MAR03178" d="M3673.0 815.8L3613.6 875.2M3597.1 729.4L3597.1 858.7M3597.1 924.7L3597.1 1061.7M3613.6 908.2L3673.0 967.5"/>
+    <path class="fe MAR03179" d="M3564.1 1084.7L3411.6 1084.7M3454.5 1008.8L3395.1 1068.2M3345.6 1084.7L3207.3 1084.7"/>
+    <path class="fe MAR03190" d="M1704.0 1449.6L1803.9 1449.6M1761.0 1373.7L1820.4 1433.1M1869.9 1449.6L1973.3 1449.6M1853.4 1433.1L1912.7 1373.7"/>
+    <path class="fe MAR03195" d="M3597.1 1472.6L3597.1 1592.1M3673.0 1549.2L3613.6 1608.6M3597.1 1658.1L3597.1 1777.6"/>
+    <path class="fe MAR03173" d="M1761.0 782.3L1820.4 722.9M1704.0 706.4L1803.9 706.4M1869.9 706.4L1973.3 706.4M1853.4 722.9L1912.7 782.3"/>
+    <path class="fe MAR03196" d="M3454.5 1724.8L3395.1 1784.1M3564.1 1800.6L3411.6 1800.6M3362.1 1784.1L3302.8 1724.8M3357.1 1789.2L3226.3 1720.0M3345.6 1800.6L3207.3 1800.6"/>
+    <path class="fe MAR03174" d="M2110.6 630.6L2170.0 689.9M2039.3 706.4L2153.5 706.4M2219.5 706.4L2322.4 706.4M2203.0 689.9L2262.3 630.6"/>
+    <path class="fe MAR03197" d="M3040.8 1724.8L2981.4 1784.1M3141.3 1800.6L2997.9 1800.6M2931.9 1800.6L2771.1 1800.6M2948.4 1784.1L2889.0 1724.8"/>
+    <path class="fe MAR03175" d="M2388.4 706.4L2494.9 706.4M2452.1 630.6L2511.4 689.9M2560.9 706.4L2705.1 706.4"/>
+    <path class="fe MAR03198" d="M2603.8 1724.8L2544.4 1784.1M2705.1 1800.6L2560.9 1800.6M2494.9 1800.6L2388.4 1800.6M2511.4 1784.1L2452.1 1724.8"/>
+    <path class="fe MAR03176" d="M2889.0 630.6L2948.4 689.9M2771.1 706.4L2931.9 706.4M2981.4 689.9L3040.8 630.6M2986.5 695.0L3117.2 625.8M2997.9 706.4L3141.3 706.4"/>
+    <path class="fe MAR03396" d="M1612.2 2411.8L1545.9 2308.7M1798.8 2288.7L1566.0 2288.7M1608.8 2364.5L1549.5 2305.2M1685.3 2369.3L1554.6 2300.1M1764.2 2371.9L1557.3 2297.4M1516.5 2305.2L1457.1 2364.5M1500.0 2288.7L1261.5 2288.7L1261.5 2140.6M1511.4 2300.1L1380.7 2369.3M1520.1 2308.7L1453.8 2411.8M1508.7 2297.4L1301.8 2371.9"/>
+    <path class="fe MAR03191" d="M2110.6 1373.7L2170.0 1433.1M2039.3 1449.6L2153.5 1449.6M2219.5 1449.6L2322.4 1449.6"/>
+    <path class="fe MAR03192" d="M2452.1 1373.7L2511.4 1433.1M2388.4 1449.6L2494.9 1449.6M2544.4 1433.1L2603.8 1373.7M2560.9 1449.6L2705.1 1449.6M2549.5 1438.1L2680.2 1368.9"/>
+    <path class="fe MAR03170" d="M590.8 630.6L650.2 689.9M497.5 706.4L633.7 706.4M699.7 706.4L844.6 706.4M683.2 689.9L742.5 630.6"/>
+    <path class="fe MAR03193" d="M2771.1 1449.6L2931.9 1449.6M2889.0 1373.7L2948.4 1433.1M2997.9 1449.6L3141.3 1449.6M2981.4 1433.1L3040.8 1373.7"/>
+    <path class="fe MAR03171" d="M910.6 706.4L1047.1 706.4M1004.2 630.6L1063.6 689.9M1113.1 706.4L1234.3 706.4"/>
+    <path class="fe MAR03194" d="M3302.8 1373.7L3362.1 1433.1M3207.3 1449.6L3345.6 1449.6M3411.6 1449.6L3564.1 1449.6M3395.1 1433.1L3454.5 1373.7"/>
+    <path class="fe MAR03172" d="M1400.0 630.6L1459.3 689.9M1300.3 706.4L1442.8 706.4M1492.3 689.9L1551.7 630.6M1497.4 695.0L1628.2 625.8M1508.8 706.4L1638.0 706.4"/>
+    <path class="fe MAR03203" d="M844.6 1800.6L700.3 1800.6M743.2 1724.8L683.8 1784.1M634.3 1800.6L476.4 1800.6L476.4 1925.4"/>
+    <path class="fe MAR03204" d="M579.5 2041.8L638.8 2101.1M476.4 1971.4L476.4 2117.6L622.3 2117.6M671.8 2101.1L731.2 2041.8M676.9 2106.2L807.7 2037.0M688.3 2117.6L832.6 2117.6"/>
+    <path class="fe MAR03205" d="M997.2 2041.8L1056.5 2101.1M898.6 2117.6L1040.0 2117.6M1106.0 2117.6L1228.5 2117.6M1089.5 2101.1L1148.9 2041.8"/>
+    <path class="fe MAR03188" d="M1004.2 1373.7L1063.6 1433.1M910.6 1449.6L1047.1 1449.6M1096.6 1433.1L1155.9 1373.7M1101.6 1438.1L1232.4 1368.9M1113.1 1449.6L1234.3 1449.6"/>
+    <path class="fe MAR03189" d="M1400.0 1525.4L1459.3 1466.1M1300.3 1449.6L1442.8 1449.6M1508.8 1449.6L1638.0 1449.6M1492.3 1466.1L1551.7 1525.4"/>
+    <path class="fe MAR03200" d="M1912.7 1876.5L1853.4 1817.1M1973.3 1800.6L1869.9 1800.6M1820.4 1817.1L1761.0 1876.5M1815.3 1812.1L1684.6 1881.3M1803.9 1800.6L1704.0 1800.6"/>
+    <path class="fe MAR03201" d="M1551.7 1724.8L1492.3 1784.1M1638.0 1800.6L1508.8 1800.6M1442.8 1800.6L1300.3 1800.6M1459.3 1784.1L1400.0 1724.8"/>
+    <path class="fe MAR03202" d="M1160.9 1724.8L1101.5 1784.1M1234.3 1800.6L1118.0 1800.6M1052.0 1800.6L910.6 1800.6M1068.5 1784.1L1009.1 1724.8"/>
+    <path class="fe MAR03184" d="M1551.7 1008.8L1492.3 1068.2M1638.0 1084.7L1508.8 1084.7M1459.3 1068.2L1400.0 1008.8M1454.3 1073.3L1323.5 1004.0M1442.8 1084.7L1300.3 1084.7"/>
+    <path class="fe MAR03185" d="M1155.9 1160.5L1096.6 1101.2M1234.3 1084.7L1113.1 1084.7M1047.1 1084.7L910.6 1084.7M1063.6 1101.2L1004.2 1160.5"/>
+    <path class="fe MAR03186" d="M742.5 1008.8L683.2 1068.2M844.6 1084.7L699.7 1084.7M633.7 1084.7L463.5 1084.7L463.5 1251.9M650.2 1068.2L590.8 1008.8"/>
+    <path class="fe MAR03187" d="M463.5 1297.9L463.5 1449.6L633.7 1449.6M590.8 1373.7L650.2 1433.1M699.7 1449.6L844.6 1449.6"/>
+    <path class="fe MAR03180" d="M3040.8 1008.8L2981.4 1068.2M3141.3 1084.7L2997.9 1084.7M2948.4 1068.2L2889.0 1008.8M2943.3 1073.3L2812.6 1004.0M2931.9 1084.7L2771.1 1084.7"/>
+    <path class="fe MAR03181" d="M2603.8 1008.8L2544.4 1068.2M2705.1 1084.7L2560.9 1084.7M2494.9 1084.7L2388.4 1084.7M2511.4 1068.2L2452.1 1008.8"/>
+    <path class="fe MAR03182" d="M2322.4 1084.7L2219.5 1084.7M2262.3 1160.5L2203.0 1101.2M2153.5 1084.7L2039.3 1084.7M2170.0 1101.2L2110.6 1160.5"/>
+    <path class="fe MAR03183" d="M1973.3 1084.7L1869.9 1084.7M1912.7 1008.8L1853.4 1068.2M1803.9 1084.7L1704.0 1084.7"/>
+  </g>
+  <g id="fehs" fill="#666">
+    <path class="feh MAR03199" d="M2231.5 1805.6L2231.5 1795.6L2217.5 1800.6M2215.0 1779.2L2207.9 1772.1L2201.6 1785.5M2051.3 1805.6L2051.3 1795.6L2037.3 1800.6"/>
+    <path class="feh MAR03177" d="M3357.2 677.9L3350.1 685.0L3363.6 691.3M3333.6 701.4L3333.6 711.4L3347.6 706.4M3552.1 701.4L3552.1 711.4L3566.1 706.4M3442.5 635.5L3449.6 642.6L3455.9 629.2"/>
+    <path class="feh MAR03397" d="M1624.3 2090.2L1615.9 2084.8L1612.5 2099.2M1629.2 2096.2L1622.1 2089.1L1615.8 2102.6M1635.2 2105.0L1630.5 2096.2L1620.5 2107.2M1637.9 2109.5L1634.5 2100.1L1623.1 2109.6M1645.7 2122.6L1645.7 2112.6L1631.7 2117.6M1529.8 2053.8L1536.9 2046.7L1523.4 2040.4M1306.5 2122.6L1306.5 2112.6L1292.5 2117.6M1456.6 2047.0L1461.3 2038.2L1446.6 2036.1M1523.8 2007.3L1532.2 2001.9L1520.4 1992.8M1521.3 1964.1L1530.3 1959.7L1519.7 1949.3"/>
+    <path class="feh MAR03178" d="M3625.7 870.2L3618.6 863.1L3612.2 876.6M3602.1 846.7L3592.1 846.7L3597.1 860.7M3602.1 1049.7L3592.1 1049.7L3597.1 1063.7M3668.1 955.5L3661.0 962.6L3674.4 968.9"/>
+    <path class="feh MAR03179" d="M3423.6 1089.7L3423.6 1079.7L3409.6 1084.7M3407.2 1063.2L3400.1 1056.2L3393.7 1069.6M3219.3 1089.7L3219.3 1079.7L3205.3 1084.7"/>
+    <path class="feh MAR03190" d="M1791.9 1444.6L1791.9 1454.6L1805.9 1449.6M1815.4 1421.0L1808.4 1428.1L1821.8 1434.5M1961.3 1444.6L1961.3 1454.6L1975.3 1449.6M1900.7 1378.7L1907.8 1385.7L1914.2 1372.3"/>
+    <path class="feh MAR03195" d="M3602.1 1580.1L3592.1 1580.1L3597.1 1594.1M3625.7 1603.7L3618.6 1596.6L3612.2 1610.0M3602.1 1765.6L3592.1 1765.6L3597.1 1779.6"/>
+    <path class="feh MAR03173" d="M1808.4 727.9L1815.4 735.0L1821.8 721.5M1791.9 701.4L1791.9 711.4L1805.9 706.4M1961.3 701.4L1961.3 711.4L1975.3 706.4M1907.8 770.3L1900.7 777.3L1914.2 783.7"/>
+    <path class="feh MAR03196" d="M3407.2 1779.2L3400.1 1772.1L3393.7 1785.5M3423.6 1805.6L3423.6 1795.6L3409.6 1800.6M3307.7 1736.8L3314.8 1729.7L3301.4 1723.4M3234.6 1730.0L3239.3 1721.2L3224.6 1719.1M3219.3 1805.6L3219.3 1795.6L3205.3 1800.6"/>
+    <path class="feh MAR03174" d="M2165.0 677.9L2158.0 685.0L2171.4 691.3M2141.5 701.4L2141.5 711.4L2155.5 706.4M2310.4 701.4L2310.4 711.4L2324.4 706.4M2250.3 635.5L2257.4 642.6L2263.7 629.2"/>
+    <path class="feh MAR03197" d="M2993.4 1779.2L2986.4 1772.1L2980.0 1785.5M3009.9 1805.6L3009.9 1795.6L2995.9 1800.6M2783.1 1805.6L2783.1 1795.6L2769.1 1800.6M2894.0 1736.8L2901.1 1729.7L2887.6 1723.4"/>
+    <path class="feh MAR03175" d="M2482.9 701.4L2482.9 711.4L2496.9 706.4M2506.5 677.9L2499.4 685.0L2512.8 691.3M2693.1 701.4L2693.1 711.4L2707.1 706.4"/>
+    <path class="feh MAR03198" d="M2556.4 1779.2L2549.4 1772.1L2543.0 1785.5M2572.9 1805.6L2572.9 1795.6L2558.9 1800.6M2400.4 1805.6L2400.4 1795.6L2386.4 1800.6M2457.0 1736.8L2464.1 1729.7L2450.6 1723.4"/>
+    <path class="feh MAR03176" d="M2943.5 677.9L2936.4 685.0L2949.8 691.3M2919.9 701.4L2919.9 711.4L2933.9 706.4M3028.7 635.5L3035.8 642.6L3042.2 629.2M3104.3 627.0L3109.0 635.8L3119.0 624.9M3129.3 701.4L3129.3 711.4L3143.3 706.4"/>
+    <path class="feh MAR03396" d="M1548.2 2321.5L1556.6 2316.1L1544.8 2307.1M1578.0 2293.7L1578.0 2283.7L1564.0 2288.7M1554.4 2317.2L1561.5 2310.1L1548.1 2303.7M1562.8 2310.1L1567.5 2301.3L1552.8 2299.1M1566.8 2306.2L1570.2 2296.8L1555.4 2296.7M1469.2 2359.6L1462.1 2352.5L1455.7 2365.9M1256.5 2152.6L1266.5 2152.6L1261.5 2138.6M1393.6 2368.1L1388.9 2359.3L1378.9 2370.2M1464.5 2404.4L1456.1 2399.0L1452.7 2413.5M1314.8 2372.5L1311.4 2363.1L1299.9 2372.6"/>
+    <path class="feh MAR03191" d="M2165.0 1421.0L2158.0 1428.1L2171.4 1434.5M2141.5 1444.6L2141.5 1454.6L2155.5 1449.6M2310.4 1444.6L2310.4 1454.6L2324.4 1449.6"/>
+    <path class="feh MAR03192" d="M2506.5 1421.0L2499.4 1428.1L2512.8 1434.5M2482.9 1444.6L2482.9 1454.6L2496.9 1449.6M2591.7 1378.7L2598.8 1385.7L2605.2 1372.3M2693.1 1444.6L2693.1 1454.6L2707.1 1449.6M2667.3 1370.1L2672.0 1379.0L2682.0 1368.0"/>
+    <path class="feh MAR03170" d="M645.2 677.9L638.2 685.0L651.6 691.3M621.7 701.4L621.7 711.4L635.7 706.4M832.6 701.4L832.6 711.4L846.6 706.4M730.5 635.5L737.6 642.6L744.0 629.2"/>
+    <path class="feh MAR03193" d="M2919.9 1444.6L2919.9 1454.6L2933.9 1449.6M2943.5 1421.0L2936.4 1428.1L2949.8 1434.5M3129.3 1444.6L3129.3 1454.6L3143.3 1449.6M3028.7 1378.7L3035.8 1385.7L3042.2 1372.3"/>
+    <path class="feh MAR03171" d="M1035.1 701.4L1035.1 711.4L1049.1 706.4M1058.6 677.9L1051.5 685.0L1065.0 691.3M1222.3 701.4L1222.3 711.4L1236.3 706.4"/>
+    <path class="feh MAR03194" d="M3357.2 1421.0L3350.1 1428.1L3363.6 1434.5M3333.6 1444.6L3333.6 1454.6L3347.6 1449.6M3552.1 1444.6L3552.1 1454.6L3566.1 1449.6M3442.5 1378.7L3449.6 1385.7L3455.9 1372.3"/>
+    <path class="feh MAR03172" d="M1454.4 677.9L1447.3 685.0L1460.8 691.3M1430.8 701.4L1430.8 711.4L1444.8 706.4M1539.7 635.5L1546.8 642.6L1553.1 629.2M1615.2 627.0L1619.9 635.8L1629.9 624.9M1626.0 701.4L1626.0 711.4L1640.0 706.4"/>
+    <path class="feh MAR03203" d="M712.3 1805.6L712.3 1795.6L698.3 1800.6M695.8 1779.2L688.8 1772.1L682.4 1785.5M481.4 1913.4L471.4 1913.4L476.4 1927.4"/>
+    <path class="feh MAR03204" d="M633.9 2089.1L626.8 2096.2L640.3 2102.6M610.3 2112.6L610.3 2122.6L624.3 2117.6M719.2 2046.7L726.3 2053.8L732.6 2040.4M794.7 2038.2L799.4 2047.0L809.4 2036.1M820.6 2112.6L820.6 2122.6L834.6 2117.6"/>
+    <path class="feh MAR03205" d="M1051.6 2089.1L1044.5 2096.2L1057.9 2102.6M1028.0 2112.6L1028.0 2122.6L1042.0 2117.6M1216.5 2112.6L1216.5 2122.6L1230.5 2117.6M1136.9 2046.7L1143.9 2053.8L1150.3 2040.4"/>
+    <path class="feh MAR03188" d="M1058.6 1421.0L1051.5 1428.1L1065.0 1434.5M1035.1 1444.6L1035.1 1454.6L1049.1 1449.6M1143.9 1378.7L1151.0 1385.7L1157.3 1372.3M1219.4 1370.1L1224.1 1379.0L1234.2 1368.0M1222.3 1444.6L1222.3 1454.6L1236.3 1449.6"/>
+    <path class="feh MAR03189" d="M1447.3 1471.0L1454.4 1478.1L1460.8 1464.7M1430.8 1444.6L1430.8 1454.6L1444.8 1449.6M1626.0 1444.6L1626.0 1454.6L1640.0 1449.6M1546.8 1513.4L1539.7 1520.5L1553.1 1526.8"/>
+    <path class="feh MAR03200" d="M1858.3 1829.2L1865.4 1822.1L1852.0 1815.7M1881.9 1805.6L1881.9 1795.6L1867.9 1800.6M1773.1 1871.5L1766.0 1864.5L1759.6 1877.9M1697.5 1880.1L1692.8 1871.2L1682.8 1882.2M1716.0 1805.6L1716.0 1795.6L1702.0 1800.6"/>
+    <path class="feh MAR03201" d="M1504.4 1779.2L1497.3 1772.1L1490.9 1785.5M1520.8 1805.6L1520.8 1795.6L1506.8 1800.6M1312.3 1805.6L1312.3 1795.6L1298.3 1800.6M1404.9 1736.8L1412.0 1729.7L1398.6 1723.4"/>
+    <path class="feh MAR03202" d="M1113.5 1779.2L1106.5 1772.1L1100.1 1785.5M1130.0 1805.6L1130.0 1795.6L1116.0 1800.6M922.6 1805.6L922.6 1795.6L908.6 1800.6M1014.1 1736.8L1021.2 1729.7L1007.7 1723.4"/>
+    <path class="feh MAR03184" d="M1504.4 1063.2L1497.3 1056.2L1490.9 1069.6M1520.8 1089.7L1520.8 1079.7L1506.8 1084.7M1404.9 1020.8L1412.0 1013.8L1398.6 1007.4M1331.8 1014.1L1336.5 1005.2L1321.8 1003.1M1312.3 1089.7L1312.3 1079.7L1298.3 1084.7"/>
+    <path class="feh MAR03185" d="M1101.5 1113.2L1108.6 1106.1L1095.2 1099.8M1125.1 1089.7L1125.1 1079.7L1111.1 1084.7M922.6 1089.7L922.6 1079.7L908.6 1084.7M1016.2 1155.6L1009.2 1148.5L1002.8 1161.9"/>
+    <path class="feh MAR03186" d="M695.2 1063.2L688.1 1056.2L681.8 1069.6M711.7 1089.7L711.7 1079.7L697.7 1084.7M468.5 1239.9L458.5 1239.9L463.5 1253.9M595.8 1020.8L602.8 1013.8L589.4 1007.4"/>
+    <path class="feh MAR03187" d="M621.7 1444.6L621.7 1454.6L635.7 1449.6M645.2 1421.0L638.2 1428.1L651.6 1434.5M832.6 1444.6L832.6 1454.6L846.6 1449.6"/>
+    <path class="feh MAR03180" d="M2993.4 1063.2L2986.4 1056.2L2980.0 1069.6M3009.9 1089.7L3009.9 1079.7L2995.9 1084.7M2894.0 1020.8L2901.1 1013.8L2887.6 1007.4M2820.8 1014.1L2825.5 1005.2L2810.8 1003.1M2783.1 1089.7L2783.1 1079.7L2769.1 1084.7"/>
+    <path class="feh MAR03181" d="M2556.4 1063.2L2549.4 1056.2L2543.0 1069.6M2572.9 1089.7L2572.9 1079.7L2558.9 1084.7M2400.4 1089.7L2400.4 1079.7L2386.4 1084.7M2457.0 1020.8L2464.1 1013.8L2450.6 1007.4"/>
+    <path class="feh MAR03182" d="M2231.5 1089.7L2231.5 1079.7L2217.5 1084.7M2207.9 1113.2L2215.0 1106.1L2201.6 1099.8M2051.3 1089.7L2051.3 1079.7L2037.3 1084.7M2122.6 1155.6L2115.6 1148.5L2109.2 1161.9"/>
+    <path class="feh MAR03183" d="M1881.9 1089.7L1881.9 1079.7L1867.9 1084.7M1865.4 1063.2L1858.3 1056.2L1852.0 1069.6M1716.0 1089.7L1716.0 1079.7L1702.0 1084.7"/>
+  </g>
+  <g id="ees" fill="none" stroke="#666" stroke-width="3">
+    <path class="ee MAR03199" d="M2186.5 1875.6L2186.5 1800.6"/>
+    <path class="ee MAR03177" d="M3378.6 781.4L3378.6 706.4"/>
+    <path class="ee MAR03178" d="M3507.1 891.7L3597.1 891.7"/>
+    <path class="ee MAR03179" d="M3378.6 1159.7L3378.6 1084.7"/>
+    <path class="ee MAR03190" d="M1836.9 1524.6L1836.9 1449.6"/>
+    <path class="ee MAR03195" d="M3507.1 1625.1L3597.1 1625.1"/>
+    <path class="ee MAR03173" d="M1836.9 631.4L1836.9 706.4"/>
+    <path class="ee MAR03196" d="M3378.6 1875.6L3378.6 1800.6"/>
+    <path class="ee MAR03174" d="M2186.5 781.4L2186.5 706.4"/>
+    <path class="ee MAR03197" d="M2964.9 1875.6L2964.9 1800.6"/>
+    <path class="ee MAR03175" d="M2527.9 781.4L2527.9 706.4"/>
+    <path class="ee MAR03198" d="M2527.9 1875.6L2527.9 1800.6"/>
+    <path class="ee MAR03176" d="M2964.9 781.4L2964.9 706.4"/>
+    <path class="ee MAR03191" d="M2186.5 1524.6L2186.5 1449.6"/>
+    <path class="ee MAR03192" d="M2527.9 1524.6L2527.9 1449.6"/>
+    <path class="ee MAR03170" d="M666.7 781.4L666.7 706.4"/>
+    <path class="ee MAR03193" d="M2964.9 1524.6L2964.9 1449.6"/>
+    <path class="ee MAR03171" d="M1080.1 781.4L1080.1 706.4"/>
+    <path class="ee MAR03194" d="M3378.6 1524.6L3378.6 1449.6"/>
+    <path class="ee MAR03172" d="M1475.8 781.4L1475.8 706.4"/>
+    <path class="ee MAR03203" d="M667.3 1875.6L667.3 1800.6"/>
+    <path class="ee MAR03204" d="M655.3 2192.6L655.3 2117.6"/>
+    <path class="ee MAR03205" d="M1073.0 2192.6L1073.0 2117.6"/>
+    <path class="ee MAR03188" d="M1080.1 1524.6L1080.1 1449.6"/>
+    <path class="ee MAR03189" d="M1475.8 1374.6L1475.8 1449.6"/>
+    <path class="ee MAR03200" d="M1836.9 1725.6L1836.9 1800.6"/>
+    <path class="ee MAR03201" d="M1475.8 1875.6L1475.8 1800.6"/>
+    <path class="ee MAR03202" d="M1085.0 1875.6L1085.0 1800.6"/>
+    <path class="ee MAR03184" d="M1475.8 1159.7L1475.8 1084.7"/>
+    <path class="ee MAR03185" d="M1080.1 1009.7L1080.1 1084.7"/>
+    <path class="ee MAR03186" d="M666.7 1159.7L666.7 1084.7"/>
+    <path class="ee MAR03187" d="M666.7 1524.6L666.7 1449.6"/>
+    <path class="ee MAR03180" d="M2964.9 1159.7L2964.9 1084.7"/>
+    <path class="ee MAR03181" d="M2527.9 1159.7L2527.9 1084.7"/>
+    <path class="ee MAR03182" d="M2186.5 1009.7L2186.5 1084.7"/>
+    <path class="ee MAR03183" d="M1836.9 1159.7L1836.9 1084.7"/>
+  </g>
+  <g id="nodes">
+    <g id="MAR03199" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2186.5,1800.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2186.5,1800.6)">
+        MAR03199
+      </text>
+    </g>
+    <g id="MAR03177" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,3378.6,706.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,3378.6,706.4)">
+        MAR03177
+      </text>
+    </g>
+    <g id="MAR03397" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1600.7,2117.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1600.7,2117.6)">
+        MAR03397
+      </text>
+    </g>
+    <g id="MAR03178" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,3597.1,891.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,3597.1,891.7)">
+        MAR03178
+      </text>
+    </g>
+    <g id="MAR03179" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,3378.6,1084.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,3378.6,1084.7)">
+        MAR03179
+      </text>
+    </g>
+    <g id="MAR03190" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1836.9,1449.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1836.9,1449.6)">
+        MAR03190
+      </text>
+    </g>
+    <g id="MAR03195" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,3597.1,1625.1)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,3597.1,1625.1)">
+        MAR03195
+      </text>
+    </g>
+    <g id="MAR03173" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1836.9,706.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1836.9,706.4)">
+        MAR03173
+      </text>
+    </g>
+    <g id="MAR03196" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,3378.6,1800.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,3378.6,1800.6)">
+        MAR03196
+      </text>
+    </g>
+    <g id="MAR03174" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2186.5,706.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2186.5,706.4)">
+        MAR03174
+      </text>
+    </g>
+    <g id="MAR03197" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2964.9,1800.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2964.9,1800.6)">
+        MAR03197
+      </text>
+    </g>
+    <g id="MAR03175" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2527.9,706.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2527.9,706.4)">
+        MAR03175
+      </text>
+    </g>
+    <g id="MAR03198" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2527.9,1800.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2527.9,1800.6)">
+        MAR03198
+      </text>
+    </g>
+    <g id="MAR03176" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2964.9,706.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2964.9,706.4)">
+        MAR03176
+      </text>
+    </g>
+    <g id="MAR03396" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1533.0,2288.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1533.0,2288.7)">
+        MAR03396
+      </text>
+    </g>
+    <g id="MAR03191" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2186.5,1449.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2186.5,1449.6)">
+        MAR03191
+      </text>
+    </g>
+    <g id="MAR03192" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2527.9,1449.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2527.9,1449.6)">
+        MAR03192
+      </text>
+    </g>
+    <g id="MAR03170" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,666.7,706.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,666.7,706.4)">
+        MAR03170
+      </text>
+    </g>
+    <g id="MAR03193" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2964.9,1449.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2964.9,1449.6)">
+        MAR03193
+      </text>
+    </g>
+    <g id="MAR03171" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1080.1,706.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1080.1,706.4)">
+        MAR03171
+      </text>
+    </g>
+    <g id="MAR03194" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,3378.6,1449.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,3378.6,1449.6)">
+        MAR03194
+      </text>
+    </g>
+    <g id="MAR03172" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1475.8,706.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1475.8,706.4)">
+        MAR03172
+      </text>
+    </g>
+    <g id="MAR03203" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,667.3,1800.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,667.3,1800.6)">
+        MAR03203
+      </text>
+    </g>
+    <g id="MAR03204" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,655.3,2117.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,655.3,2117.6)">
+        MAR03204
+      </text>
+    </g>
+    <g id="MAR03205" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1073.0,2117.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1073.0,2117.6)">
+        MAR03205
+      </text>
+    </g>
+    <g id="MAR03188" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1080.1,1449.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1080.1,1449.6)">
+        MAR03188
+      </text>
+    </g>
+    <g id="MAR03189" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1475.8,1449.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1475.8,1449.6)">
+        MAR03189
+      </text>
+    </g>
+    <g id="MAR03200" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1836.9,1800.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1836.9,1800.6)">
+        MAR03200
+      </text>
+    </g>
+    <g id="MAR03201" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1475.8,1800.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1475.8,1800.6)">
+        MAR03201
+      </text>
+    </g>
+    <g id="MAR03202" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1085.0,1800.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1085.0,1800.6)">
+        MAR03202
+      </text>
+    </g>
+    <g id="MAR03184" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1475.8,1084.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1475.8,1084.7)">
+        MAR03184
+      </text>
+    </g>
+    <g id="MAR03185" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1080.1,1084.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1080.1,1084.7)">
+        MAR03185
+      </text>
+    </g>
+    <g id="MAR03186" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,666.7,1084.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,666.7,1084.7)">
+        MAR03186
+      </text>
+    </g>
+    <g id="MAR03187" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,666.7,1449.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,666.7,1449.6)">
+        MAR03187
+      </text>
+    </g>
+    <g id="MAR03180" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2964.9,1084.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2964.9,1084.7)">
+        MAR03180
+      </text>
+    </g>
+    <g id="MAR03181" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2527.9,1084.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2527.9,1084.7)">
+        MAR03181
+      </text>
+    </g>
+    <g id="MAR03182" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,2186.5,1084.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,2186.5,1084.7)">
+        MAR03182
+      </text>
+    </g>
+    <g id="MAR03183" class="rea">
+      <path class="shape" d="M0-30L30 0 0 30-30 0 0-30" stroke="#000" fill="#fff" transform="matrix(1,0,0,1,1836.9,1084.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" y="5" transform="matrix(1,0,0,1,1836.9,1084.7)">
+        MAR03183
+      </text>
+    </g>
+    <g class="met MAM00048m MAR03198 MAR03199" transform="matrix(1,0,0,1,2355.4,1800.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        (2E)-heptenoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM02040m MAR03199" transform="matrix(1,0,0,1,2276.5,1710.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="32.5" y="6">
+        H2O
+      </text>
+    </g>
+    <g class="met MAM00782m MAR03199 MAR03200" transform="matrix(1,0,0,1,2006.3,1800.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          3-hydroxy-
+        </text>
+        <text y="16">
+          heptanoyl-CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM01597m MAR03177" transform="matrix(1,0,0,1,3288.6,616.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-33" y="6">
+        CoA
+      </text>
+    </g>
+    <g class="met MAM00887m MAR03176 MAR03177" transform="matrix(1,0,0,1,3174.3,706.4)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          3-oxononadecanoyl-
+        </text>
+        <text y="16">
+          CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM02101m MAR03177 MAR03178" transform="matrix(1,0,0,1,3597.1,706.4)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        heptadecanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01261m MAR03177" transform="matrix(1,0,0,1,3468.6,616.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="61.5" y="6">
+        acetyl-CoA
+      </text>
+    </g>
+    <g class="met MAM02552m MAR03397" transform="matrix(1,0,0,1,1690.7,1977.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="38.7" y="6">
+        NAD+
+      </text>
+    </g>
+    <g class="met MAM01597m MAR03397" transform="matrix(1,0,0,1,1690.7,2027.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="33" y="6">
+        CoA
+      </text>
+    </g>
+    <g class="met MAM01802m MAR03397" transform="matrix(1,0,0,1,1770.7,2027.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="32" y="6">
+        FAD
+      </text>
+    </g>
+    <g class="met MAM02040m MAR03397" transform="matrix(1,0,0,1,1850.7,2027.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="32.5" y="6">
+        H2O
+      </text>
+    </g>
+    <g class="met MAM01237m MAR03397" transform="matrix(1,0,0,1,1831.8,2117.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        9-heptadecenoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM02039m MAR03397" transform="matrix(1,0,0,1,1510.7,2027.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-25.7" y="6">
+        H+
+      </text>
+    </g>
+    <g class="met MAM02774m MAR03397 MAR03396 MAR03205" transform="matrix(1,0,0,1,1261.5,2117.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        propanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM02553m MAR03397" transform="matrix(1,0,0,1,1430.7,2027.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-40" y="6">
+        NADH
+      </text>
+    </g>
+    <g class="met MAM01261m MAR03397" transform="matrix(1,0,0,1,1510.7,1977.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-61.5" y="6">
+        acetyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01803m MAR03397" transform="matrix(1,0,0,1,1511.9,1933.1)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-43.5" y="6">
+        FADH2
+      </text>
+    </g>
+    <g class="met MAM01802m MAR03178" transform="matrix(1,0,0,1,3687.1,801.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="32" y="6">
+        FAD
+      </text>
+    </g>
+    <g class="met MAM00046m MAR03178 MAR03179" transform="matrix(1,0,0,1,3597.1,1084.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          (2E)-
+        </text>
+        <text y="16">
+          heptadecenoyl-CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM01803m MAR03178" transform="matrix(1,0,0,1,3687.1,981.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="43.5" y="6">
+        FADH2
+      </text>
+    </g>
+    <g class="met MAM02040m MAR03179" transform="matrix(1,0,0,1,3468.6,994.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="32.5" y="6">
+        H2O
+      </text>
+    </g>
+    <g class="met MAM00780m MAR03179 MAR03180" transform="matrix(1,0,0,1,3174.3,1084.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          3-hydroxy-
+        </text>
+        <text y="16">
+          heptadecanoyl-CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM03116m MAR03189 MAR03190" transform="matrix(1,0,0,1,1671.0,1449.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        undecanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01802m MAR03190" transform="matrix(1,0,0,1,1746.9,1359.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-32" y="6">
+        FAD
+      </text>
+    </g>
+    <g class="met MAM00071m MAR03190 MAR03191" transform="matrix(1,0,0,1,2006.3,1449.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        (2E)-undecenoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01803m MAR03190" transform="matrix(1,0,0,1,1926.9,1359.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="43.5" y="6">
+        FADH2
+      </text>
+    </g>
+    <g class="met MAM00056m MAR03194 MAR03195" transform="matrix(1,0,0,1,3597.1,1449.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        (2E)-nonenoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM02040m MAR03195" transform="matrix(1,0,0,1,3687.1,1535.1)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="32.5" y="6">
+        H2O
+      </text>
+    </g>
+    <g class="met MAM00792m MAR03195 MAR03196" transform="matrix(1,0,0,1,3597.1,1800.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          3-hydroxy-
+        </text>
+        <text y="16">
+          nonanoyl-CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM01597m MAR03173" transform="matrix(1,0,0,1,1746.9,796.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-33" y="6">
+        CoA
+      </text>
+    </g>
+    <g class="met MAM00873m MAR03172 MAR03173" transform="matrix(1,0,0,1,1671.0,706.4)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          3-oxoheneicosanoyl-
+        </text>
+        <text y="16">
+          CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM02612m MAR03173 MAR03174" transform="matrix(1,0,0,1,2006.3,706.4)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        nonadecanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01261m MAR03173" transform="matrix(1,0,0,1,1926.9,796.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="61.5" y="6">
+        acetyl-CoA
+      </text>
+    </g>
+    <g class="met MAM02552m MAR03196" transform="matrix(1,0,0,1,3468.6,1710.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="38.7" y="6">
+        NAD+
+      </text>
+    </g>
+    <g class="met MAM02039m MAR03196" transform="matrix(1,0,0,1,3288.6,1710.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-25.7" y="6">
+        H+
+      </text>
+    </g>
+    <g class="met MAM02553m MAR03196" transform="matrix(1,0,0,1,3208.6,1710.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-40" y="6">
+        NADH
+      </text>
+    </g>
+    <g class="met MAM00889m MAR03196 MAR03197" transform="matrix(1,0,0,1,3174.3,1800.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        3-oxononanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01802m MAR03174" transform="matrix(1,0,0,1,2096.5,616.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-32" y="6">
+        FAD
+      </text>
+    </g>
+    <g class="met MAM00054m MAR03174 MAR03175" transform="matrix(1,0,0,1,2355.4,706.4)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          (2E)-
+        </text>
+        <text y="16">
+          nonadecenoyl-CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM01803m MAR03174" transform="matrix(1,0,0,1,2276.5,616.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="43.5" y="6">
+        FADH2
+      </text>
+    </g>
+    <g class="met MAM01597m MAR03197" transform="matrix(1,0,0,1,3054.9,1710.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="33" y="6">
+        CoA
+      </text>
+    </g>
+    <g class="met MAM02107m MAR03197 MAR03198" transform="matrix(1,0,0,1,2738.1,1800.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        heptanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01261m MAR03197" transform="matrix(1,0,0,1,2874.9,1710.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-61.5" y="6">
+        acetyl-CoA
+      </text>
+    </g>
+    <g class="met MAM02040m MAR03175" transform="matrix(1,0,0,1,2437.9,616.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-32.5" y="6">
+        H2O
+      </text>
+    </g>
+    <g class="met MAM00790m MAR03175 MAR03176" transform="matrix(1,0,0,1,2738.1,706.4)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          3-hydroxy-
+        </text>
+        <text y="16">
+          nonadecanoyl-CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM01802m MAR03198" transform="matrix(1,0,0,1,2617.9,1710.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="32" y="6">
+        FAD
+      </text>
+    </g>
+    <g class="met MAM01803m MAR03198" transform="matrix(1,0,0,1,2437.9,1710.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-43.5" y="6">
+        FADH2
+      </text>
+    </g>
+    <g class="met MAM02552m MAR03176" transform="matrix(1,0,0,1,2874.9,616.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-38.7" y="6">
+        NAD+
+      </text>
+    </g>
+    <g class="met MAM02039m MAR03176" transform="matrix(1,0,0,1,3054.9,616.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="25.7" y="6">
+        H+
+      </text>
+    </g>
+    <g class="met MAM02553m MAR03176" transform="matrix(1,0,0,1,3134.9,616.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="40" y="6">
+        NADH
+      </text>
+    </g>
+    <g class="met MAM02552m MAR03396" transform="matrix(1,0,0,1,1623.0,2428.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="38.7" y="6">
+        NAD+
+      </text>
+    </g>
+    <g class="met MAM00004m MAR03396" transform="matrix(1,0,0,1,1831.8,2288.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          (10Z)-
+        </text>
+        <text y="16">
+          heptadecenoyl-CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM01597m MAR03396" transform="matrix(1,0,0,1,1623.0,2378.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="33" y="6">
+        CoA
+      </text>
+    </g>
+    <g class="met MAM01802m MAR03396" transform="matrix(1,0,0,1,1703.0,2378.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="32" y="6">
+        FAD
+      </text>
+    </g>
+    <g class="met MAM02040m MAR03396" transform="matrix(1,0,0,1,1783.0,2378.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="32.5" y="6">
+        H2O
+      </text>
+    </g>
+    <g class="met MAM02039m MAR03396" transform="matrix(1,0,0,1,1443.0,2378.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-25.7" y="6">
+        H+
+      </text>
+    </g>
+    <g class="met MAM02553m MAR03396" transform="matrix(1,0,0,1,1363.0,2378.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-40" y="6">
+        NADH
+      </text>
+    </g>
+    <g class="met MAM01261m MAR03396" transform="matrix(1,0,0,1,1443.0,2428.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-61.5" y="6">
+        acetyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01803m MAR03396" transform="matrix(1,0,0,1,1283.0,2378.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-43.5" y="6">
+        FADH2
+      </text>
+    </g>
+    <g class="met MAM02040m MAR03191" transform="matrix(1,0,0,1,2096.5,1359.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-32.5" y="6">
+        H2O
+      </text>
+    </g>
+    <g class="met MAM00806m MAR03191 MAR03192" transform="matrix(1,0,0,1,2355.4,1449.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          3-hydroxy-
+        </text>
+        <text y="16">
+          undecanoyl-CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM02552m MAR03192" transform="matrix(1,0,0,1,2437.9,1359.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-38.7" y="6">
+        NAD+
+      </text>
+    </g>
+    <g class="met MAM02039m MAR03192" transform="matrix(1,0,0,1,2617.9,1359.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="25.7" y="6">
+        H+
+      </text>
+    </g>
+    <g class="met MAM00911m MAR03192 MAR03193" transform="matrix(1,0,0,1,2738.1,1449.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        3-oxoundecanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM02553m MAR03192" transform="matrix(1,0,0,1,2697.9,1359.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="40" y="6">
+        NADH
+      </text>
+    </g>
+    <g class="met MAM01802m MAR03170" transform="matrix(1,0,0,1,576.7,616.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-32" y="6">
+        FAD
+      </text>
+    </g>
+    <g class="met MAM02052m MAR03170" transform="matrix(1,0,0,1,464.5,706.4)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        heneicosanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM00044m MAR03170 MAR03171" transform="matrix(1,0,0,1,877.6,706.4)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          (2E)-
+        </text>
+        <text y="16">
+          heneicosenoyl-CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM01803m MAR03170" transform="matrix(1,0,0,1,756.7,616.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="43.5" y="6">
+        FADH2
+      </text>
+    </g>
+    <g class="met MAM01597m MAR03193" transform="matrix(1,0,0,1,2874.9,1359.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-33" y="6">
+        CoA
+      </text>
+    </g>
+    <g class="met MAM02616m MAR03193 MAR03194" transform="matrix(1,0,0,1,3174.3,1449.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        nonanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01261m MAR03193" transform="matrix(1,0,0,1,3054.9,1359.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="61.5" y="6">
+        acetyl-CoA
+      </text>
+    </g>
+    <g class="met MAM02040m MAR03171" transform="matrix(1,0,0,1,990.1,616.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-32.5" y="6">
+        H2O
+      </text>
+    </g>
+    <g class="met MAM00778m MAR03171 MAR03172" transform="matrix(1,0,0,1,1267.3,706.4)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          3-hydroxy-
+        </text>
+        <text y="16">
+          heneicosanoyl-CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM01802m MAR03194" transform="matrix(1,0,0,1,3288.6,1359.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-32" y="6">
+        FAD
+      </text>
+    </g>
+    <g class="met MAM01803m MAR03194" transform="matrix(1,0,0,1,3468.6,1359.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="43.5" y="6">
+        FADH2
+      </text>
+    </g>
+    <g class="met MAM02552m MAR03172" transform="matrix(1,0,0,1,1385.8,616.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-38.7" y="6">
+        NAD+
+      </text>
+    </g>
+    <g class="met MAM02039m MAR03172" transform="matrix(1,0,0,1,1565.8,616.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="25.7" y="6">
+        H+
+      </text>
+    </g>
+    <g class="met MAM02553m MAR03172" transform="matrix(1,0,0,1,1645.8,616.4)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="40" y="6">
+        NADH
+      </text>
+    </g>
+    <g class="met MAM00063m MAR03202 MAR03203" transform="matrix(1,0,0,1,877.6,1800.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        (2E)-pentenoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM02040m MAR03203" transform="matrix(1,0,0,1,757.3,1710.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="32.5" y="6">
+        H2O
+      </text>
+    </g>
+    <g class="met MAM00797m MAR03203 MAR03204" transform="matrix(1,0,0,1,476.4,1948.4)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          3-hydroxy-
+        </text>
+        <text y="16">
+          pentanoyl-CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM02552m MAR03204" transform="matrix(1,0,0,1,565.3,2027.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-38.7" y="6">
+        NAD+
+      </text>
+    </g>
+    <g class="met MAM02039m MAR03204" transform="matrix(1,0,0,1,745.3,2027.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="25.7" y="6">
+        H+
+      </text>
+    </g>
+    <g class="met MAM02553m MAR03204" transform="matrix(1,0,0,1,825.3,2027.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="40" y="6">
+        NADH
+      </text>
+    </g>
+    <g class="met MAM00899m MAR03204 MAR03205" transform="matrix(1,0,0,1,865.6,2117.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        3-oxopentanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01597m MAR03205" transform="matrix(1,0,0,1,983.0,2027.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-33" y="6">
+        CoA
+      </text>
+    </g>
+    <g class="met MAM01261m MAR03205" transform="matrix(1,0,0,1,1163.0,2027.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="61.5" y="6">
+        acetyl-CoA
+      </text>
+    </g>
+    <g class="met MAM02552m MAR03188" transform="matrix(1,0,0,1,990.1,1359.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-38.7" y="6">
+        NAD+
+      </text>
+    </g>
+    <g class="met MAM00804m MAR03187 MAR03188" transform="matrix(1,0,0,1,877.6,1449.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          3-hydroxy-
+        </text>
+        <text y="16">
+          tridecanoyl-CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM02039m MAR03188" transform="matrix(1,0,0,1,1170.1,1359.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="25.7" y="6">
+        H+
+      </text>
+    </g>
+    <g class="met MAM02553m MAR03188" transform="matrix(1,0,0,1,1250.1,1359.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="40" y="6">
+        NADH
+      </text>
+    </g>
+    <g class="met MAM00909m MAR03188 MAR03189" transform="matrix(1,0,0,1,1267.3,1449.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        3-oxotridecanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01597m MAR03189" transform="matrix(1,0,0,1,1385.8,1539.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-33" y="6">
+        CoA
+      </text>
+    </g>
+    <g class="met MAM01261m MAR03189" transform="matrix(1,0,0,1,1565.8,1539.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="61.5" y="6">
+        acetyl-CoA
+      </text>
+    </g>
+    <g class="met MAM02552m MAR03200" transform="matrix(1,0,0,1,1926.9,1890.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="38.7" y="6">
+        NAD+
+      </text>
+    </g>
+    <g class="met MAM02039m MAR03200" transform="matrix(1,0,0,1,1746.9,1890.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-25.7" y="6">
+        H+
+      </text>
+    </g>
+    <g class="met MAM02553m MAR03200" transform="matrix(1,0,0,1,1666.9,1890.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-40" y="6">
+        NADH
+      </text>
+    </g>
+    <g class="met MAM00877m MAR03200 MAR03201" transform="matrix(1,0,0,1,1671.0,1800.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        3-oxoheptanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01597m MAR03201" transform="matrix(1,0,0,1,1565.8,1710.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="33" y="6">
+        CoA
+      </text>
+    </g>
+    <g class="met MAM02694m MAR03201 MAR03202" transform="matrix(1,0,0,1,1267.3,1800.6)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        pentanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01261m MAR03201" transform="matrix(1,0,0,1,1385.8,1710.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-61.5" y="6">
+        acetyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01802m MAR03202" transform="matrix(1,0,0,1,1175.0,1710.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="32" y="6">
+        FAD
+      </text>
+    </g>
+    <g class="met MAM01803m MAR03202" transform="matrix(1,0,0,1,995.0,1710.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-43.5" y="6">
+        FADH2
+      </text>
+    </g>
+    <g class="met MAM02552m MAR03184" transform="matrix(1,0,0,1,1565.8,994.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="38.7" y="6">
+        NAD+
+      </text>
+    </g>
+    <g class="met MAM00795m MAR03183 MAR03184" transform="matrix(1,0,0,1,1671.0,1084.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          3-hydroxy-
+        </text>
+        <text y="16">
+          pentadecanoyl-CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM02039m MAR03184" transform="matrix(1,0,0,1,1385.8,994.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-25.7" y="6">
+        H+
+      </text>
+    </g>
+    <g class="met MAM02553m MAR03184" transform="matrix(1,0,0,1,1305.8,994.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-40" y="6">
+        NADH
+      </text>
+    </g>
+    <g class="met MAM00897m MAR03184 MAR03185" transform="matrix(1,0,0,1,1267.3,1084.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          3-oxopentadecanoyl-
+        </text>
+        <text y="16">
+          CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM01597m MAR03185" transform="matrix(1,0,0,1,1170.1,1174.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="33" y="6">
+        CoA
+      </text>
+    </g>
+    <g class="met MAM03050m MAR03185 MAR03186" transform="matrix(1,0,0,1,877.6,1084.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        tridecanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01261m MAR03185" transform="matrix(1,0,0,1,990.1,1174.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-61.5" y="6">
+        acetyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01802m MAR03186" transform="matrix(1,0,0,1,756.7,994.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="32" y="6">
+        FAD
+      </text>
+    </g>
+    <g class="met MAM00069m MAR03186 MAR03187" transform="matrix(1,0,0,1,463.5,1274.9)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        (2E)-tridecenoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01803m MAR03186" transform="matrix(1,0,0,1,576.7,994.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-43.5" y="6">
+        FADH2
+      </text>
+    </g>
+    <g class="met MAM02040m MAR03187" transform="matrix(1,0,0,1,576.7,1359.6)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-32.5" y="6">
+        H2O
+      </text>
+    </g>
+    <g class="met MAM02552m MAR03180" transform="matrix(1,0,0,1,3054.9,994.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="38.7" y="6">
+        NAD+
+      </text>
+    </g>
+    <g class="met MAM02039m MAR03180" transform="matrix(1,0,0,1,2874.9,994.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-25.7" y="6">
+        H+
+      </text>
+    </g>
+    <g class="met MAM02553m MAR03180" transform="matrix(1,0,0,1,2794.9,994.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-40" y="6">
+        NADH
+      </text>
+    </g>
+    <g class="met MAM00875m MAR03180 MAR03181" transform="matrix(1,0,0,1,2738.1,1084.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          3-oxoheptadecanoyl-
+        </text>
+        <text y="16">
+          CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM01597m MAR03181" transform="matrix(1,0,0,1,2617.9,994.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="33" y="6">
+        CoA
+      </text>
+    </g>
+    <g class="met MAM02689m MAR03181 MAR03182" transform="matrix(1,0,0,1,2355.4,1084.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" y="6">
+        pentadecanoyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01261m MAR03181" transform="matrix(1,0,0,1,2437.9,994.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-61.5" y="6">
+        acetyl-CoA
+      </text>
+    </g>
+    <g class="met MAM01802m MAR03182" transform="matrix(1,0,0,1,2276.5,1174.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="32" y="6">
+        FAD
+      </text>
+    </g>
+    <g class="met MAM00061m MAR03182 MAR03183" transform="matrix(1,0,0,1,2006.3,1084.7)">
+      <ellipse class="shape" rx="30" ry="20" fill="#9df" stroke="#333"/>
+      <g class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+        <text y="-4">
+          (2E)-
+        </text>
+        <text y="16">
+          pentadecenoyl-CoA
+        </text>
+      </g>
+    </g>
+    <g class="met MAM01803m MAR03182" transform="matrix(1,0,0,1,2096.5,1174.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="-43.5" y="6">
+        FADH2
+      </text>
+    </g>
+    <g class="met MAM02040m MAR03183" transform="matrix(1,0,0,1,1926.9,994.7)">
+      <circle class="shape" r="7" fill="#222"/>
+      <text class="lbl" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="32.5" y="6">
+        H2O
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03199">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2156.5,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2156.5,1860.6)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000127884 MAR03199">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2216.5,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2216.5,1860.6)">
+        ECHS1
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03177">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3288.6,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3288.6,766.4)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138029 MAR03177">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3348.6,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3348.6,766.4)">
+        HADHB
+      </text>
+    </g>
+    <g class="enz ENSG00000167315 MAR03177">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3408.6,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3408.6,766.4)">
+        ACAA2
+      </text>
+    </g>
+    <g class="enz ENSG00000115361 MAR03178">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3477.1,831.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3477.1,831.7)">
+        ACADL
+      </text>
+    </g>
+    <g class="enz ENSG00000117054 MAR03178">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3477.1,861.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3477.1,861.7)">
+        ACADM
+      </text>
+    </g>
+    <g class="enz ENSG00000072778 MAR03178">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3477.1,891.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3477.1,891.7)">
+        ACADVL
+      </text>
+    </g>
+    <g class="enz ENSG00000177646 MAR03178">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3477.1,921.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3477.1,921.7)">
+        ACAD9
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03179">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3348.6,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3348.6,1144.7)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000117054 MAR03190">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1776.9,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1776.9,1509.6)">
+        ACADM
+      </text>
+    </g>
+    <g class="enz ENSG00000177646 MAR03190">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1836.9,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1836.9,1509.6)">
+        ACAD9
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03195">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3477.1,1610.1)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3477.1,1610.1)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000127884 MAR03195">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3477.1,1640.1)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3477.1,1640.1)">
+        ECHS1
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03173">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1746.9,616.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1746.9,616.4)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138029 MAR03173">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1806.9,616.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1806.9,616.4)">
+        HADHB
+      </text>
+    </g>
+    <g class="enz ENSG00000167315 MAR03173">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1866.9,616.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1866.9,616.4)">
+        ACAA2
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03196">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3288.6,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3288.6,1860.6)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138796 MAR03196">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3348.6,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3348.6,1860.6)">
+        HADH
+      </text>
+    </g>
+    <g class="enz ENSG00000072506 MAR03196">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3408.6,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3408.6,1860.6)">
+        HSD17B10
+      </text>
+    </g>
+    <g class="enz ENSG00000115361 MAR03174">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2066.5,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2066.5,766.4)">
+        ACADL
+      </text>
+    </g>
+    <g class="enz ENSG00000117054 MAR03174">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2126.5,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2126.5,766.4)">
+        ACADM
+      </text>
+    </g>
+    <g class="enz ENSG00000072778 MAR03174">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2186.5,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2186.5,766.4)">
+        ACADVL
+      </text>
+    </g>
+    <g class="enz ENSG00000177646 MAR03174">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2246.5,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2246.5,766.4)">
+        ACAD9
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03197">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2874.9,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2874.9,1860.6)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138029 MAR03197">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2934.9,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2934.9,1860.6)">
+        HADHB
+      </text>
+    </g>
+    <g class="enz ENSG00000167315 MAR03197">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2994.9,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2994.9,1860.6)">
+        ACAA2
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03175">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2497.9,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2497.9,766.4)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000117054 MAR03198">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2467.9,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2467.9,1860.6)">
+        ACADM
+      </text>
+    </g>
+    <g class="enz ENSG00000177646 MAR03198">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2527.9,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2527.9,1860.6)">
+        ACAD9
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03176">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2874.9,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2874.9,766.4)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138796 MAR03176">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2934.9,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2934.9,766.4)">
+        HADH
+      </text>
+    </g>
+    <g class="enz ENSG00000072506 MAR03176">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2994.9,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2994.9,766.4)">
+        HSD17B10
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03191">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2156.5,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2156.5,1509.6)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000127884 MAR03191">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2216.5,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2216.5,1509.6)">
+        ECHS1
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03192">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2437.9,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2437.9,1509.6)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138796 MAR03192">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2497.9,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2497.9,1509.6)">
+        HADH
+      </text>
+    </g>
+    <g class="enz ENSG00000072506 MAR03192">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2557.9,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2557.9,1509.6)">
+        HSD17B10
+      </text>
+    </g>
+    <g class="enz ENSG00000115361 MAR03170">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,546.7,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,546.7,766.4)">
+        ACADL
+      </text>
+    </g>
+    <g class="enz ENSG00000117054 MAR03170">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,606.7,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,606.7,766.4)">
+        ACADM
+      </text>
+    </g>
+    <g class="enz ENSG00000072778 MAR03170">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,666.7,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,666.7,766.4)">
+        ACADVL
+      </text>
+    </g>
+    <g class="enz ENSG00000177646 MAR03170">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,726.7,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,726.7,766.4)">
+        ACAD9
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03193">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2874.9,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2874.9,1509.6)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138029 MAR03193">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2934.9,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2934.9,1509.6)">
+        HADHB
+      </text>
+    </g>
+    <g class="enz ENSG00000167315 MAR03193">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2994.9,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2994.9,1509.6)">
+        ACAA2
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03171">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1050.1,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1050.1,766.4)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000117054 MAR03194">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3318.6,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3318.6,1509.6)">
+        ACADM
+      </text>
+    </g>
+    <g class="enz ENSG00000177646 MAR03194">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,3378.6,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,3378.6,1509.6)">
+        ACAD9
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03172">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1385.8,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1385.8,766.4)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138796 MAR03172">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1445.8,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1445.8,766.4)">
+        HADH
+      </text>
+    </g>
+    <g class="enz ENSG00000072506 MAR03172">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1505.8,766.4)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1505.8,766.4)">
+        HSD17B10
+      </text>
+    </g>
+    <g class="enz ENSG00000127884 MAR03203">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,697.3,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,697.3,1860.6)">
+        ECHS1
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03204">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,565.3,2177.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,565.3,2177.6)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138796 MAR03204">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,625.3,2177.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,625.3,2177.6)">
+        HADH
+      </text>
+    </g>
+    <g class="enz ENSG00000072506 MAR03204">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,685.3,2177.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,685.3,2177.6)">
+        HSD17B10
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03205">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,983.0,2177.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,983.0,2177.6)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138029 MAR03205">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1043.0,2177.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1043.0,2177.6)">
+        HADHB
+      </text>
+    </g>
+    <g class="enz ENSG00000167315 MAR03205">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1103.0,2177.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1103.0,2177.6)">
+        ACAA2
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03188">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,990.1,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,990.1,1509.6)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138796 MAR03188">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1050.1,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1050.1,1509.6)">
+        HADH
+      </text>
+    </g>
+    <g class="enz ENSG00000072506 MAR03188">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1110.1,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1110.1,1509.6)">
+        HSD17B10
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03189">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1385.8,1359.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1385.8,1359.6)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138029 MAR03189">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1445.8,1359.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1445.8,1359.6)">
+        HADHB
+      </text>
+    </g>
+    <g class="enz ENSG00000167315 MAR03189">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1505.8,1359.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1505.8,1359.6)">
+        ACAA2
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03200">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1746.9,1710.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1746.9,1710.6)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138796 MAR03200">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1806.9,1710.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1806.9,1710.6)">
+        HADH
+      </text>
+    </g>
+    <g class="enz ENSG00000072506 MAR03200">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1866.9,1710.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1866.9,1710.6)">
+        HSD17B10
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03201">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1385.8,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1385.8,1860.6)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138029 MAR03201">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1445.8,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1445.8,1860.6)">
+        HADHB
+      </text>
+    </g>
+    <g class="enz ENSG00000167315 MAR03201">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1505.8,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1505.8,1860.6)">
+        ACAA2
+      </text>
+    </g>
+    <g class="enz ENSG00000196177 MAR03202">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1055.0,1860.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1055.0,1860.6)">
+        ACADSB
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03184">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1385.8,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1385.8,1144.7)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138796 MAR03184">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1445.8,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1445.8,1144.7)">
+        HADH
+      </text>
+    </g>
+    <g class="enz ENSG00000072506 MAR03184">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1505.8,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1505.8,1144.7)">
+        HSD17B10
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03185">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,990.1,994.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,990.1,994.7)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138029 MAR03185">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1050.1,994.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1050.1,994.7)">
+        HADHB
+      </text>
+    </g>
+    <g class="enz ENSG00000167315 MAR03185">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1110.1,994.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1110.1,994.7)">
+        ACAA2
+      </text>
+    </g>
+    <g class="enz ENSG00000115361 MAR03186">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,546.7,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,546.7,1144.7)">
+        ACADL
+      </text>
+    </g>
+    <g class="enz ENSG00000117054 MAR03186">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,606.7,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,606.7,1144.7)">
+        ACADM
+      </text>
+    </g>
+    <g class="enz ENSG00000072778 MAR03186">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,666.7,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,666.7,1144.7)">
+        ACADVL
+      </text>
+    </g>
+    <g class="enz ENSG00000177646 MAR03186">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,726.7,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,726.7,1144.7)">
+        ACAD9
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03187">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,636.7,1509.6)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,636.7,1509.6)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03180">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2874.9,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2874.9,1144.7)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138796 MAR03180">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2934.9,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2934.9,1144.7)">
+        HADH
+      </text>
+    </g>
+    <g class="enz ENSG00000072506 MAR03180">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2994.9,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2994.9,1144.7)">
+        HSD17B10
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03181">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2437.9,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2437.9,1144.7)">
+        HADHA
+      </text>
+    </g>
+    <g class="enz ENSG00000138029 MAR03181">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2497.9,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2497.9,1144.7)">
+        HADHB
+      </text>
+    </g>
+    <g class="enz ENSG00000167315 MAR03181">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2557.9,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2557.9,1144.7)">
+        ACAA2
+      </text>
+    </g>
+    <g class="enz ENSG00000115361 MAR03182">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2066.5,994.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2066.5,994.7)">
+        ACADL
+      </text>
+    </g>
+    <g class="enz ENSG00000117054 MAR03182">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2126.5,994.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2126.5,994.7)">
+        ACADM
+      </text>
+    </g>
+    <g class="enz ENSG00000072778 MAR03182">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2186.5,994.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2186.5,994.7)">
+        ACADVL
+      </text>
+    </g>
+    <g class="enz ENSG00000177646 MAR03182">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,2246.5,994.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,2246.5,994.7)">
+        ACAD9
+      </text>
+    </g>
+    <g class="enz ENSG00000084754 MAR03183">
+      <path class="shape" fill="#feb" stroke="#000" d="M0 0h60v30H0z" transform="matrix(1,0,0,1,1806.9,1144.7)"/>
+      <text class="lbl" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="30" y="20" transform="matrix(1,0,0,1,1806.9,1144.7)">
+        HADHA
+      </text>
+    </g>
+    </g>
+  <g id="license" transform="translate(-0.4,50.3)">
+    <path d="M3.408.476l113.354.202c1.584 0 3-.235 3 3.16l-.14 37.33H.547V3.7C.547 2.026.71.476 3.407.476z" fill="#aab2ab" transform="matrix(1.5,0,0,1.5,3932.0,2738.0)"/>
+    <g transform="matrix(1.5,0,0,1.5,3932.0,2738.0) matrix(0.9937807,0,0,0.9936694,-177.69409,-74.436409) matrix(0.872921,0,0,0.872921,50.12536,143.2144)">
+      <path id="path5906_2_" d="M187.21-55.68c.005 8.681-7.028 15.722-15.709 15.728-8.68.005-15.722-7.028-15.727-15.708v-.02c-.005-8.68 7.028-15.721 15.708-15.726 8.682-.006 15.722 7.028 15.727 15.708v.019z" fill="#fff"/>
+      <g id="g5706_2_" transform="translate(-289.6157,99.0653)">
+        <path id="path5708_2_" d="M473.885-167.547c3.485 3.486 5.228 7.754 5.228 12.802 0 5.05-1.713 9.272-5.138 12.668-3.636 3.576-7.932 5.364-12.89 5.364-4.898 0-9.12-1.772-12.665-5.32-3.546-3.545-5.318-7.782-5.318-12.712 0-4.928 1.772-9.195 5.318-12.802 3.455-3.487 7.677-5.23 12.665-5.23 5.048 0 9.314 1.743 12.8 5.23zm-23.118 2.345c-2.947 2.976-4.42 6.463-4.42 10.462 0 3.998 1.458 7.455 4.374 10.37 2.917 2.917 6.389 4.375 10.417 4.375 4.029 0 7.53-1.472 10.507-4.419 2.826-2.735 4.24-6.177 4.24-10.326 0-4.118-1.437-7.613-4.308-10.485-2.871-2.87-6.35-4.306-10.439-4.306-4.088 0-7.546 1.443-10.371 4.329zm7.754 8.703c-.45-.982-1.124-1.472-2.023-1.472-1.59 0-2.384 1.069-2.384 3.208 0 2.14.795 3.21 2.384 3.21 1.05 0 1.799-.522 2.248-1.566l2.203 1.173c-1.05 1.865-2.625 2.799-4.725 2.799-1.62 0-2.918-.497-3.892-1.49-.976-.993-1.463-2.362-1.463-4.107 0-1.716.502-3.078 1.507-4.086 1.006-1.008 2.257-1.513 3.758-1.513 2.22 0 3.81.875 4.771 2.623l-2.384 1.22zm10.363 0c-.45-.982-1.111-1.472-1.982-1.472-1.621 0-2.432 1.069-2.432 3.208 0 2.14.81 3.21 2.432 3.21 1.051 0 1.787-.522 2.207-1.566l2.252 1.173c-1.048 1.865-2.62 2.799-4.717 2.799-1.618 0-2.913-.497-3.887-1.49-.972-.993-1.46-2.362-1.46-4.107 0-1.716.495-3.078 1.484-4.086.987-1.008 2.245-1.513 3.773-1.513 2.216 0 3.804.875 4.761 2.623l-2.43 1.22z"/>
+      </g>
+    </g>
+    <path d="M117.753 0H2.247A2.25 2.25 0 0 0 0 2.247v39.245c0 .28.227.508.507.508h118.985c.28 0 .508-.228.508-.508V2.247A2.25 2.25 0 0 0 117.753 0zM2.247 1.015h115.506c.68 0 1.232.553 1.232 1.232v27.245H36.428c-3.026 5.47-8.856 9.185-15.546 9.185-6.694 0-12.522-3.711-15.547-9.185h-4.32V2.247c0-.68.552-1.232 1.232-1.232z" transform="matrix(1.5,0,0,1.5,3932.0,2738.0)"/>
+    <path d="M86.264 37.732c.08.155.186.28.32.376.132.096.287.167.466.213.18.047.365.07.556.07.13 0 .268-.01.416-.032.148-.022.287-.064.417-.126a.9.9 0 0 0 .323-.255.635.635 0 0 0 .13-.413.581.581 0 0 0-.172-.435 1.355 1.355 0 0 0-.45-.279 4.54 4.54 0 0 0-.628-.194 16.854 16.854 0 0 1-.713-.186 6.254 6.254 0 0 1-.723-.227 2.486 2.486 0 0 1-.63-.348 1.637 1.637 0 0 1-.45-.533 1.63 1.63 0 0 1-.17-.775c0-.34.072-.635.217-.886.146-.25.336-.459.57-.626.235-.167.5-.29.797-.371a3.4 3.4 0 0 1 .89-.12c.346 0 .678.038.996.116.317.077.6.203.847.376.248.173.444.394.59.664.144.269.217.595.217.979h-1.413a1.192 1.192 0 0 0-.124-.492.826.826 0 0 0-.282-.306 1.197 1.197 0 0 0-.402-.158 2.455 2.455 0 0 0-.494-.046 1.72 1.72 0 0 0-.35.037.943.943 0 0 0-.318.13.796.796 0 0 0-.236.232.63.63 0 0 0-.092.352c0 .13.024.236.073.316.05.08.148.155.293.222a3.7 3.7 0 0 0 .601.205c.256.068.591.154 1.006.26.123.024.294.07.513.134.22.065.437.169.653.31.217.143.403.334.561.571.157.239.236.543.236.914 0 .304-.06.585-.177.845-.117.26-.292.484-.524.672-.232.19-.519.336-.861.441a4.078 4.078 0 0 1-1.192.158c-.365 0-.72-.045-1.063-.135a2.675 2.675 0 0 1-.91-.423 2.107 2.107 0 0 1-.625-.734c-.155-.298-.228-.65-.222-1.058h1.413c0 .222.04.411.12.565zm8.206-4.985l2.477 6.622h-1.513l-.5-1.475h-2.478l-.52 1.475h-1.465l2.505-6.622h1.493zm.083 4.06l-.835-2.427H93.7l-.864 2.428h1.717zM59.997 32.747c.315 0 .603.029.863.084.26.056.484.147.67.274.185.126.33.295.432.505.102.21.153.47.153.778 0 .334-.076.612-.228.834-.151.223-.376.405-.673.547.41.118.715.323.917.617.202.294.303.649.303 1.063 0 .334-.066.623-.196.867a1.7 1.7 0 0 1-.525.599c-.22.154-.471.269-.753.343a3.381 3.381 0 0 1-.87.111h-3.215v-6.622h3.122zm-.187 2.679c.26 0 .474-.062.642-.185.167-.124.25-.324.25-.601a.77.77 0 0 0-.083-.38.62.62 0 0 0-.224-.231.945.945 0 0 0-.32-.116 2.12 2.12 0 0 0-.376-.032h-1.365v1.545h1.476zm.086 2.81c.142 0 .278-.014.408-.042a.993.993 0 0 0 .345-.139.707.707 0 0 0 .237-.264.903.903 0 0 0 .088-.426c0-.34-.096-.583-.288-.728-.193-.145-.447-.218-.762-.218h-1.59v1.817h1.562zm2.794-5.489h1.634l1.55 2.616 1.542-2.616h1.624l-2.459 4.08v2.542h-1.46v-2.578l-2.43-4.044zM102.403 14.98c.004 5.846-4.731 10.588-10.577 10.592-5.846.005-10.588-4.73-10.593-10.576v-.015C81.229 9.135 85.965 4.394 91.81 4.389c5.846-.004 10.59 4.731 10.593 10.576v.016z" transform="matrix(1.5,0,0,1.5,3932.0,2738.0)" fill="#fff"/>
+    <path d="M91.742 3.386c-3.212 0-5.93 1.12-8.156 3.362-2.283 2.32-3.425 5.064-3.425 8.233 0 3.169 1.142 5.894 3.425 8.174 2.283 2.28 5.002 3.42 8.156 3.42 3.193 0 5.96-1.15 8.303-3.449 2.205-2.183 3.308-4.899 3.308-8.145 0-3.246-1.123-5.991-3.367-8.233-2.245-2.241-4.993-3.362-8.244-3.362zm.03 2.087c2.631 0 4.866.927 6.705 2.783 1.857 1.836 2.786 4.077 2.786 6.725 0 2.666-.909 4.88-2.728 6.638-1.916 1.894-4.17 2.84-6.764 2.84-2.593 0-4.828-.937-6.705-2.81-1.877-1.876-2.815-4.098-2.815-6.668 0-2.57.948-4.812 2.844-6.725 1.82-1.856 4.044-2.783 6.676-2.783z" transform="matrix(1.5,0,0,1.5,3932.0,2738.0)"/>
+    <path d="M86.603 13.344c.462-2.917 2.516-4.477 5.09-4.477 3.702 0 5.958 2.686 5.958 6.268 0 3.495-2.4 6.21-6.016 6.21-2.488 0-4.714-1.53-5.12-4.534h2.921c.088 1.56 1.1 2.108 2.546 2.108 1.648 0 2.72-1.53 2.72-3.87 0-2.455-.927-3.755-2.663-3.755-1.272 0-2.37.462-2.603 2.05l.85-.004-2.3 2.299-2.299-2.3.916.005z" transform="matrix(1.5,0,0,1.5,3932.0,2738.0)"/>
+    <g transform="matrix(1.5,0,0,1.5,3932.0,2738.0) matrix(1,0,0,1,-177.69409,-74.436409)">
+      <circle cx="242.562" cy="90.225" r="10.806" fill="#fff"/>
+      <path d="M245.69 87.098a.754.754 0 0 0-.754-.754h-4.772a.754.754 0 0 0-.754.754v4.773h1.33v5.652h3.618V91.87h1.332v-4.773z"/>
+      <circle cx="242.55" cy="84.083" r="1.632"/>
+      <path clip-rule="evenodd" d="M242.535 78.318c-3.232 0-5.969 1.128-8.208 3.384-2.298 2.333-3.446 5.095-3.446 8.284 0 3.19 1.148 5.932 3.446 8.227s5.034 3.442 8.208 3.442c3.213 0 5.998-1.156 8.353-3.471 2.22-2.197 3.33-4.93 3.33-8.198 0-3.267-1.129-6.028-3.387-8.284-2.26-2.256-5.025-3.384-8.296-3.384zm.029 2.1c2.648 0 4.897.934 6.747 2.8 1.87 1.848 2.805 4.104 2.805 6.768 0 2.684-.915 4.911-2.746 6.681-1.928 1.906-4.197 2.858-6.806 2.858-2.61 0-4.858-.942-6.747-2.83-1.89-1.885-2.833-4.122-2.833-6.709 0-2.586.954-4.842 2.862-6.767 1.83-1.867 4.07-2.801 6.718-2.801z" fill-rule="evenodd"/>
+    </g>
+    <g>
+      <path d="M293.225 111.749a5.67 5.67 0 0 0 5.67 0l43.428-25.073a5.669 5.669 0 0 0 2.834-4.91V31.62a5.669 5.669 0 0 0-2.834-4.91L298.895 1.637a5.67 5.67 0 0 0-5.67 0L249.797 26.71a5.67 5.67 0 0 0-2.835 4.91v50.146a5.67 5.67 0 0 0 2.835 4.91l43.428 25.073z" fill="#4a4a4a" transform="matrix(1.5,0,0,1.5,3932.0,2738.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M293.225 103.269a5.67 5.67 0 0 0 5.67 0l36.084-20.833a5.67 5.67 0 0 0 2.835-4.91V35.86a5.67 5.67 0 0 0-2.835-4.91 668212.39 668212.39 0 0 0-36.084-20.833 5.67 5.67 0 0 0-5.67 0 668212.39 668212.39 0 0 0-36.084 20.833 5.67 5.67 0 0 0-2.835 4.91v41.666a5.67 5.67 0 0 0 2.835 4.91l36.084 20.833z" fill="#c9d4ce" transform="matrix(1.5,0,0,1.5,3932.0,2738.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M361.937 1.637a5.667 5.667 0 0 1 5.669 0l43.428 25.073a5.668 5.668 0 0 1 2.835 4.91v50.146a5.668 5.668 0 0 1-2.835 4.91l-43.428 25.073a5.667 5.667 0 0 1-5.669 0l-43.428-25.073a5.67 5.67 0 0 1-2.835-4.91V31.62a5.67 5.67 0 0 1 2.835-4.91l43.428-25.073z" fill="#25543c" transform="matrix(1.5,0,0,1.5,3932.0,2738.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M296.06 70.866c7.822-.009 14.166-6.368 14.156-14.19-.009-7.822-6.368-14.166-14.19-14.156-7.822.009-14.166 6.367-14.156 14.19.009 7.822 6.368 14.166 14.19 14.156z" fill="#fff" transform="matrix(1.5,0,0,1.5,3932.0,2738.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M296.038 66.614c5.476-.006 9.916-4.457 9.909-9.933-.006-5.476-4.457-9.916-9.933-9.909-5.476.006-9.916 4.457-9.909 9.933.006 5.475 4.457 9.916 9.933 9.909z" fill="#25543c" transform="matrix(1.5,0,0,1.5,3932.0,2738.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path d="M340.265 44.634c6.649.008 12.041 5.412 12.033 12.061-.008 6.65-5.413 12.041-12.062 12.033-6.649-.008-12.041-5.412-12.033-12.061.008-6.649 5.413-12.041 12.062-12.033zM374.731 64.5c6.649.008 12.041 5.413 12.033 12.062-.008 6.649-5.413 12.041-12.062 12.033-6.649-.008-12.041-5.413-12.033-12.062.008-6.649 5.413-12.041 12.062-12.033zM374.695 24.791c6.649.008 12.041 5.413 12.033 12.062-.008 6.649-5.412 12.041-12.061 12.033-6.65-.008-12.041-5.413-12.033-12.062.008-6.649 5.412-12.041 12.061-12.033z" fill="#fff" transform="matrix(1.5,0,0,1.5,3932.0,2738.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <path fill="#fff" d="M309.921 53.875h18.618v5.669h-18.618zM363.134 40.246l-14.132 8.159 2.835 4.91 14.132-8.159-2.835-4.91zM363.157 73.153l-14.175-8.184 2.835-4.909 14.175 8.183-2.835 4.91z" transform="matrix(1.5,0,0,1.5,3932.0,2738.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      <g fill="#4a4a4a">
+        <path d="M0 14.868h5.852v2.433c1.127-1.225 2.09-2.054 2.887-2.487.85-.45 1.916-.676 3.199-.676 2.862 0 5.124 1.298 6.789 3.893 1.838-2.595 4.326-3.893 7.465-3.893 5.705 0 8.557 3.596 8.557 10.787v16.274h-5.878V26.574c0-2.523-.295-4.308-.885-5.353-.606-1.063-1.603-1.595-2.991-1.595-1.612 0-2.787.631-3.524 1.893-.737 1.261-1.105 3.289-1.105 6.082v13.598h-5.879V26.655c0-4.686-1.3-7.029-3.901-7.029-1.647 0-2.848.64-3.602 1.92-.755 1.279-1.132 3.298-1.132 6.055v13.598H0V14.868zM65.206 29.466H47.052c.156 2.163.832 3.884 2.028 5.164 1.197 1.261 2.731 1.892 4.604 1.892 1.457 0 2.662-.36 3.615-1.081.937-.721 2.003-2.055 3.2-4.001l4.942 2.865c-.763 1.352-1.57 2.51-2.419 3.474-.85.964-1.76 1.757-2.731 2.379a10.707 10.707 0 0 1-3.148 1.365c-1.127.288-2.349.433-3.667.433-3.78 0-6.815-1.262-9.103-3.785-2.289-2.541-3.434-5.911-3.434-10.11 0-4.164 1.11-7.534 3.33-10.111 2.236-2.541 5.202-3.812 8.895-3.812 3.728 0 6.676 1.235 8.843 3.704 2.15 2.451 3.225 5.848 3.225 10.192l-.026 1.432zm-6.008-4.974c-.815-3.244-2.783-4.866-5.904-4.866-.711 0-1.379.113-2.003.338a5.668 5.668 0 0 0-1.703.973c-.512.424-.95.933-1.314 1.528a7.246 7.246 0 0 0-.832 2.027h11.756zM78.107 14.138v27.061h-5.852V14.138h-2.83V8.461h2.83V0h5.852v8.461h5.35v5.677h-5.35zM111.66 41.199h-5.878v-2.758c-2.411 2.343-5.003 3.515-7.777 3.515-3.503 0-6.399-1.316-8.688-3.947-2.271-2.685-3.407-6.038-3.407-10.057 0-3.946 1.136-7.235 3.407-9.867 2.272-2.631 5.116-3.947 8.532-3.947 2.947 0 5.592 1.262 7.933 3.785v-3.055h5.878v26.331zM91.658 27.952c0 2.524.651 4.578 1.951 6.164 1.335 1.604 3.017 2.406 5.046 2.406 2.167 0 3.919-.775 5.254-2.325 1.335-1.604 2.003-3.64 2.003-6.109s-.668-4.506-2.003-6.11c-1.335-1.568-3.069-2.352-5.202-2.352-2.011 0-3.693.793-5.046 2.379-1.335 1.604-2.003 3.587-2.003 5.947zM124.899 41.199h-5.852V0h5.852v17.923c2.341-2.523 4.994-3.785 7.959-3.785 3.416 0 6.259 1.325 8.531 3.974 2.272 2.632 3.407 5.912 3.407 9.84 0 4.055-1.144 7.408-3.433 10.057-2.272 2.631-5.141 3.947-8.609 3.947-2.931 0-5.549-1.172-7.855-3.515v2.758zm14.149-12.976c0-2.523-.659-4.578-1.977-6.164-1.335-1.622-3.008-2.433-5.019-2.433-2.151 0-3.902.784-5.254 2.352-1.336 1.55-2.003 3.568-2.003 6.056 0 2.559.659 4.604 1.977 6.136 1.317 1.568 3.051 2.352 5.201 2.352 2.029 0 3.711-.784 5.046-2.352 1.353-1.586 2.029-3.568 2.029-5.947zM149.79 27.844c0-3.802 1.309-7.037 3.928-9.705 2.618-2.667 5.808-4.001 9.571-4.001 3.78 0 6.988 1.343 9.624 4.028 2.601 2.686 3.901 5.984 3.901 9.895 0 3.946-1.309 7.253-3.927 9.921-2.636 2.649-5.87 3.974-9.702 3.974-3.797 0-6.979-1.352-9.545-4.055-2.567-2.668-3.85-6.02-3.85-10.057zm5.982.108c0 2.632.677 4.713 2.029 6.245 1.387 1.55 3.217 2.325 5.488 2.325 2.289 0 4.118-.766 5.488-2.298s2.055-3.577 2.055-6.136c0-2.56-.685-4.605-2.055-6.137-1.387-1.55-3.216-2.325-5.488-2.325-2.237 0-4.049.775-5.436 2.325-1.387 1.55-2.081 3.55-2.081 6.001zM183.005 0h5.852v41.199h-5.852zM196.27 14.868h5.852v26.33h-5.852zM195.439 4.698c0-1.028.367-1.916 1.103-2.665.735-.748 1.615-1.123 2.641-1.123 1.043 0 1.932.375 2.667 1.123.735.732 1.102 1.629 1.102 2.691 0 1.062-.367 1.968-1.102 2.717-.718.748-1.599 1.123-2.641 1.123-1.043 0-1.932-.375-2.667-1.123-.736-.749-1.103-1.664-1.103-2.743zM229.25 16.004v8.083c-1.335-1.694-2.532-2.857-3.589-3.488-1.041-.648-2.263-.973-3.668-.973-2.202 0-4.031.802-5.488 2.406-1.456 1.604-2.185 3.614-2.185 6.029 0 2.469.703 4.496 2.107 6.082 1.422 1.586 3.234 2.379 5.436 2.379 1.405 0 2.645-.315 3.72-.946 1.04-.613 2.262-1.802 3.667-3.569v8.029c-2.376 1.28-4.751 1.92-7.127 1.92-3.919 0-7.196-1.316-9.831-3.947-2.636-2.649-3.954-5.939-3.954-9.867 0-3.929 1.335-7.245 4.006-9.949 2.67-2.703 5.947-4.055 9.831-4.055 2.497 0 4.855.622 7.075 1.866z" transform="matrix(1.5,0,0,1.5,3932.0,2738.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      </g>
+      <g fill="#25543c">
+        <path d="M41.28 99.658H16.108l-6.55 12.718H0l29.094-55.653 28.066 55.653h-9.711L41.28 99.658zm-3.618-7.427l-8.72-17.805-9.14 17.805h17.86zM77.98 64.581v47.795h-8.873V64.581H55.589v-7.9h35.872v7.9H77.98zM108.255 56.681v47.795h17.289v7.9H99.382V56.681h8.873zM171.252 99.658H146.08l-6.55 12.718h-9.558l29.094-55.653 28.066 55.653h-9.711l-6.169-12.718zm-3.618-7.427l-8.72-17.805-9.14 17.805h17.86zM227.727 65.919l-7.198 3.961c-1.345-2.169-2.627-3.584-3.846-4.244-1.269-.755-2.907-1.132-4.912-1.132-2.463 0-4.507.649-6.132 1.945-1.624 1.274-2.437 2.877-2.437 4.811 0 2.664 2.133 4.81 6.398 6.437l5.864 2.229c4.773 1.792 8.264 3.979 10.473 6.561 2.209 2.582 3.313 5.747 3.313 9.497 0 5.022-1.803 9.172-5.408 12.45-3.63 3.301-8.136 4.952-13.519 4.952-5.102 0-9.317-1.403-12.643-4.209-3.275-2.806-5.318-6.756-6.131-11.849l8.988-1.84c.406 3.207 1.117 5.424 2.132 6.65 1.828 2.358 4.494 3.537 7.997 3.537 2.767 0 5.065-.861 6.893-2.582 1.828-1.721 2.742-3.902 2.742-6.543 0-1.062-.159-2.034-.476-2.918a7.301 7.301 0 0 0-1.485-2.441c-.673-.743-1.543-1.438-2.609-2.087-1.066-.648-2.336-1.267-3.808-1.857l-5.674-2.193c-8.048-3.16-12.072-7.781-12.072-13.865 0-4.103 1.688-7.534 5.065-10.293 3.376-2.782 7.578-4.173 12.605-4.173 6.778 0 12.072 3.065 15.88 9.196z" transform="matrix(1.5,0,0,1.5,3932.0,2738.0) matrix(0.375,0,0,0.375,-175,0)"/>
+      </g>
+    </g>
+  </g>
+</svg>
