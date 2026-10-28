@@ -726,17 +726,17 @@
       <start x="1156.8" y="887.8"/>
       <end x="1156.8" y="812.8"/>
     </arc>
-    <arc class="consumption" id="process_MAR01987_c0" source="met54" target="process_MAR01987.1">
-      <start x="2499.6" y="931.6"/>
-      <end x="2419.3" y="880.3"/>
+    <arc class="production" id="process_MAR01987_c0" source="process_MAR01987.1" target="met54">
+      <start x="2419.3" y="880.3"/>
+      <end x="2499.6" y="931.6"/>
     </arc>
-    <arc class="consumption" id="process_MAR01987_c1" source="met55" target="process_MAR01987.1">
-      <start x="2502.9" y="978.9"/>
-      <end x="2419.3" y="880.3"/>
+    <arc class="production" id="process_MAR01987_c1" source="process_MAR01987.1" target="met55">
+      <start x="2419.3" y="880.3"/>
+      <end x="2502.9" y="978.9"/>
     </arc>
-    <arc class="consumption" id="process_MAR01987_c2" source="met56" target="process_MAR01987.1">
-      <start x="2423.7" y="1009.6"/>
-      <end x="2419.3" y="880.3"/>
+    <arc class="production" id="process_MAR01987_c2" source="process_MAR01987.1" target="met56">
+      <start x="2419.3" y="880.3"/>
+      <end x="2423.7" y="1009.6"/>
     </arc>
     <arc class="production" id="process_MAR01987_p3" source="process_MAR01987.2" target="met57">
       <start x="2428.1" y="831.1"/>

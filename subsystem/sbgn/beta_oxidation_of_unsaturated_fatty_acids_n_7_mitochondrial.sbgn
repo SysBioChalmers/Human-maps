@@ -691,9 +691,9 @@
       <start x="444.8" y="1743.7"/>
       <end x="534.8" y="1743.7"/>
     </arc>
-    <arc class="consumption" id="process_MAR03272_c0" source="met28" target="process_MAR03272.1">
-      <start x="1958.1" y="1011.4"/>
-      <end x="1958.1" y="1224.9"/>
+    <arc class="production" id="process_MAR03272_c0" source="process_MAR03272.1" target="met28">
+      <start x="1958.1" y="1224.9"/>
+      <end x="1958.1" y="1011.4"/>
     </arc>
     <arc class="production" id="process_MAR03272_p1" source="process_MAR03272.2" target="met29">
       <start x="1958.1" y="1274.9"/>

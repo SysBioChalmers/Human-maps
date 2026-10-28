@@ -1902,13 +1902,13 @@
       <start x="2600.1" y="621.3"/>
       <end x="2600.1" y="713.8"/>
     </arc>
-    <arc class="consumption" id="process_MAR00928_c0" source="met112" target="process_MAR00928.1">
-      <start x="3114.9" y="2987.8"/>
-      <end x="3165.8" y="2912.0"/>
+    <arc class="production" id="process_MAR00928_c0" source="process_MAR00928.1" target="met112">
+      <start x="3165.8" y="2912.0"/>
+      <end x="3114.9" y="2987.8"/>
     </arc>
-    <arc class="consumption" id="process_MAR00928_c1" source="met54" target="process_MAR00928.1">
-      <start x="3036.1" y="2912.0"/>
-      <end x="3165.8" y="2912.0"/>
+    <arc class="production" id="process_MAR00928_c1" source="process_MAR00928.1" target="met54">
+      <start x="3165.8" y="2912.0"/>
+      <end x="3036.1" y="2912.0"/>
     </arc>
     <arc class="production" id="process_MAR00928_p2" source="process_MAR00928.2" target="met113">
       <start x="3215.8" y="2912.0"/>

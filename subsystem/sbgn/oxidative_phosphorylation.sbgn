@@ -770,13 +770,13 @@
       <port id="process_MAR06916.1" x="2007.3" y="2987.2"/>
       <port id="process_MAR06916.2" x="2056.3" y="2996.6"/>
     </glyph>
-    <arc class="consumption" id="process_MAR06911_c0" source="met1" target="process_MAR06911.1">
-      <start x="2264.6" y="1393.4"/>
-      <end x="2059.2" y="1393.4"/>
+    <arc class="production" id="process_MAR06911_c0" source="process_MAR06911.1" target="met1">
+      <start x="2059.2" y="1393.4"/>
+      <end x="2264.6" y="1393.4"/>
     </arc>
-    <arc class="consumption" id="process_MAR06911_c1" source="met2" target="process_MAR06911.1">
-      <start x="2110.1" y="1469.2"/>
-      <end x="2059.2" y="1393.4"/>
+    <arc class="production" id="process_MAR06911_c1" source="process_MAR06911.1" target="met2">
+      <start x="2059.2" y="1393.4"/>
+      <end x="2110.1" y="1469.2"/>
     </arc>
     <arc class="production" id="process_MAR06911_p2" source="process_MAR06911.2" target="met3">
       <start x="2009.2" y="1393.4"/>

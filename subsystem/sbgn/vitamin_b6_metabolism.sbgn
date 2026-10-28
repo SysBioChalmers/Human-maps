@@ -572,15 +572,15 @@
       <start x="1204.1" y="1358.7"/>
       <end x="1294.1" y="1358.8"/>
     </arc>
-    <arc class="consumption" id="process_MAR04071_c0" source="met38" target="process_MAR04071.1">
-      <start x="2293.5" y="1240.6"/>
-      <end x="2217.7" y="1291.5"/>
+    <arc class="production" id="process_MAR04071_c0" source="process_MAR04071.1" target="met38">
+      <start x="2217.7" y="1291.5"/>
+      <end x="2293.5" y="1240.6"/>
     </arc>
-    <arc class="consumption" id="process_MAR04071_c1" source="met9" target="process_MAR04071.1">
-      <start x="1104.5" y="640.1"/>
-      <next x="1104.5" y="542.6"/>
+    <arc class="production" id="process_MAR04071_c1" source="process_MAR04071.1" target="met9">
+      <start x="2217.7" y="1291.5"/>
       <next x="2217.7" y="542.6"/>
-      <end x="2217.7" y="1291.5"/>
+      <next x="1104.5" y="542.6"/>
+      <end x="1104.5" y="640.1"/>
     </arc>
     <arc class="production" id="process_MAR04071_p2" source="process_MAR04071.2" target="met39">
       <start x="2217.7" y="1341.5"/>

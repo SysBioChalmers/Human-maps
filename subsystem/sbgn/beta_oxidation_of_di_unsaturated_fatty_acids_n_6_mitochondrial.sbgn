@@ -576,9 +576,9 @@
       <port id="process_MAR03282.1" x="561.8" y="960.1"/>
       <port id="process_MAR03282.2" x="559.2" y="1010.1"/>
     </glyph>
-    <arc class="consumption" id="process_MAR03298_c0" source="met1" target="process_MAR03298.1">
-      <start x="1483.1" y="1554.5"/>
-      <end x="1698.6" y="1554.5"/>
+    <arc class="production" id="process_MAR03298_c0" source="process_MAR03298.1" target="met1">
+      <start x="1698.6" y="1554.5"/>
+      <end x="1483.1" y="1554.5"/>
     </arc>
     <arc class="production" id="process_MAR03298_p1" source="process_MAR03298.2" target="met2">
       <start x="1748.6" y="1554.5"/>

@@ -105,13 +105,13 @@
       <port id="process_MAR08613.1" x="686.2" y="830.8"/>
       <port id="process_MAR08613.2" x="736.0" y="825.4"/>
     </glyph>
-    <arc class="consumption" id="process_MAR08615_c0" source="met1" target="process_MAR08615.1">
-      <start x="2452.4" y="831.8"/>
-      <end x="2301.8" y="830.4"/>
+    <arc class="production" id="process_MAR08615_c0" source="process_MAR08615.1" target="met1">
+      <start x="2301.8" y="830.4"/>
+      <end x="2452.4" y="831.8"/>
     </arc>
-    <arc class="consumption" id="process_MAR08615_c1" source="met2" target="process_MAR08615.1">
-      <start x="2352.7" y="907.6"/>
-      <end x="2301.8" y="830.4"/>
+    <arc class="production" id="process_MAR08615_c1" source="process_MAR08615.1" target="met2">
+      <start x="2301.8" y="830.4"/>
+      <end x="2352.7" y="907.6"/>
     </arc>
     <arc class="production" id="process_MAR08615_p2" source="process_MAR08615.2" target="met3">
       <start x="2251.8" y="833.2"/>
@@ -129,17 +129,17 @@
       <start x="2276.8" y="756.8"/>
       <end x="2276.8" y="831.8"/>
     </arc>
-    <arc class="consumption" id="process_MAR08616_c0" source="met7" target="process_MAR08616.1">
-      <start x="1906.3" y="755.9"/>
-      <end x="1855.4" y="831.7"/>
+    <arc class="production" id="process_MAR08616_c0" source="process_MAR08616.1" target="met7">
+      <start x="1855.4" y="831.7"/>
+      <end x="1906.3" y="755.9"/>
     </arc>
-    <arc class="consumption" id="process_MAR08616_c1" source="met8" target="process_MAR08616.1">
-      <start x="1982.7" y="751.1"/>
-      <end x="1855.4" y="831.7"/>
+    <arc class="production" id="process_MAR08616_c1" source="process_MAR08616.1" target="met8">
+      <start x="1855.4" y="831.7"/>
+      <end x="1982.7" y="751.1"/>
     </arc>
-    <arc class="consumption" id="process_MAR08616_c2" source="met3" target="process_MAR08616.1">
-      <start x="2039.5" y="831.8"/>
-      <end x="1855.4" y="831.7"/>
+    <arc class="production" id="process_MAR08616_c2" source="process_MAR08616.1" target="met3">
+      <start x="1855.4" y="831.7"/>
+      <end x="2039.5" y="831.8"/>
     </arc>
     <arc class="production" id="process_MAR08616_p3" source="process_MAR08616.2" target="met9">
       <start x="1805.4" y="831.9"/>

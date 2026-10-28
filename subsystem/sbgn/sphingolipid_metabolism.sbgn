@@ -4636,14 +4636,14 @@
       <start x="631.0" y="1207.7"/>
       <end x="631.0" y="1132.7"/>
     </arc>
-    <arc class="consumption" id="process_MAR00753_c0" source="met98" target="process_MAR00753.1">
-      <start x="1784.4" y="2276.0"/>
-      <end x="1863.0" y="2327.0"/>
+    <arc class="production" id="process_MAR00753_c0" source="process_MAR00753.1" target="met98">
+      <start x="1863.0" y="2327.0"/>
+      <end x="1784.4" y="2276.0"/>
     </arc>
-    <arc class="consumption" id="process_MAR00753_c1" source="met73" target="process_MAR00753.1">
-      <start x="2325.1" y="1774.4"/>
+    <arc class="production" id="process_MAR00753_c1" source="process_MAR00753.1" target="met73">
+      <start x="1863.0" y="2327.0"/>
       <next x="1860.3" y="2053.1"/>
-      <end x="1863.0" y="2327.0"/>
+      <end x="2325.1" y="1774.4"/>
     </arc>
     <arc class="production" id="process_MAR00753_p2" source="process_MAR00753.2" target="met12">
       <start x="1857.6" y="2376.8"/>
@@ -5841,9 +5841,9 @@
       <start x="5886.5" y="2216.0"/>
       <end x="5886.5" y="2290.9"/>
     </arc>
-    <arc class="consumption" id="process_MAR12040_c0" source="met292" target="process_MAR12040.1">
-      <start x="1012.1" y="964.2"/>
-      <end x="1136.0" y="964.2"/>
+    <arc class="production" id="process_MAR12040_c0" source="process_MAR12040.1" target="met292">
+      <start x="1136.0" y="964.2"/>
+      <end x="1012.1" y="964.2"/>
     </arc>
     <arc class="production" id="process_MAR12040_p1" source="process_MAR12040.2" target="met293">
       <start x="1186.0" y="964.2"/>
@@ -6635,13 +6635,13 @@
       <start x="2317.9" y="1013.8"/>
       <end x="2227.9" y="1013.8"/>
     </arc>
-    <arc class="consumption" id="process_MAR00763_c0" source="met412" target="process_MAR00763.1">
-      <start x="2869.2" y="3360.4"/>
-      <end x="2915.3" y="3432.9"/>
+    <arc class="production" id="process_MAR00763_c0" source="process_MAR00763.1" target="met412">
+      <start x="2915.3" y="3432.9"/>
+      <end x="2869.2" y="3360.4"/>
     </arc>
-    <arc class="consumption" id="process_MAR00763_c1" source="met89" target="process_MAR00763.1">
-      <start x="2764.1" y="3431.5"/>
-      <end x="2915.3" y="3432.9"/>
+    <arc class="production" id="process_MAR00763_c1" source="process_MAR00763.1" target="met89">
+      <start x="2915.3" y="3432.9"/>
+      <end x="2764.1" y="3431.5"/>
     </arc>
     <arc class="production" id="process_MAR00763_p2" source="process_MAR00763.2" target="met413">
       <start x="2965.3" y="3430.1"/>
