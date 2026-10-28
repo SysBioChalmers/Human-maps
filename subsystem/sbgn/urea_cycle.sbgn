@@ -1,3 +1,35 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:78ee438b5562f69316a6cbd095c7ef5d268c6ac619e44634f6be9afd33bf8cfc
-size 5292
+<?xml version='1.0' encoding='UTF-8'?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.3">
+  <map id="urea_cycle" version="http://identifiers.org/combine.specifications/sbgn.pd.level-1.version-1.3">
+    <glyph class="simple chemical" id="met1">
+      <label text="4-aminobutanal"/>
+      <bbox x="718.5" y="773.4" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met2">
+      <label text="H2O"/>
+      <bbox x="451.5" y="696.4" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met3">
+      <label text="1-pyrroline"/>
+      <bbox x="318.5" y="773.4" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="process" id="process_MAR02527">
+      <label text="MAR02527"/>
+      <bbox x="533.5" y="778.4" w="30.0" h="30.0"/>
+      <port id="process_MAR02527.1" x="573.3" y="796.7"/>
+      <port id="process_MAR02527.2" x="523.7" y="790.1"/>
+    </glyph>
+    <arc class="production" id="process_MAR02527_c0" source="process_MAR02527.1" target="met1">
+      <start x="573.3" y="796.7"/>
+      <end x="715.5" y="793.4"/>
+    </arc>
+    <arc class="production" id="process_MAR02527_p1" source="process_MAR02527.2" target="met2">
+      <start x="523.7" y="790.1"/>
+      <end x="472.7" y="717.6"/>
+    </arc>
+    <arc class="production" id="process_MAR02527_p2" source="process_MAR02527.2" target="met3">
+      <start x="523.7" y="790.1"/>
+      <end x="381.5" y="793.4"/>
+    </arc>
+  </map>
+</sbgn>

@@ -1,3 +1,109 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:31dde44ed707bbb5a0a5c0ae9bbe801f713bff2ac496fd8c7c1ed200f7e6f6fd
-size 4040
+<?xml version='1.0' encoding='UTF-8'?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.3">
+  <map id="hippurate_metabolism" version="http://identifiers.org/combine.specifications/sbgn.pd.level-1.version-1.3">
+    <glyph class="compartment" id="comp1">
+      <label text="Mitochondria"/>
+      <bbox x="418.0" y="454.5" w="723.9" h="669.8"/>
+    </glyph>
+    <glyph class="simple chemical" id="met1" compartmentRef="comp1">
+      <label text="CoA"/>
+      <clone/>
+      <bbox x="1021.0" y="948.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met2" compartmentRef="comp1">
+      <label text="ATP"/>
+      <bbox x="1021.0" y="998.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met3" compartmentRef="comp1">
+      <label text="benzoate"/>
+      <bbox x="908.0" y="1008.7" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met4" compartmentRef="comp1">
+      <label text="benzoyl-CoA"/>
+      <bbox x="708.6" y="680.6" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met5" compartmentRef="comp1">
+      <label text="PPi"/>
+      <bbox x="1021.0" y="718.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met6" compartmentRef="comp1">
+      <label text="AMP"/>
+      <bbox x="1021.0" y="768.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met7" compartmentRef="comp1">
+      <label text="glycine"/>
+      <bbox x="619.1" y="768.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met8" compartmentRef="comp1">
+      <label text="H+"/>
+      <bbox x="619.1" y="948.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met9" compartmentRef="comp1">
+      <label text="CoA"/>
+      <clone/>
+      <bbox x="619.1" y="998.3" w="14.0" h="14.0"/>
+    </glyph>
+    <glyph class="simple chemical" id="met10" compartmentRef="comp1">
+      <label text="hippurate"/>
+      <bbox x="506.1" y="1008.7" w="60.0" h="40.0"/>
+    </glyph>
+    <glyph class="process" id="process_MAR10457">
+      <label text="MAR10457"/>
+      <bbox x="923.0" y="850.3" w="30.0" h="30.0"/>
+      <port id="process_MAR10457.1" x="938.0" y="890.3"/>
+      <port id="process_MAR10457.2" x="938.0" y="840.3"/>
+    </glyph>
+    <glyph class="process" id="process_MAR10458">
+      <label text="MAR10458"/>
+      <bbox x="521.1" y="850.3" w="30.0" h="30.0"/>
+      <port id="process_MAR10458.1" x="534.6" y="840.3"/>
+      <port id="process_MAR10458.2" x="537.6" y="890.3"/>
+    </glyph>
+    <arc class="consumption" id="process_MAR10457_c0" source="met1" target="process_MAR10457.1">
+      <start x="1013.8" y="941.2"/>
+      <end x="938.0" y="890.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR10457_c1" source="met2" target="process_MAR10457.1">
+      <start x="1017.1" y="988.5"/>
+      <end x="938.0" y="890.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR10457_c2" source="met3" target="process_MAR10457.1">
+      <start x="938.0" y="1005.7"/>
+      <end x="938.0" y="890.3"/>
+    </arc>
+    <arc class="production" id="process_MAR10457_p3" source="process_MAR10457.2" target="met4">
+      <start x="938.0" y="840.3"/>
+      <next x="938.0" y="700.6"/>
+      <end x="771.6" y="700.6"/>
+    </arc>
+    <arc class="production" id="process_MAR10457_p4" source="process_MAR10457.2" target="met5">
+      <start x="938.0" y="840.3"/>
+      <end x="1017.1" y="742.2"/>
+    </arc>
+    <arc class="production" id="process_MAR10457_p5" source="process_MAR10457.2" target="met6">
+      <start x="938.0" y="840.3"/>
+      <end x="1013.8" y="789.5"/>
+    </arc>
+    <arc class="consumption" id="process_MAR10458_c0" source="met4" target="process_MAR10458.1">
+      <start x="705.6" y="700.6"/>
+      <next x="536.1" y="700.6"/>
+      <end x="534.6" y="840.3"/>
+    </arc>
+    <arc class="consumption" id="process_MAR10458_c1" source="met7" target="process_MAR10458.1">
+      <start x="611.9" y="789.5"/>
+      <end x="534.6" y="840.3"/>
+    </arc>
+    <arc class="production" id="process_MAR10458_p2" source="process_MAR10458.2" target="met8">
+      <start x="537.6" y="890.3"/>
+      <end x="611.9" y="941.2"/>
+    </arc>
+    <arc class="production" id="process_MAR10458_p3" source="process_MAR10458.2" target="met9">
+      <start x="537.6" y="890.3"/>
+      <end x="615.2" y="988.5"/>
+    </arc>
+    <arc class="production" id="process_MAR10458_p4" source="process_MAR10458.2" target="met10">
+      <start x="537.6" y="890.3"/>
+      <end x="536.1" y="1005.7"/>
+    </arc>
+  </map>
+</sbgn>
