@@ -1,0 +1,32 @@
+# Fits the maps to a newer Human-GEM release and opens a pull request, with the reusable workflow of
+# MetabolicAtlas/data-generation (maps/update_maps.py; see UPDATING_MODELS.md in MetabolicAtlas/data-files).
+# Daily it checks whether Human-GEM has a release newer than the one in the README; by hand it fits the maps
+# to a given release.
+
+name: Update maps
+
+on:
+  schedule:
+    - cron: "37 3 * * *"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release to fit the maps to (empty: the latest release, if newer than the maps)"
+        required: false
+        default: ""
+      data_generation_ref:
+        description: "data-generation branch or tag to use"
+        required: false
+        default: main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    uses: MetabolicAtlas/data-generation/.github/workflows/update-maps.yml@main
+    with:
+      model: Human-GEM
+      version: ${{ inputs.version || '' }}
+      data_generation_ref: ${{ inputs.data_generation_ref || 'main' }}
